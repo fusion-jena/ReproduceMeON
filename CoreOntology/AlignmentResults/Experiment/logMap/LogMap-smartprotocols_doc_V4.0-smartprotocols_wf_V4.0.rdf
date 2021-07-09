@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://purl.org/net/SMARTprotocol</onto1>
+<onto2>http://purl.org/net/SMARTprotocol#</onto2>
+<uri1>http://purl.org/net/SMARTprotocol</uri1>
+<uri2>http://purl.org/net/SMARTprotocol#</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<measure rdf:datatype="xsd:float">0.57</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<entity2 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<measure rdf:datatype="xsd:float">0.76</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SolutionName"/>
+		<measure rdf:datatype="xsd:float">0.57</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15882"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+		<measure rdf:datatype="xsd:float">0.98</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#buffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferName"/>
+		<measure rdf:datatype="xsd:float">0.58</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Kit"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#KitName"/>
+		<measure rdf:datatype="xsd:float">0.73</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<measure rdf:datatype="xsd:float">0.57</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<measure rdf:datatype="xsd:float">0.54</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<measure rdf:datatype="xsd:float">0.53</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15882"/>
+		<measure rdf:datatype="xsd:float">0.98</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">0.76</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

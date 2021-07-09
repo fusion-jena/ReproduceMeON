@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY wicus-hwspecs "http://purl.org/net/wicus-hwspecs#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/net/wicus-hwspecs#"
+     xml:base="http://purl.org/net/wicus-hwspecs"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:wicus-hwspecs="http://purl.org/net/wicus-hwspecs#">
+    <owl:Ontology rdf:about="">
+        <terms:created rdf:datatype="&xsd;date">2013-06-14</terms:created>
+        <terms:modified rdf:datatype="&xsd;date">2013-07-08</terms:modified>
+        <terms:license rdf:datatype="&xsd;anyURI"
+            >http://creativecommons.org/licenses/by-nc-sa/2.0/</terms:license>
+        <dc:creator rdf:datatype="&xsd;anyURI"
+            >http://delicias.dia.fi.upm.es/~isantana/</dc:creator>
+        <terms:description
+            >The WICUS Hardware Specs ontology is describes the hardware characteristics of a computational infrastructure and the hardware requirements of a software component. This ontology is part of the WICUS Ontology network.</terms:description>
+        <owl:versionInfo>2.0</owl:versionInfo>
+        <vann:preferredNamespaceUri
+            >http://purl.org/net/wicus-hwspecs#</vann:preferredNamespaceUri>
+        <dc:title xml:lang="en"
+            >The WICUS Hardware Specs ontology</dc:title>
+        <vann:preferredNamespacePrefix>whw</vann:preferredNamespacePrefix>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    <owl:AnnotationProperty rdf:about="&terms;modified"/>
+    <owl:AnnotationProperty rdf:about="&terms;created"/>
+    <owl:AnnotationProperty rdf:about="&terms;description"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespacePrefix"/>
+    <owl:AnnotationProperty rdf:about="&terms;license"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespaceUri"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#hasFeature -->
+
+    <owl:ObjectProperty rdf:about="#hasFeature">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >whw:hasFeature links a whw:HardwareComponent to a whw:Feature defining its capabilities.</rdfs:comment>
+        <rdfs:range rdf:resource="#Feature"/>
+        <rdfs:domain rdf:resource="#HardwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#hasHardwareComponent -->
+
+    <owl:ObjectProperty rdf:about="#hasHardwareComponent">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >whw:hasHardwareComponent links a whw:HardwareSpec to the set of whw:HardwareComponent that compose it.</rdfs:comment>
+        <rdfs:range rdf:resource="#HardwareComponent"/>
+        <rdfs:domain rdf:resource="#HardwareSpec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#unit -->
+
+    <owl:DatatypeProperty rdf:about="#unit">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >whw:unit defines the unit of measurement of a whw:Feature</rdfs:comment>
+        <rdfs:domain rdf:resource="#Feature"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#value -->
+
+    <owl:DatatypeProperty rdf:about="#value">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >whw:unit defines the value of a whw:Feature</rdfs:comment>
+        <rdfs:domain rdf:resource="#Feature"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#CPU -->
+
+    <owl:Class rdf:about="#CPU">
+        <rdfs:subClassOf rdf:resource="#HardwareComponent"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:CPU is a specific type of whw:HardwareComponent representing the CPU of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#Feature -->
+
+    <owl:Class rdf:about="#Feature">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:Feature represents a relevant characteristic of a component that define some of its capabilities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#HardwareComponent -->
+
+    <owl:Class rdf:about="#HardwareComponent">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:HardwareComponent represents an element of the hardware stack of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#HardwareSpec -->
+
+    <owl:Class rdf:about="#HardwareSpec">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:HardwareSpec represents the set of hardware capabilities of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#Memory -->
+
+    <owl:Class rdf:about="#Memory">
+        <rdfs:subClassOf rdf:resource="#HardwareComponent"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:Memory is a specific type of whw:HardwareComponent representing the RAM Memory of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#Network -->
+
+    <owl:Class rdf:about="#Network">
+        <rdfs:subClassOf rdf:resource="#HardwareComponent"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:Network is a specific type of whw:HardwareComponent representing the Network type of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-hwspecs#Storage -->
+
+    <owl:Class rdf:about="#Storage">
+        <rdfs:subClassOf rdf:resource="#HardwareComponent"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A whw:Storage is a specific type of whw:HardwareComponent representing the storage capacity of a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.hozo.jp/owl/EXPOApr19.xml/</onto1>
+	<onto2>https://w3id.org/reproduceme</onto2>
+	<uri1>http://www.hozo.jp/owl/EXPOApr19.xml/</uri1>
+	<uri2>https://w3id.org/reproduceme</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/QualityControl"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#QualityControl"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Organization"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Software"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9867</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9815</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/StandardOperatingProcedure"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#StandardOperatingProcedure"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9814</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Collection"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9813</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Image"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Model"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Model"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasAttribute"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7855</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ModelAssumption"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#ImageAcquisition"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7841</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/TimePosition"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#DimensionOrder"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7841</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalGoal"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#ExperimentalData"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7351</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ComputationalExperiment"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#ComputationalStep"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7351</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/IDExperiment"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Experiment"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7128</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimenterBias"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Experimenter"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.703</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/LogicalModelRepresentation"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#LogicalChannelSetting"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6534</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalProtocol"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6378</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalMethod"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Method"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6074</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/MeasurementError"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6023</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/NonRestrictedStatus"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Non-computationalStep"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

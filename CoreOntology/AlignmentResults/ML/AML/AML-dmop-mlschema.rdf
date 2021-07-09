@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl</onto1>
+	<onto2>http://www.w3.org/ns/mls#</onto2>
+	<uri1>http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl</uri1>
+	<uri2>http://www.w3.org/ns/mls#</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasValue"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#hasValue"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Process"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9877</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Quality"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataCharacteristic"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#DataCharacteristic"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#FeatureCharacteristic"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#FeatureCharacteristic"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Feature"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Feature"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelCharacteristic"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#ModelCharacteristic"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#task"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Task"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSet"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Dataset"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-LICO.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetCharacteristic"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#DatasetCharacteristic"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9703</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelStructure"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Model"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9175</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDefaultValue"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#hasValue"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8935</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelEvaluationMeasure"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#EvaluationMeasure"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7726</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelEvaluationAlgorithm"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#ModelEvaluation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.714</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Experiment"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Experiment"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6059</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Software"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/mls#Software"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6059</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

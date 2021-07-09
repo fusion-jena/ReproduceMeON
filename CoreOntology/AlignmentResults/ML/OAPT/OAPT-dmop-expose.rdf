@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>expose.owl</onto1>
+  <onto2>dmop.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\expose.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\dmop.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_task"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9994735355158291</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OntoDM:mathematical_function"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MathematicalFunction"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9982727534523723</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#distance_function"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DistanceFunction"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9974078718453743</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#kernel_function"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KernelFunction"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9964867250389473</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#feature_selection_algorithm"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#FeatureSelectionAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9647830998648709</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#experiment_id"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Experiment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8948547497880042</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OntoDM:algorithm_application"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelApplicationAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8907765660017268</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:role"/>
+        <entity2 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#role"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8831554923392468</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:plan"/>
+        <entity2 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#plan"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8830485066453727</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_algorithm_parameter"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#AlgorithmParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8657775086754569</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#pruning_parameters"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#TreePruningParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8339960152285005</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#inductive_algorithm"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#InductionAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8248751742522071</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#n_fold_cross_validation"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#CrossValidation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8087155698052501</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#feature_generation_algorithm"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#GenerativeAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8021018744674838</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:objective"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#IO-Object"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8002563973046066</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#base_learner"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LearnerBasedFWAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7820144993926083</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#integer_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Integer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7794853188476893</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#ordinal_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Ordinal"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.77749816010468</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#boolean_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Boolean"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7647704247866918</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#information_gain_ratio_splitting_criterion"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#InformationGainRatio"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.754362207425801</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#sequence_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Sequence"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7525393679883903</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#tuple_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Tuple"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7447701055869909</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#decision_tree_pruning"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#TreePruning"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7368330117261082</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#real_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Real"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7302975058408198</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#graph_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Graph"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7258994696967984</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#information_gain_splitting_criterion"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#InformationGain"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7229600996012007</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#primitive_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.718140960036255</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#random_seed"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Random"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7083368054451504</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#algorithm_function"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminantFunctionAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7074600434399347</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#vector_datatype"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Vector"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7017419790736159</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#lazy_learner"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Lazy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7015394834867219</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#BFO:part_of"/>
+        <entity2 rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#part-of"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9997580460075137</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#BFO:has_part"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9976764902028129</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_component"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasComponent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.919046504779142</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_parameter"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.91648215245082</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:realizes"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#realizes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.809644511176449</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:has_role"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasParameterRole"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.733901687401858</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

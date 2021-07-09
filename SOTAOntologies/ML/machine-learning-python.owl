@@ -1,0 +1,1699 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.khaos.uma.es/perception/machine-learning/khaosteam#"
+     xml:base="http://www.khaos.uma.es/perception/machine-learning/khaosteam"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bigowl="http://www.khaos.uma.es/perception/bigowl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam">
+        <owl:imports rdf:resource="http://www.khaos.uma.es/perception/bigowl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationTreeInductionAlgorithm -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationTreeInductionAlgorithm">
+        <rdfs:label> Classification Tree Induction Algorithm</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#CrossValidation -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#CrossValidation">
+        <rdfs:label> Cross Validation</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass">
+        <rdfs:label> Data Set Class</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#K-MeansAlgorithm -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#K-MeansAlgorithm">
+        <rdfs:label> K- Means Algorithm</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborAlgorithm -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborAlgorithm">
+        <rdfs:label>K Nearest Neighbor Algorithm</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass">
+        <rdfs:label> Labeled Data Set Class</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelEvaluationAlgorithm -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelEvaluationAlgorithm">
+        <rdfs:label> Model Evaluation Algorithm</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter">
+        <rdfs:label>Parameter</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#UnlabeledDataSetClass -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#UnlabeledDataSetClass">
+        <rdfs:label> Unlabeled Data Set Class</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow">
+        <rdfs:label>Workflow</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DMSoftware -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#DMSoftware">
+        <rdfs:label>DM Software</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataMining -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#DataMining">
+        <rdfs:label> Data Mining</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataProcessing -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#DataProcessing">
+        <rdfs:label> Data Processing</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataSink -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#DataSink">
+        <rdfs:label> Data Sink</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Task -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task">
+        <rdfs:label>Task</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Visualization -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Visualization">
+        <rdfs:label>Visualization</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmAccuracyMetric -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmAccuracyMetric">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelEvaluationAlgorithm"/>
+        <bigowl:path>component.data_analysing.machine_learning.data_mining.metric.AccuracyMetric</bigowl:path>
+        <rdfs:label>Accuracy Metric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmCrossValidation -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmCrossValidation">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#CrossValidation"/>
+        <bigowl:path>component.data_analysing.machine_learning.data_mining.validation.CrossValidation</bigowl:path>
+        <rdfs:label>Cross Validation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmJ48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmJ48">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationTreeInductionAlgorithm"/>
+        <rdfs:label>J48</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKMeans -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKMeans">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#K-MeansAlgorithm"/>
+        <bigowl:path>component.data_analysing.machine_learning.data_mining.clustering.KMeansClustering</bigowl:path>
+        <rdfs:label>KMeans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKNeighbors -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKNeighbors">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborAlgorithm"/>
+        <bigowl:path>component.data_analysing.machine_learning.data_mining.classification.KNeighborsClassification</bigowl:path>
+        <rdfs:label>KNeighbors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmSummary">
+        <bigowl:path>core.termination.Summary</bigowl:path>
+        <rdfs:label>Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationJ48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationJ48">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMining"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmJ48"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48BinarySplits"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48CollapseTree"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotCleanTree"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotMakeSplitPointActualValue"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotUseMDLCorrection"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DontPerformSubtreeRaiing"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48LaplaceSmoothingPredictedProbabilities"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48MinimumNumberOfInstances"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48NumberOfFolds"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48PrunningConfidence"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48Random"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UnprunedTree"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UseReducedErrorPruning"/>
+        <rdfs:label>Classification J48</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationKNeighbors -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationKNeighbors">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMining"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKNeighbors"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsAlgorithm"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsLeafSize"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetric"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetricParams"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMinkowskiMetric"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfJobs"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfNeighbors"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsWeights"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>Classification KNeighhbors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassifierPerformanceAccuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassifierPerformanceAccuracy">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmAccuracyMetric"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>Classifier Performance Accuracy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClusteringKMeans -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClusteringKMeans">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMining"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmKMeans"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansAlgorithm"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansCopyX"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansInit"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansMaxIter"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfClusters"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfInit"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfJobs"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansPrecomputeDistance"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansRandomState"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansTolerance"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansVerbose"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>Clustering KMeans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentCrossValidation -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentCrossValidation">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmCrossValidation"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterCrossValidationValidationSize"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>CrossValidation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetIris">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>Data Set Iris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetSpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dataset Spectra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetWine -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetWine">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWine"/>
+        <rdfs:label>Data Set Wine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentPlot -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentPlot">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotKind"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotLayout"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharex"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharey"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSubplots"/>
+        <rdfs:label>Plot Classification</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentSummary">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataSink"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#AlgorithmSummary"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet"/>
+        <rdfs:label>Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentTextViewer -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentTextViewer">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSubplots"/>
+        <rdfs:label>Text Viewer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalWidth"/>
+        <bigowl:hasURL>https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data</bigowl:hasURL>
+        <bigowl:path>dataset.iris.Iris</bigowl:path>
+        <rdfs:label>Dataset Iris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisClass">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>Iris-setosa,Iris-versicolor,Iris-virginica</bigowl:hasDataValue>
+        <bigowl:hasName>class</bigowl:hasName>
+        <rdfs:label>Datset Iris with class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalLength -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalLength">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>petallength</bigowl:hasName>
+        <rdfs:label>Datset Iris petal length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalWidth -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalWidth">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>petalwidth</bigowl:hasName>
+        <rdfs:label>Datset Iris petal width</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalLength -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalLength">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>sepallength</bigowl:hasName>
+        <rdfs:label>Datset Iris sepal Length</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalWidth -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalWidth">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>sepalwidth</bigowl:hasName>
+        <rdfs:label>Datset Iris sepal width</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTest -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTest">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#UnlabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalWidth"/>
+        <rdfs:label>Dataset Iris Test</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTrain -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTrain">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisPetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisSepalWidth"/>
+        <rdfs:label>Dataset Iris Train</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraAuthor"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBand"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBandwidthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraCentralWavelengthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassIds"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassNames"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClasses"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraContinent"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraDates"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLatitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLongitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSpectra"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunAzimuthAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraViewingZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectralSpatialSamplingM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataSet Spectra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraAuthor -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraAuthor">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">author</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBand -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBand">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">band</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Band</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBandwidthNM -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBandwidthNM">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bandwidth_nm</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bandwith NM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraCentralWavelengthNM -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraCentralWavelengthNM">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Central Wave Length NM</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassIds -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassIds">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class_ids</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class IDs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassNames -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassNames">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class_names</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class Names</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClasses -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClasses">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">classes</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classes Spectra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraContinent -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraContinent">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continent</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Continent</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraDates -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraDates">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Date"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dates</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dates</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLatitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLatitude">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latitude</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLongitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLongitude">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">longitude</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Longitude</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSpectra">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spectra</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spectra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunAzimuthAngle -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunAzimuthAngle">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sun_azimuth_angle</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun Azimuth Angle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunZenithAngle -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunZenithAngle">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sun_zenith_angle</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sun Zenith Angle</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTest -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTest">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#UnlabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraAuthor"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBand"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBandwidthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraCentralWavelengthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassIds"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassNames"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraContinent"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraDates"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLatitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLongitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSpectra"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunAzimuthAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraViewingZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectralSpatialSamplingM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataSet Spectra Test</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTrain -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTrain">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraAuthor"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBand"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraBandwidthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraCentralWavelengthNM"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassIds"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClassNames"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraClasses"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraContinent"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraDates"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLatitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraLongitude"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSpectra"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunAzimuthAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraSunZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraViewingZenithAngle"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectralSpatialSamplingM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataSet Spectra Train</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraViewingZenithAngle -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraViewingZenithAngle">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viewing_zenith_angle</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectralSpatialSamplingM -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectralSpatialSamplingM">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PrimitiveType"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spatial_sampling_m</bigowl:hasName>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spatial Sampling M</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWine -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWine">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAlcohol"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAsh"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAshAlcalinity"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineColorIntensity"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineDilutedWines"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineFlavonoids"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineHue"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMagnesium"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMalicAcid"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineNonFlavonoids"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWinePhenols"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProanthocyanins"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProline"/>
+        <bigowl:hasURL>https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data</bigowl:hasURL>
+        <bigowl:path>dataset.wine.Wine</bigowl:path>
+        <rdfs:label>Dataset Wine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAlcohol -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAlcohol">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>alcohol</bigowl:hasName>
+        <rdfs:label>Dataset Wine Alcohol</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAsh -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAsh">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>ash</bigowl:hasName>
+        <rdfs:label>Dataset Wine Ash</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAshAlcalinity -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineAshAlcalinity">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>alcalinity of ash</bigowl:hasName>
+        <rdfs:label>Dataset Wine Ash Alcalinity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineClass">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>1,2,3</bigowl:hasDataValue>
+        <bigowl:hasName>class</bigowl:hasName>
+        <rdfs:label>Dataset Wine Class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineColorIntensity -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineColorIntensity">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>color intensity</bigowl:hasName>
+        <rdfs:label>Dataset Wine Color Intensity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineDilutedWines -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineDilutedWines">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>OD280/OD315 of diluted wines</bigowl:hasName>
+        <rdfs:label>Dataset Wine Diluted Wines</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineFlavonoids -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineFlavonoids">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>flavanoids</bigowl:hasName>
+        <rdfs:label>Dataset Wine Flavonoids</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineHue -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineHue">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>hue</bigowl:hasName>
+        <rdfs:label>Dataset Wine Hue</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMagnesium -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMagnesium">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>magnesium</bigowl:hasName>
+        <rdfs:label>Dataset Wine Magnesium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMalicAcid -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineMalicAcid">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>malic acid</bigowl:hasName>
+        <rdfs:label>Dataset Wine Malic Acid</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineNonFlavonoids -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineNonFlavonoids">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>nonflavanoid phenols</bigowl:hasName>
+        <rdfs:label>Dataset Wine Non Flavnods</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWinePhenols -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWinePhenols">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>total phenols</bigowl:hasName>
+        <rdfs:label>Dataset Wine Phenols</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProanthocyanins -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProanthocyanins">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>proanthocyanins</bigowl:hasName>
+        <rdfs:label>Dataset Wine Proanthocyanins</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProline -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWineProline">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName>proline</bigowl:hasName>
+        <rdfs:label>Dataset Wine Proline</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#GenericDataSet">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass"/>
+        <rdfs:label> Generic Data Set</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassAssignerDebbug -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassAssignerDebbug">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>D</bigowl:hasName>
+        <rdfs:label> Parameter Class Assigner Debbug</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassAssignerIndex -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassAssignerIndex">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName>C</bigowl:hasName>
+        <rdfs:label> Parameter Class Assigner Index</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassifierPerformanceEvaluatorMetric -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterClassifierPerformanceEvaluatorMetric">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>ACC</bigowl:hasDataValue>
+        <bigowl:hasName>metric</bigowl:hasName>
+        <rdfs:label> Parameter Classifier Performance Evaluator Metric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterCrossValidationValidationSize -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterCrossValidationValidationSize">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>20</bigowl:hasDataValue>
+        <bigowl:hasName>validation_size</bigowl:hasName>
+        <rdfs:label> Parameter Cross Validation Validation Size</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48BinarySplits -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48BinarySplits">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>B</bigowl:hasName>
+        <rdfs:label> Parameter J48 Binary Splits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48CollapseTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48CollapseTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>O</bigowl:hasName>
+        <rdfs:label> Parameter J48 Collapse Tree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotCleanTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotCleanTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>L</bigowl:hasName>
+        <rdfs:label> Parameter J48 Do Not Clean Tree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotMakeSplitPointActualValue -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotMakeSplitPointActualValue">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>doNotMakeSplitPointActualValue</bigowl:hasName>
+        <rdfs:label> Parameter J48 Do Not Make Split Point Actual Value</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotUseMDLCorrection -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DoNotUseMDLCorrection">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>J</bigowl:hasName>
+        <rdfs:label> Parameter J48 Do Not UseMDL Correction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DontPerformSubtreeRaiing -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48DontPerformSubtreeRaiing">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>S</bigowl:hasName>
+        <rdfs:label> Parameter J48 Dont Perform Subtree Raiing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48LaplaceSmoothingPredictedProbabilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48LaplaceSmoothingPredictedProbabilities">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>A</bigowl:hasName>
+        <rdfs:label> Parameter J48 Laplace Smoothing Predicted Probabilities</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48MinimumNumberOfInstances -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48MinimumNumberOfInstances">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName>M</bigowl:hasName>
+        <rdfs:label> Parameter J48 Minimum Number Of Instances</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48NumberOfFolds -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48NumberOfFolds">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName>N</bigowl:hasName>
+        <rdfs:label> Parameter J48 Number Of Folds</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48PrunningConfidence -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48PrunningConfidence">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>C</bigowl:hasName>
+        <rdfs:label> Parameter J48 Prunning Confidence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48Random -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48Random">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName>Q</bigowl:hasName>
+        <rdfs:label> Parameter J48 Random</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UnprunedTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UnprunedTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>U</bigowl:hasName>
+        <rdfs:label> Parameter J48 Unpruned Tree</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UseReducedErrorPruning -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterJ48UseReducedErrorPruning">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>R</bigowl:hasName>
+        <rdfs:label> Parameter J48 Use Reduced Error Pruning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansAlgorithm">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>auto</bigowl:hasDataValue>
+        <bigowl:hasName>algorithm</bigowl:hasName>
+        <rdfs:label> ParameterK Means Algorithm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansCopyX -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansCopyX">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasDataValue>True</bigowl:hasDataValue>
+        <bigowl:hasName>copy_x</bigowl:hasName>
+        <rdfs:label>Parameter K Means CopyX</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansInit -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansInit">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>k-means++</bigowl:hasDataValue>
+        <bigowl:hasName>init</bigowl:hasName>
+        <rdfs:label>Parameter K Means Init</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansMaxIter -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansMaxIter">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>300</bigowl:hasDataValue>
+        <bigowl:hasName>max_iter</bigowl:hasName>
+        <rdfs:label>Parameter K Means Max Iter</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfClusters -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfClusters">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>8</bigowl:hasDataValue>
+        <bigowl:hasName>n_clusters</bigowl:hasName>
+        <rdfs:label>Parameter K Means Number Of Clusters</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfInit -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfInit">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>10</bigowl:hasDataValue>
+        <bigowl:hasName>n_init</bigowl:hasName>
+        <rdfs:label>Parameter K Means Number Of Init</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfJobs -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansNumberOfJobs">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>-1</bigowl:hasDataValue>
+        <bigowl:hasName>n_jobs</bigowl:hasName>
+        <rdfs:label>Parameter K Means Number Of Jobs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansPrecomputeDistance -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansPrecomputeDistance">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>auto</bigowl:hasDataValue>
+        <bigowl:hasName>precompute_distances</bigowl:hasName>
+        <rdfs:label>Parameter K Means Precompute Distance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansRandomState -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansRandomState">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>None</bigowl:hasDataValue>
+        <bigowl:hasName>random_state</bigowl:hasName>
+        <rdfs:label>Parameter K Means Random State</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansTolerance -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansTolerance">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasDataValue>1e-4</bigowl:hasDataValue>
+        <bigowl:hasName>tol</bigowl:hasName>
+        <rdfs:label>Parameter K Means Tolerance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansVerbose -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKMeansVerbose">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>0</bigowl:hasDataValue>
+        <bigowl:hasName>verbose</bigowl:hasName>
+        <rdfs:label>Parameter K Means Verbose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsAlgorithm -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsAlgorithm">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>auto</bigowl:hasDataValue>
+        <bigowl:hasName>algorithm</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Algorithm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsLeafSize -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsLeafSize">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>30</bigowl:hasDataValue>
+        <bigowl:hasName>leaf_size</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Leaf Size</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetric -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetric">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>minkowski</bigowl:hasDataValue>
+        <bigowl:hasName>metric</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Metric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetricParams -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMetricParams">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasDataValue>None</bigowl:hasDataValue>
+        <bigowl:hasName>metric_params</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Metric Params</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMinkowskiMetric -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsMinkowskiMetric">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>2</bigowl:hasDataValue>
+        <bigowl:hasName>p</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Minkowski Metric</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfJobs -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfJobs">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>1</bigowl:hasDataValue>
+        <bigowl:hasName>n_jobs</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Number Of Jobs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfNeighbors -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsNumberOfNeighbors">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>5</bigowl:hasDataValue>
+        <bigowl:hasName>n_neighbors</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Number Of Neighbors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsWeights -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterKNeighborsWeights">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue>uniform</bigowl:hasDataValue>
+        <bigowl:hasName>weights</bigowl:hasName>
+        <rdfs:label>Parameter K Neighbors Weights</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotKind -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotKind">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>kind</bigowl:hasName>
+        <rdfs:label> Parameter Plot Kind</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotLayout -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotLayout">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasName>layout</bigowl:hasName>
+        <rdfs:label> Parameter Plot Layout</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharex -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharex">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>sharex</bigowl:hasName>
+        <rdfs:label> Parameter Plot Sharex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharey -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSharey">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>sharey</bigowl:hasName>
+        <rdfs:label> Parameter Plot Sharey</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSubplots -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ParameterPlotSubplots">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName>subplots</bigowl:hasName>
+        <rdfs:label> Parameter Plot Subplots</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationJ48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationJ48">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationJ48"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTest"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTrain"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+        <rdfs:label> Classification J48</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationKNeighbors"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTest"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTrain"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+        <rdfs:label> ClassificationK Neighbors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighborsSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighborsSpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracySpectra"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassificationKNeighbors"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTest"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTrain"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classification Kneigbors</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummary"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassifierPerformanceAccuracy"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</bigowl:order>
+        <rdfs:label> Classifier Performance Accuracy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracySpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracySpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummarySpectra"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClassifierPerformanceAccuracy"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClusteringKMeans -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClusteringKMeans">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentClusteringKMeans"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+        <rdfs:label> ClusteringK Means</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClusteringKMeans"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentCrossValidation"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTest"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIrisTrain"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:order>
+        <rdfs:label> Cross Validation Folder Marker</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationSpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentCrossValidation"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTest"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectraTrain"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetIris">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:order>
+        <rdfs:label> Dataset Iris</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetSpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetSpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationSpectra"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetSpectra"/>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:order>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Data Set Spectra</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetWine -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetWine">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentDatasetWine"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWine"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetWine"/>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:order>
+        <rdfs:label> Dataset Wine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummary -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummary">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentSummary"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:order>
+        <rdfs:label> Summary</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummarySpectra -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummarySpectra">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentSummary"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetSpectra"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskTextViewer -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskTextViewer">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#ComponentTextViewer"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#DatasetIris"/>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:order>
+        <rdfs:label> Text Viewer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#Weka -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#Weka">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DMSoftware"/>
+        <rdfs:label>Weka Software</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkFlowClouds -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkFlowClouds">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighborsSpectra"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracySpectra"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationSpectra"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetSpectra"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummarySpectra"/>
+        <bigowl:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KhaosTeam</bigowl:author>
+        <bigowl:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OpenSource</bigowl:license>
+        <bigowl:numTask rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</bigowl:numTask>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Workflow Clouds</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowIrisFlower -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowIrisFlower">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClusteringKMeans"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetIris"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummary"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:numTask rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</bigowl:numTask>
+        <rdfs:label> Workflow Iris Flower</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowWeka -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowWeka">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationJ48"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetIris"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskTextViewer"/>
+        <bigowl:numTask rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:numTask>
+        <rdfs:label> Workflow Weka</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowWine -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/machine-learning/khaosteam#WorkflowWine">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassificationKNeighbors"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClassifierPerformanceAccuracy"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskClusteringKMeans"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskDatasetWine"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/machine-learning/khaosteam#TaskSummary"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label> Workflow Wine</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

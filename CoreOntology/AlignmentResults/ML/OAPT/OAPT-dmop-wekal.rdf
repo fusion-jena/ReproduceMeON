@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>weka.owl</onto1>
+  <onto2>dmop.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\weka.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\dmop.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Tuple"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9990184458781453</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8996233122677042</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DMSoftware"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Software"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8973933487786548</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataProcessingAlgorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8643668894112783</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#WorkflowVariable"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7172517384284615</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasParameter"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9988631548485386</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasDataValue"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDataValue"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9978501207128024</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasDataType"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasDataType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.997212453502522</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#hasComponent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9962988042143746</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#specifiesOutputClass"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9903666787796441</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#specifiesInputClass"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9900061648010912</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#order"/>
+        <entity2 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#orders"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9705292815389108</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

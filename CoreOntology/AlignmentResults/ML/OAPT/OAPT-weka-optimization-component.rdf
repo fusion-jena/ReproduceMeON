@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>weka.owl</onto1>
+  <onto2>optimization-component.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\weka.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\optimization-component.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7345868196967766</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#numberOfInput"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#numberOfInputs"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9869486989653278</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

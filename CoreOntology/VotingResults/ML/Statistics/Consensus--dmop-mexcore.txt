@@ -1,0 +1,22 @@
+Vote 2
+	Mappings: 6
+	Families:
+		AML: 100.0% (6)
+		LogMap: 66.7% (4)
+		OAPT: 66.7% (4)
+	Systems:
+		AML: 100.0% (6/16)
+		LogMap: 66.7% (4/6)
+		OAPT: 66.7% (4/10)
+
+Vote 3
+	Mappings: 2
+	Families:
+		AML: 100.0% (2)
+		LogMap: 100.0% (2)
+		OAPT: 100.0% (2)
+	Systems:
+		AML: 100.0% (2/16)
+		LogMap: 100.0% (2/6)
+		OAPT: 100.0% (2/10)
+

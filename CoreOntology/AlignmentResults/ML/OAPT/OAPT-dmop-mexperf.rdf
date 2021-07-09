@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>dmop.owl</onto1>
+  <onto2>mexperf.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\dmop.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexperf.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PerformanceMeasure"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-perf#PerformanceMeasure"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9935932285807348</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#collection"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov-o#Collection"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8874359011728993</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#activity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov-o#Activity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8576109680805979</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#StatisticalTest"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-perf#StatisticalMeasure"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7118735876084998</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

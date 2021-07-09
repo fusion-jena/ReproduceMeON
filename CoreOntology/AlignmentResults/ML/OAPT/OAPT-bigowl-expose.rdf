@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>expose.owl</onto1>
+  <onto2>bigowl.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\expose.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\bigowl.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_task"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9994604966797869</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#make_prediction"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DTCPredict"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9953871598033733</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#algorithm_component"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8782745861108525</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OntoDM:algorithm_implementation"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8419569625226861</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#boolean_datatype"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8418597331393463</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#integer_datatype"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8347677274982379</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_algorithm_parameter"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7160408923959887</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#IAO:is_represented_as"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#represents"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9177509029066616</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_component"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8723240134506373</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_parameter"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.836929176295801</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

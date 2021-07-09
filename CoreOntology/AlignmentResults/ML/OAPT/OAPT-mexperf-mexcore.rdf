@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>mexperf.owl</onto1>
+  <onto2>mexcore.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexperf.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexcore.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://mex.aksw.org/mex-perf#ExamplePerformanceMeasureCollection"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#ExampleCollection"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7868459721436168</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://mex.aksw.org/mex-perf#ExecutionPerformance"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Execution"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7370666398114065</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://mex.aksw.org/mex-perf#folds"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#folds"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9991155838158194</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

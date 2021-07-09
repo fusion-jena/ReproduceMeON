@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>mlschema.owl</onto1>
+  <onto2>traffic.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mlschema.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\traffic.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Task"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8489408016785286</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#HyperParameter"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7879261365725033</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Data"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7285069787640203</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Process"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7265594075008146</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#hasHyperParameter"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7632652695373827</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl</onto1>
+	<onto2>http://kt.ijs.si/panovp/OntoDT</onto2>
+	<uri1>http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl</uri1>
+	<uri2>http://kt.ijs.si/panovp/OntoDT</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataType"/>
+			<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_487147"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9213</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+			<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_387093"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6521</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Tree"/>
+			<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_245924"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6236</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#state"/>
+			<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_608148"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6234</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

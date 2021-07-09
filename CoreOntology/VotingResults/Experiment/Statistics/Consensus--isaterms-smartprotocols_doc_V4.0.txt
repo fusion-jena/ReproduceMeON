@@ -1,0 +1,9 @@
+Vote 2
+	Mappings: 6
+	Families:
+		AML: 100.0% (6)
+		OAPT: 100.0% (6)
+	Systems:
+		AML: 100.0% (6/7)
+		OAPT: 100.0% (6/10)
+

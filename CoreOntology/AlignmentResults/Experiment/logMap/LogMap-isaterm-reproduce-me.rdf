@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://purl.org/isaterms</onto1>
+<onto2>https://w3id.org/reproduceme</onto2>
+<uri1>http://purl.org/isaterms</uri1>
+<uri2>https://w3id.org/reproduceme</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/person"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+		<measure rdf:datatype="xsd:float">0.74</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/author"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+		<measure rdf:datatype="xsd:float">0.82</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/publication"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/assay"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Assay"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/study"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Study"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/protocol"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/measurement"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/source"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Source"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/sample"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#WellSample"/>
+		<measure rdf:datatype="xsd:float">0.77</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/unit"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Unit"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/file"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/organisation"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/has_value"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#value"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

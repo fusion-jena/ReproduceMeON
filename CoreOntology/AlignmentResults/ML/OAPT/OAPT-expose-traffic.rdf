@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>expose.owl</onto1>
+  <onto2>traffic.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\expose.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\traffic.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_task"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.899730253437431</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM/OntoDM#tuple_datatype"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7821631568602735</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#algorithm_component"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7632338658138031</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#pruning_parameters"/>
+        <entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7041029856408569</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_component"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9361389599152472</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_parameter"/>
+        <entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9239109052920722</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

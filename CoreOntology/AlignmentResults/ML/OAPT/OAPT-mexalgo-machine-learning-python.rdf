@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>machine-learning-python.owl</onto1>
+  <onto2>mexalgo.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\machine-learning-python.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexalgo.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMining"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-algo#OracleDataMining"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7484126468450238</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-algo#ToolParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7388179352692972</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasAlgorithm"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-algo#hasAlgorithmClass"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7878530715799538</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasProblem"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-algo#hasLearningProblem"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7874533781035458</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasParameter"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-algo#hasHyperParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7871169870367096</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

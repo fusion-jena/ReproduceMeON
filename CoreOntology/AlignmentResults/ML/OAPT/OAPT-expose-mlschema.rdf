@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>expose.owl</onto1>
+  <onto2>mlschema.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\expose.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mlschema.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#experiment_id"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#Experiment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.93784350944099</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#DM_task"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#Task"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7571566772750542</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OntoDM:algorithm_implementation"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#Implementation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7224351739979766</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#IAO:information_content_entity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#InformationEntity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.702795780925928</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#evaluation_application"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#EvaluationSpecification"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7010698033634494</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#BFO:has_part"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#hasPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9814321474547345</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#OBI:realizes"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#realizes"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9150418444047965</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://expdb.cs.kuleuven.be/Expose.owl#has_parameter"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/mls#hasHyperParameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7095322318352317</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

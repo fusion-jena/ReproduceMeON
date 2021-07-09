@@ -1,0 +1,1506 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.khaos.uma.es/perception/weka/khaosteam#"
+     xml:base="http://www.khaos.uma.es/perception/weka/khaosteam"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bigowl="http://www.khaos.uma.es/perception/bigowl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam">
+        <owl:imports rdf:resource="http://www.khaos.uma.es/perception/bigowl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ClassIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ClassIris">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasDataValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iris-setosa,Iris-versicolor,Iris-virginica</bigowl:hasDataValue>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassAssigner -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassAssigner">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDebbug"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterIndex"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassicationJ48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassicationJ48">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMining"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#J48"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassifierPerformanceEvaluator -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassifierPerformanceEvaluator">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ComponentCrossValidationFolderMarker -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentCrossValidationFolderMarker">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ComponentTextViewer -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentTextViewer">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#Iris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#Iris">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ClassIris"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalWidth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#J48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#J48">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationTreeInductionAlgorithm"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterBinarySplits"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterCollapseTree"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotCleanTree"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotMakeSplitPointActualValue"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotUseMDLCorrection"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDontPerformSubtreeRaiing"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterLaplaceSmoothingPredictedProbabilities"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterMinimumNumberOfInstances"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterNumberOfFolds"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterPrunningConfidence"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterRandom"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterUseReducedErrorPruning"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ParemeterUnprunedTree"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterBinarySplits -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterBinarySplits">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterCollapseTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterCollapseTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDebbug -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDebbug">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotCleanTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotCleanTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">L</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotMakeSplitPointActualValue -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotMakeSplitPointActualValue">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doNotMakeSplitPointActualValue</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotUseMDLCorrection -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDoNotUseMDLCorrection">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDontPerformSubtreeRaiing -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterDontPerformSubtreeRaiing">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterIndex -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterIndex">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterLaplaceSmoothingPredictedProbabilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterLaplaceSmoothingPredictedProbabilities">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterMinimumNumberOfInstances -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterMinimumNumberOfInstances">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterNumberOfFolds -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterNumberOfFolds">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterPrunningConfidence -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterPrunningConfidence">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterRandom -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterRandom">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParameterUseReducedErrorPruning -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParameterUseReducedErrorPruning">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">R</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#ParemeterUnprunedTree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ParemeterUnprunedTree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Boolean"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">U</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#PetalLength -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#PetalLength">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petallength</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#PetalWidth -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#PetalWidth">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">petalwidth</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#SepalLength -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#SepalLength">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sepallength</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#SepalWidth -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#SepalWidth">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sepalwidth</bigowl:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassAssignerIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassAssignerIris">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassAssigner"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:numberOfInput rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInput>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassicationJ48 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassicationJ48">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassicationJ48"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TestIris"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TrainIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:numberOfInput rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:numberOfInput>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassifierPerformanceEvaluator -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassifierPerformanceEvaluator">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentClassifierPerformanceEvaluator"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:numberOfInput rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInput>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TaskCrossValidationFolderMarker -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TaskCrossValidationFolderMarker">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentCrossValidationFolderMarker"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TestIris"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TrainIris"/>
+        <bigowl:numberOfInput rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInput>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TaskTextViewer -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TaskTextViewer">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ComponentTextViewer"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#Iris"/>
+        <bigowl:numberOfInput rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInput>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:order>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TestIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TestIris">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#UnlabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalWidth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#TrainIris -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#TrainIris">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#LabeledDataSetClass"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ClassIris"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#PetalWidth"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalLength"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#SepalWidth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#Weka -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#Weka">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#DMSoftware"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/weka/khaosteam#WorkflowWeka -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#WorkflowWeka">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassAssignerIris"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassicationJ48"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TaskClassifierPerformanceEvaluator"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TaskCrossValidationFolderMarker"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#TaskTextViewer"/>
+        <bigowl:numTask rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</bigowl:numTask>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#w">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#comp">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#alg">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#nIn">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#data">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ord1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#ord2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaDataInputOutputDMAlgorithm</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+                                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasAlgorithm"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                                        <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMiningAlgorithm"/>
+                                                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaCompatibleTareas</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#order"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#order"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord2"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#add"/>
+                                                                <swrl:arguments>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord2"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord1"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#compatibleWith"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaConexionTaskData</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#order"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#order"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord2"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#add"/>
+                                                                <swrl:arguments>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord2"/>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#ord1"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task1"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isConnected"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task2"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaCompatibleDataMiningAlgorithm</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasAlgorithm"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMiningAlgorithm"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                        <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#DMDataClass"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isCorrect"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaCompatibleDataMiningComponent</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasAlgorithm"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataMiningAlgorithm"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#alg"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                        <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#DMDataClass"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isCorrect"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ReglaDataGeneral</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                                <swrl:classPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+                                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasComponent"/>
+                                                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataIn"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#comp"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#dataOut"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WorkflowCorrecto</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#numberOfInput"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#nIn"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isConnected"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#makeSet"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#groupBy"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#size"/>
+                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont"/>
+                                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont"/>
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#nIn"/>
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WorkflowCorrectoNuevo</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasTask"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#numberOfInput"/>
+                                        <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                        <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#nIn"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isConnected"/>
+                                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                <swrl:argument2 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#makeSet"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#data"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#groupBy"/>
+                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                                                                </swrl:arguments>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#size"/>
+                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont"/>
+                                                                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#set"/>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                                                <swrl:arguments rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont"/>
+                                                                                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#nIn"/>
+                                                                                </swrl:arguments>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
+                        <swrl:arguments rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#cont"/>
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#nIn"/>
+                            <rdf:Description rdf:about="http://www.khaos.uma.es/perception/weka/khaosteam#task"/>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.khaos.uma.es/perception/bigowl#isCorrectWorkflow"/>
+                                <swrl:argument1 rdf:resource="http://www.khaos.uma.es/perception/weka/khaosteam#w"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

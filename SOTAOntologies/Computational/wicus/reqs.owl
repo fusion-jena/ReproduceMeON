@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY p-plan "http://purl.org/net/p-plan#" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY wicus-reqs "http://purl.org/net/wicus-reqs#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/net/wicus-reqs#"
+     xml:base="http://purl.org/net/wicus-reqs"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:p-plan="http://purl.org/net/p-plan#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:wicus-reqs="http://purl.org/net/wicus-reqs#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="">
+        <terms:created rdf:datatype="&xsd;date">2013-06-14</terms:created>
+        <terms:modified rdf:datatype="&xsd;date">2013-07-08</terms:modified>
+        <terms:license rdf:datatype="&xsd;anyURI"
+            >http://creativecommons.org/licenses/by-nc-sa/2.0/</terms:license>
+        <dc:creator rdf:datatype="&xsd;anyURI"
+            >http://delicias.dia.fi.upm.es/~isantana/</dc:creator>
+        <vann:preferredNamespacePrefix>wreq</vann:preferredNamespacePrefix>
+        <owl:versionInfo>2.0</owl:versionInfo>
+        <terms:description
+            >The WICUS Workflow Execution Requirements ontology relates a Scientific Workflow to the execution requirements and dependencies for executing it. This ontology is part of the WICUS Ontology network.</terms:description>
+        <dc:title xml:lang="en"
+            >The WICUS Workflow Execution Requirements ontology</dc:title>
+        <vann:preferredNamespaceUri
+            >http://purl.org/net/wicus-reqs#</vann:preferredNamespaceUri>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    <owl:AnnotationProperty rdf:about="&terms;modified"/>
+    <owl:AnnotationProperty rdf:about="&terms;created"/>
+    <owl:AnnotationProperty rdf:about="&terms;description"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespacePrefix"/>
+    <owl:AnnotationProperty rdf:about="&terms;license"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespaceUri"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/p-plan#isStepOfPlan -->
+
+    <owl:ObjectProperty rdf:about="&p-plan;isStepOfPlan"/>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#hasConcreteWorkflow -->
+
+    <owl:ObjectProperty rdf:about="#hasConcreteWorkflow">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wreq:hasConcreteWorkflow links an wreq:AbstractWorkflow to the set of wreq:ConcreteWorkflow that implements it.</rdfs:comment>
+        <rdfs:domain rdf:resource="#AbstractWorkflow"/>
+        <rdfs:range rdf:resource="#ConcreteWorkflow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#hasLevel -->
+
+    <owl:ObjectProperty rdf:about="#hasLevel">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wreq:hasLevel links a wreq:ExecutionEnvironment to its corresponding wreq:RequirementLevel.</rdfs:comment>
+        <rdfs:domain rdf:resource="#ExecutionEnvironment"/>
+        <rdfs:range rdf:resource="#RequirementLevel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#hasSubworkflow -->
+
+    <owl:ObjectProperty rdf:about="#hasSubworkflow">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wreq:hasSubworkflow links a wreq:Workflow to the subworkflows that compose it.</rdfs:comment>
+        <rdfs:domain rdf:resource="#Workflow"/>
+        <rdfs:range rdf:resource="#Workflow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#isStepOfWorkflow -->
+
+    <owl:ObjectProperty rdf:about="#isStepOfWorkflow">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wreq:isStepOfWorkflow is a specific type of p-plan:isStepOfPlan that relates a wreq:WorkflowStep to the wreqs:Workflow that it belongs to.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&p-plan;isStepOfPlan"/>
+        <rdfs:range rdf:resource="#Workflow"/>
+        <rdfs:domain rdf:resource="#WorkflowStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#requiresExecutionEnvironment -->
+
+    <owl:ObjectProperty rdf:about="#requiresExecutionEnvironment">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wreq:requiresExecutionEnvironment is a specific type of dcterms:requires that links a wreq:Worflow to the wreq:ExecutionEnvironment that must be available for executing it.</rdfs:comment>
+        <rdfs:range rdf:resource="#ExecutionEnvironment"/>
+        <rdfs:domain rdf:resource="#Workflow"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/p-plan#Plan -->
+
+    <owl:Class rdf:about="&p-plan;Plan"/>
+    
+
+
+    <!-- http://purl.org/net/p-plan#Step -->
+
+    <owl:Class rdf:about="&p-plan;Step"/>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#AbstractWorkflow -->
+
+    <owl:Class rdf:about="#AbstractWorkflow">
+        <rdfs:subClassOf rdf:resource="#Workflow"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:AbstractWorkflow is a specific type of wreq:Workflow in which at least one of its steps is not fully specified.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#ConcreteWorkflow -->
+
+    <owl:Class rdf:about="#ConcreteWorkflow">
+        <rdfs:subClassOf rdf:resource="#Workflow"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:ConcreteWorkflow is a specific type of wreq:Workflow in which all its steps are fully specified.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#ExecutionEnvironment -->
+
+    <owl:Class rdf:about="#ExecutionEnvironment">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:ExecutionEnvironment represents the computational resources that must be provided to support the execution of a workflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#HardwareRequirements -->
+
+    <owl:Class rdf:about="#HardwareRequirements">
+        <rdfs:subClassOf rdf:resource="#ExecutionEnvironment"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:HardwareRequirements is a specific type of wreq:ExecutionEnvironment, representing the hardware resources that must be provided to support the execution of a workflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#RequirementLevel -->
+
+    <owl:Class rdf:about="#RequirementLevel">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:RequirementLevel represents the degree of importance of a requirement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#SoftwareRequirements -->
+
+    <owl:Class rdf:about="#SoftwareRequirements">
+        <rdfs:subClassOf rdf:resource="#ExecutionEnvironment"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:SoftwareRequirements is a specific type of wreq:ExecutionEnvironment, representing the software resources that must be provided to support the execution of a workflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#Workflow -->
+
+    <owl:Class rdf:about="#Workflow">
+        <rdfs:subClassOf rdf:resource="&p-plan;Plan"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:Workflow is a specific type of p-plan:Plan, representing a computational scientific workflow from the point of view of its infrastructure.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-reqs#WorkflowStep -->
+
+    <owl:Class rdf:about="#WorkflowStep">
+        <rdfs:subClassOf rdf:resource="&p-plan;Step"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wreq:WorkflowStep is a specific type of p-plan:Step, representing a single step of a workflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,9 @@
+Vote 2
+	Mappings: 5
+	Families:
+		AMl: 100.0% (5)
+		LogMap: 100.0% (5)
+	Systems:
+		AMl: 100.0% (5/24)
+		LogMap: 100.0% (5/9)
+

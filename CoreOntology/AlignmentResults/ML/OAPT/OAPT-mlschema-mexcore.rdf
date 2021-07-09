@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>mlschema.owl</onto1>
+  <onto2>mexcore.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mlschema.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexcore.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Dataset"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Dataset"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9995485487085973</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Feature"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Feature"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9969481976634315</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Experiment"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Experiment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9762939849004062</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#Model"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Model"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7696109941510116</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/mls#InformationEntity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov-o#Entity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7589615158678462</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

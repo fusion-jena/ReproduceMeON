@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>bigowl.owl</onto1>
+  <onto2>mexcore.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\bigowl.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\ML\mexcore.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Model"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#Model"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9971006778830626</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#Agent"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov-o#Agent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.994617895415317</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataCollection"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov-o#Collection"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7625489179681207</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#hasPosition"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#endsAtPosition"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9894779365189145</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#startedAt"/>
+        <entity2 rdf:resource="http://mex.aksw.org/mex-core#startsAt"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7577926788143211</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>
