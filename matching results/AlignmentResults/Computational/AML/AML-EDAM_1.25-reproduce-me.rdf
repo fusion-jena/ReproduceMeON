@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://edamontology.org</onto1>
+	<onto2>https://w3id.org/reproduceme</onto2>
+	<uri1>http://edamontology.org</uri1>
+	<uri2>https://w3id.org/reproduceme</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1881"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0970"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.99</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2140"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Concentration"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9621</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2527"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Parameter"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9452</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_3168"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Sequencing"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1208"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2018"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Annotation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2968"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1212"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#DNA"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1026"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#GeneSymbol"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3429"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2531"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1213"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#RNA"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3547"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#ImageFormat"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_3102"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#CASNumber"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9213</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1710"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9118</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1915"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#ImageFormat"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_0203"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Expression"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1997"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#pH"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8811</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_3275"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Phenotype"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8712</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3798"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Binning"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8712</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_3108"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8415</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2100"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Method"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8267</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2131"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#OperatingSystem"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7711</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1517"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#RestrictionEnzyme"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7454</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2316"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#CellLine"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7363</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1030"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#GeneIdentifier"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7336</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2145"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Offset"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7265</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2945"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Study"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7178</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2048"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Function"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7178</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2718"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Oligonucleotide"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7039</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1676"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Job"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6963</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3999"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Script"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6922</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2428"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Invalidation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6768</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1028"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#GeneIdentifier"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6665</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1029"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#GeneIdentifier"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6551</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0855"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Metadata"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.654</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0431"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#RestrictionSite"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6526</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1692"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6456</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2208"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Plasmid"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6425</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2374"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#SerialNumber"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6405</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1505"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#MolecularWeight"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6309</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2909"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Organism"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.625</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3554"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6223</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2642"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#siRNAIdentifier"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6138</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

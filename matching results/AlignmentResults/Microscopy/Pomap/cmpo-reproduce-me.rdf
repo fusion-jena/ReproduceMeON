@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='POMAP'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<onto1>https://w3id.org/reproduceme</onto1>
+	<onto2>http://www.ebi.ac.uk/cmpo/cmpo.owl</onto2>
+	<uri1>https://w3id.org/reproduceme</uri1>
+	<uri2>http://www.ebi.ac.uk/cmpo/cmpo.owl</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Location"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000140"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Size"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Shape"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Cell"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Concentration"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>reproduce-me.owl</onto1>
+  <onto2>sva.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reproduce-me.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\sva.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/reproduceme#Image"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-sva#VMImage"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7059420958941763</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='POMAP'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<onto1>https://w3id.org/reproduceme</onto1>
+	<onto2>http://purl.org/isaterms</onto2>
+	<uri1>https://w3id.org/reproduceme</uri1>
+	<uri2>http://purl.org/isaterms</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/publication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Assay"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/assay"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Study"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/study"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/protocol"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/measurement"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Parameter"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/parameter"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Source"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/source"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Description"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/description"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Unit"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/unit"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#File"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/file"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/organisation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/person"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Author"/>
+			<entity2 rdf:resource="http://purl.org/isaterms/author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

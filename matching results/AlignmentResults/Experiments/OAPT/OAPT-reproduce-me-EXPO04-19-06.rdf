@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>EXPO04-19-06.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\EXPO04-19-06.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Variable"/>
+        <entity2 rdf:resource="http://purl.org/net/p-plan#Variable"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9800975016701445</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Model"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Model"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9736168366585163</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Agent"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9691522543680641</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/StandardOperatingProcedure"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#StandardOperatingProcedure"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9645197647492081</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Software"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.960353999066647</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9487568743379544</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9398266363843676</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/QualityControl"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#QualityControl"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9331629100452893</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Plan"/>
+        <entity2 rdf:resource="http://purl.org/net/p-plan#Plan"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9193673564227727</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Collection"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Collection"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9042792434252745</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Organization"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9036641592107134</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Role"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Role"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9018051575076096</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Image"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9012288102598834</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/PersonalName"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.882758282011632</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/IDExperiment"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Experiment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8367403255176842</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Object"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Objective"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7711671818298249</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Number"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#CASNumber"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7697000472618775</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Physical"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#PhysicalSizeX"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7564086298284172</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Sample"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#WellSample"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7360801369413186</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasPart"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#hasPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9786020325114356</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_description"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#description"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9199548719065956</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_reference"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#reference"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9124783935081167</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_address"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#address"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9084194992595067</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasAttribute"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8914651885615896</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_name"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#name"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7637982468383819</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_method"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#usedMethod"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7237727454591616</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_experiment"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#hasExperimentMaterial"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7029625666751271</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

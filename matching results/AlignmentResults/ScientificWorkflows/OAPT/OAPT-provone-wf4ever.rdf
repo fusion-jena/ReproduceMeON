@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>provone.owl</onto1>
+  <onto2>wf4ever.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\provone.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\wf4ever.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#Workflow"/>
+        <entity2 rdf:resource="http://purl.org/wf4ever/wfdesc#Workflow"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9904337868101347</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#Document"/>
+        <entity2 rdf:resource="http://purl.org/wf4ever/wf4ever#Document"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.875259767959061</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

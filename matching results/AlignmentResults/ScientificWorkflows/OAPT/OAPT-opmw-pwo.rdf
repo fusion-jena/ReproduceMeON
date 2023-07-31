@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>opmw.owl</onto1>
+  <onto2>pwo.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\opmw.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\pwo.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/p-plan#Plan"/>
+        <entity2 rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.999861612562497</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/p-plan#Variable"/>
+        <entity2 rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9987985780625595</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/p-plan#Step"/>
+        <entity2 rdf:resource="http://purl.org/spar/pwo/Step"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.784808622744424</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+        <entity2 rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/basicplanexecution.owl#PlanExecution"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7302599313658152</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

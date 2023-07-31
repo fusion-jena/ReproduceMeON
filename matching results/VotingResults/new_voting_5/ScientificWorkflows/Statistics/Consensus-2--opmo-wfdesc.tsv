@@ -1,0 +1,4 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.org/net/opmv/ns#Process	http://purl.org/net/opmv/ns#Process	http://purl.org/wf4ever/wfdesc#Process	process	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+http://openprovenance.org/model/opmo#hasArtifact	hasartifact	http://purl.org/wf4ever/wfdesc#hasArtifact	has artifact	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+http://purl.org/net/opmv/ns#Artifact	http://purl.org/net/opmv/ns#Artifact	http://purl.org/wf4ever/wfdesc#Artifact	artifact	NaN	2	LogMap;OAPT	2	LogMap;OAPT

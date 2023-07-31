@@ -1,0 +1,3 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.dataone.org/provone/2015/01/15/ontology#Workflow	workflow	http://purl.org/spar/pwo/Workflow	workflow	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+http://www.w3.org/ns/prov#Plan	http://www.w3.org/ns/prov#Plan	http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan	http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan	NaN	2	LogMap;OAPT	2	LogMap;OAPT

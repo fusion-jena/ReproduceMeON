@@ -1,0 +1,3 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.dataone.org/provone/2015/01/15/ontology#Document	document	http://purl.org/wf4ever/wf4ever#Document	document	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+http://purl.dataone.org/provone/2015/01/15/ontology#Workflow	workflow	http://purl.org/wf4ever/wfdesc#Workflow	http://purl.org/wf4ever/wfdesc#Workflow	NaN	2	LogMap;OAPT	2	LogMap;OAPT

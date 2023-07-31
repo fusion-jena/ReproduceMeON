@@ -1,0 +1,9 @@
+Vote 2
+	Mappings: 4
+	Families:
+		OAPT: 100.0% (4)
+		POMAP: 100.0% (4)
+	Systems:
+		OAPT: 100.0% (4/5)
+		POMAP: 100.0% (4/4)
+

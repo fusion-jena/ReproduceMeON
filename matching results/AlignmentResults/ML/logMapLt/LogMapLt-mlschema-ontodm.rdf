@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://www.w3.org/ns/mls#</onto1>
+<onto2>http://kt.ijs.si/panovp/OntoDM.owl</onto2>
+<uri1>http://www.w3.org/ns/mls#</uri1>
+<uri2>http://kt.ijs.si/panovp/OntoDM.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#Quality"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#Data"/>
+		<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDM#OntoDM_892395"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasOutput"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasOutput"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#realizes"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000308"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasInput"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000295"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasInput"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasQuality"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000298"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/mls#hasQuality"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/OBO_REL#quality_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

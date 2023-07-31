@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>reproduce-me.owl</onto1>
+  <onto2>stack.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reproduce-me.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\stack.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/reproduceme#License"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-stack#License"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9461001202227728</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/reproduceme#Version"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-stack#Version"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383156880427708</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/reproduceme#Configuration"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-stack#ConfigurationInfo"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7886041805222491</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/reproduceme#Software"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-stack#SoftwareComponent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7134001155449758</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/p-plan#hasInputVar"/>
+        <entity2 rdf:resource="http://purl.org/net/p-plan#isInputVarOf"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8581795354969637</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>opmo.owl</onto1>
+  <onto2>opmw.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\opmo.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\opmw.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#Entity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9755954059947316</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#wasDerivedFromStar"/>
+        <entity2 rdf:resource="http://purl.org/net/opmv/ns#wasDerivedFrom"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8650913944074509</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#causeWasDerivedFrom"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8107140790524388</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#wasGeneratedBy"/>
+        <entity2 rdf:resource="http://www.opmw.org/ontology/isGeneratedBy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.794469127532972</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#startTime"/>
+        <entity2 rdf:resource="http://www.opmw.org/ontology/overallStartTime"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7745729340225895</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#value"/>
+        <entity2 rdf:resource="http://www.opmw.org/ontology/hasValue"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7691604471193719</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

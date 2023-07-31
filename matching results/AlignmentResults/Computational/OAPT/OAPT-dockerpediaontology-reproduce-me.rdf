@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>dockerpediaontology.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\dockerpediaontology.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#OperatingSystem"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9588793308902896</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/wicus-stack#Version"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Version"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9560733886240022</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7854197116595067</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#LayerModification"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Modification"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7425643731279208</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#SoftwarePackage"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Software"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7278644625746178</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#FileSystem"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7093195572527105</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

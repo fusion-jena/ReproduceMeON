@@ -1,0 +1,66 @@
+Class,Ontologies,
+data_2131,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo', 'https://w3id.org/reproduceme']",Operating system name
+format_4007,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",MATLAB script
+format_3467,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",GIF
+format_1982,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",ClustalW format
+format_3547,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data', 'https://w3id.org/reproduceme']",Image format
+format_3696,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",PostScript
+format_3592,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",BMP
+operation_0492,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",ultiple sequence alignment
+data_1364,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",Hidden Markov model
+format_3752,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",CSV
+operation_0292,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",Sequence alignment
+format_3603,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",PNG
+format_3996,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",Python script
+format_3651,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",MGF
+format_2573,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",SAM
+format_3987,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",ZIP format
+format_3847,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+format_3591,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_3583,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_3822,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+topic_0607,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",
+format_3788,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_3555,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+operation_3223,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",
+format_3604,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_3829,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+format_3998,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+format_3814,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+operation_3937,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",
+operation_2436,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+format_3621,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo']",
+format_3619,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+operation_0491,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/objective']",
+format_3579,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+topic_3372,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/organization']",
+format_3508,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_2376,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+format_3618,"['http://edamontology.org', 'http://www.ebi.ac.uk/swo/data']",
+Configuration,"['https://w3id.org/reproduceme', 'http://purl.org/net/wicus-stack']",
+Version,"['https://w3id.org/reproduceme', 'http://purl.org/net/wicus-stack']",
+Algorithm,"['https://w3id.org/function/ontology', 'https://w3id.org/reproduceme', 'http://purl.obolibrary.org/obo']",
+Output,"['https://w3id.org/function/ontology', 'https://w3id.org/reproduceme']",
+Function,"['https://w3id.org/function/ontology', 'https://w3id.org/reproduceme']",
+Parameter,"['https://w3id.org/function/ontology', 'https://w3id.org/reproduceme']",
+implements,"['https://w3id.org/function/ontology', 'http://www.ebi.ac.uk/efo/swo']",
+OperatingSystem,"['http://dockerpedia.inf.utfsm.cl/vocab', 'https://w3id.org/reproduceme', 'http://www.ebi.ac.uk/swo']",
+Image,"['http://dockerpedia.inf.utfsm.cl/vocab', 'https://w3id.org/reproduceme', 'http://edamontology.org']",
+data_2600,"['http://edamontology.org', 'http://purl.org/net/wicus-hwspecs']",
+hasInputVar,"['http://purl.org/net/p-plan', 'http://purl.org/net/p-plan']",
+License,"['https://w3id.org/reproduceme', 'http://purl.org/net/wicus-stack']",
+operation_2429,"['http://edamontology.org', 'https://w3id.org/function/ontology']",
+data_1881,"['http://edamontology.org', 'https://w3id.org/reproduceme']",
+operation_3429,"['http://edamontology.org', 'http://www.w3.org/ns/prov']",
+topic_0203,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Gene expression
+data_2531,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Protocol
+data_1026,"['http://edamontology.org', 'https://w3id.org/reproduceme']",
+topic_3168,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Sequencing
+format_1915,"['http://edamontology.org', 'https://w3id.org/reproduceme']",
+data_2316,"['http://edamontology.org', 'https://w3id.org/reproduceme']",
+data_2140,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Cell line name
+operation_3798,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Concentration
+data_1692,"['http://edamontology.org', 'http://www.w3.org/ns/prov']",Person name
+data_2968,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Image
+data_3108,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Experimental measurement
+data_3275,"['http://edamontology.org', 'https://w3id.org/reproduceme']",Phenotype name

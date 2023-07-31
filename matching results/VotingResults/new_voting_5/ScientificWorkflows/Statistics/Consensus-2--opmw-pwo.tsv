@@ -1,0 +1,3 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.org/net/p-plan#Step	http://purl.org/net/p-plan#Step	http://purl.org/spar/pwo/Step	step	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+http://purl.org/net/p-plan#Plan	http://purl.org/net/p-plan#Plan	http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan	http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan	NaN	2	LogMap;OAPT	2	LogMap;OAPT

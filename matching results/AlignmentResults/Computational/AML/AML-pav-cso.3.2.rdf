@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>??</type>
+	<onto1>http://purl.org/pav/</onto1>
+	<onto2>file:/D:/seals/sealhome/ontologies/comp/cso.3.2.owl</onto2>
+	<uri1>http://purl.org/pav/</uri1>
+	<uri2>file:/D:/seals/sealhome/ontologies/comp/cso.3.2.owl</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://orcid.org/0000-0002-0643-3144"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/simulation_speed"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3135</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://orcid.org/0000-0001-9842-9718"/>
+			<entity2 rdf:resource="https://cso.kmi.open.ac.uk/topics/lan"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.2455</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.paolociccarese.info/foaf.rdf#marco-ocana"/>
+			<entity2 rdf:resource="http://yago-knowledge.org/resource/Local_search_(optimization)"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.paolociccarese.info/foaf.rdf#marco-ocana"/>
+			<entity2 rdf:resource="http://dbpedia.org/resource/Local_search_(optimization)"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.24</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

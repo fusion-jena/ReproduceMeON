@@ -1,0 +1,17 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://edamontology.org/data_2316	cell line name	https://w3id.org/reproduceme#CellLine	cell line	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_1026	the short name of a gene; a single word that does not contain white space characters. it is typically derived from the gene name.	https://w3id.org/reproduceme#GeneSymbol	genesymbol	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_1915	format	https://w3id.org/reproduceme#ImageFormat	format	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/topic_0203	the analysis of levels and patterns of synthesis of gene products (proteins and functional rna) including interpretation in functional terms of gene expression data.	https://w3id.org/reproduceme#Expression	expression	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/topic_3168	the determination of complete (typically nucleotide) sequences, including those of genomes (full genome sequencing, de novo sequencing and resequencing), amplicons and transcriptomes.	https://w3id.org/reproduceme#Sequencing	sequencing	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_3275	phenotype	https://w3id.org/reproduceme#Phenotype	phenotype	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_1692	the name of a person.	http://www.w3.org/ns/prov#Person	http://www.w3.org/ns/prov#Person	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_2140	the concentration of a chemical compound.	https://w3id.org/reproduceme#Concentration	concentration	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_3429	construction	http://www.w3.org/ns/prov#Generation	http://www.w3.org/ns/prov#Generation	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3547	image format	https://w3id.org/reproduceme#ImageFormat	format	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_2131	name of a computer operating system such as linux, pc or mac.	https://w3id.org/reproduceme#OperatingSystem	operating system	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_3108	experimental measurement data	https://w3id.org/reproduceme#Measurement	measurement	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_2531	experiment annotation	https://w3id.org/reproduceme#Protocol	protocol	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_1881	author id	https://w3id.org/reproduceme#Author	author	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_2968	image	https://w3id.org/reproduceme#Image	image	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_3798	an operation which groups reads or contigs and assigns them to operational taxonomic units.	https://w3id.org/reproduceme#Binning	binning	NaN	2	AML;LogMap	2	AML;LogMap

@@ -1,0 +1,39 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://edamontology.org/operation_2436	gsea	http://www.ebi.ac.uk/swo/SWO_0000174	gene-set enrichment analysis	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3603	png	http://www.ebi.ac.uk/swo/data/SWO_3000018	png	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3847	kgml	http://www.ebi.ac.uk/swo/SWO_0000249	kgml	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3604	scalable vector graphics (svg) is an xml-based vector image format for two-dimensional graphics with support for interactivity and animation.	http://www.ebi.ac.uk/swo/data/SWO_3000022	svg	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_0492	align more than two molecular sequences.	http://www.ebi.ac.uk/swo/objective/SWO_7000003	multiple sequence alignment	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_0292	sequence alignment	http://www.ebi.ac.uk/swo/objective/SWO_7000002	sequence alignment	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_0491	pairwise alignment	http://www.ebi.ac.uk/swo/objective/SWO_7000004	pairwise sequence alignment	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3579	jpg	http://www.ebi.ac.uk/swo/data/SWO_3000017	jpeg	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3696	postscript	http://www.ebi.ac.uk/swo/data/SWO_3000024	postscript	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3651	mgf	http://www.ebi.ac.uk/swo/data/SWO_3000083	.mgf	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3618	xgmml	http://www.ebi.ac.uk/swo/data/SWO_3000051	xgmml	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/topic_0607	laboratory management and resources, for example, catalogues of biological resources for use in the lab including cell lines, viruses, plasmids, phages, dna probes and primers and so on.	http://www.ebi.ac.uk/swo/objective/SWO_4000009	laboratory information management	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_3937	feature projection	http://www.ebi.ac.uk/swo/objective/SWO_7000019	feature extraction	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3619	sif (simple interaction file) format - a network/pathway format used for instance in cytoscape.	http://www.ebi.ac.uk/swo/data/SWO_3000049	sif	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3814	sdf	http://www.ebi.ac.uk/swo/SWO_0000381	sdf format	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3467	graphics interchange format.	http://www.ebi.ac.uk/swo/data/SWO_3000019	gif	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3621	sqlite format	http://www.ebi.ac.uk/swo/SWO_0000709	sqlite	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3788	sql	http://www.ebi.ac.uk/swo/data/SWO_3000085	.sql	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3583	bedgraph	http://www.ebi.ac.uk/swo/data/SWO_3000072	bedgraph	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_2376	resource description framework	http://www.ebi.ac.uk/swo/data/SWO_3000006	rdf	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_2573	sequence alignment/map (sam) format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s). may contain base-call and alignment qualities and other data.	http://www.ebi.ac.uk/swo/SWO_0000374	sam	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3508	pdf	http://www.ebi.ac.uk/swo/data/SWO_3000015	pdf	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3829	genepix results (gpr) text file format developed by axon instruments that is used to save genepix results data.	http://www.ebi.ac.uk/swo/SWO_0000566	gpr format	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3822	gml format	http://www.ebi.ac.uk/swo/data/SWO_3000050	gml	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3987	zip	http://www.ebi.ac.uk/swo/data/SWO_3000078	.zip	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3547	image format	http://www.ebi.ac.uk/swo/data/SWO_3000008	image format	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/operation_3223	differential gene expression analysis	http://www.ebi.ac.uk/swo/objective/SWO_7000018	differential expression analysis	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_2131	name of a computer operating system such as linux, pc or mac.	http://www.ebi.ac.uk/swo/SWO_0000021	operating system	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3591	tiff	http://www.ebi.ac.uk/swo/data/SWO_3000016	tiff	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3592	bmp	http://www.ebi.ac.uk/swo/data/SWO_3000011	bmp	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/topic_3372	computer programming	http://www.ebi.ac.uk/swo/organization/SWO_9000056	software development	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_4007	matlab script	http://www.ebi.ac.uk/swo/SWO_0000005	matlab	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3555	file format used for scripts for the statistical package for the social sciences.	http://www.ebi.ac.uk/swo/SWO_0000075	spss	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3752	tabular data represented as comma-separated values in a text file.	http://www.ebi.ac.uk/swo/data/SWO_3000082	.csv	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3996	python script	http://www.ebi.ac.uk/swo/SWO_0000118	python	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/data_1364	hmm	http://www.ebi.ac.uk/swo/SWO_0000217	hidden markov model	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_3998	perl script	http://www.ebi.ac.uk/swo/SWO_0000115	perl	NaN	2	AML;LogMap	2	AML;LogMap
+http://edamontology.org/format_1982	clustalw format	http://www.ebi.ac.uk/swo/SWO_0000051	clustal	NaN	2	AML;LogMap	2	AML;LogMap

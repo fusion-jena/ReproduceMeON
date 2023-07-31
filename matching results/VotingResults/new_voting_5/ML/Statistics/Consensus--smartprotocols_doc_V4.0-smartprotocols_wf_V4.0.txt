@@ -1,0 +1,11 @@
+Vote 2
+	Mappings: 2
+	Families:
+		ATbox: 50.0% (1)
+		LogMap: 100.0% (2)
+		POMAP: 50.0% (1)
+	Systems:
+		ATbox: 50.0% (1/3)
+		LogMapLt: 100.0% (2/21)
+		POMAP: 50.0% (1/1)
+

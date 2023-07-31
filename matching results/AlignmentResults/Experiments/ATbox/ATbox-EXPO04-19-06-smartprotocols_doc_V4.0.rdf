@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="http://www.hozo.jp/owl/EXPOApr19.xml/">
+      <location>file:/D:/seals/sealhome/ontologies/Exp/Expo04-19-06.owl</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://purl.org/net/SMARTprotocol#">
+      <location>file:/D:/seals/sealhome/ontologies/Exp/smartprotocols_doc_V4.0.owl</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_goal"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasPurpose"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Sample"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Hint"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_description"/>
+      <entity2 rdf:resource="http://purl.org/dc/terms/description"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.7</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Paper"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_name"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasName"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_title"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasTitle"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_author"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasAuthor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_subject"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasSubject"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/OGI.owl#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+      <entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Name"/>
+      <entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Attribute"/>
+      <entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasPart"/>
+      <entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ObjectMethod"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PurposeOfProtocol"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Role"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Quantity"/>
+      <entity2 rdf:resource="http://semanticscience.org/resource/SIO_000052"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalProtocol"/>
+      <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Group"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Summary"/>
+      <entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,4 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.org/net/wicus-stack#Version	http://purl.org/net/wicus-stack#Version	https://w3id.org/reproduceme#Version	version	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://dockerpedia.inf.utfsm.cl/vocab#Image	http://dockerpedia.inf.utfsm.cl/vocab#Image	https://w3id.org/reproduceme#Image	image	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem	http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem	https://w3id.org/reproduceme#OperatingSystem	operating system	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT

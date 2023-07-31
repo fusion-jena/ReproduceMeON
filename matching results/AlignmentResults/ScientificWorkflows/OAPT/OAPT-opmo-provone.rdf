@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>opmo.owl</onto1>
+  <onto2>provone.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\opmo.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\provone.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#Agent"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.993681144993506</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#Entity"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9755334860374962</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#wasControlledBy"/>
+        <entity2 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#Controller"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8327004244463501</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#wasGeneratedBy"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#wasGeneratedBy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9994170778085864</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#wasDerivedFrom"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9992700961902417</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/opmv/ns#used"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#used"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9992382216737755</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://openprovenance.org/model/opmo#causeWasControlledBy"/>
+        <entity2 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#controlledBy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.756447339506745</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='POMAP'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<onto1>https://w3id.org/reproduceme</onto1>
+	<onto2>http://purl.org/net/SMARTprotocol#</onto2>
+	<uri1>https://w3id.org/reproduceme</uri1>
+	<uri2>http://purl.org/net/SMARTprotocol#</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+			<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Dataset"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Software"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Author"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/OGI.owl#Author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Solution"/>
+			<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Concentration"/>
+			<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41185"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Cell"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#ProtocolIdentifier"/>
+			<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ProtocolIdentifier"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+			<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Publication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Organism"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Reagent"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Role"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Manufacturer"/>
+			<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Manufacturer"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

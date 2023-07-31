@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>pav.owl</onto1>
+  <onto2>swo.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\pav.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\swo.owl</uri2>
+  </Alignment>
+</rdf:RDF>

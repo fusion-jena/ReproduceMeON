@@ -1,0 +1,9 @@
+Vote 2
+	Mappings: 1
+	Families:
+		LogMap: 100.0% (1)
+		OAPT: 100.0% (1)
+	Systems:
+		LogMap: 100.0% (1/2)
+		OAPT: 100.0% (1/6)
+

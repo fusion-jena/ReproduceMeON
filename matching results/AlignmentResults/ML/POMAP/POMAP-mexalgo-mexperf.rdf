@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='POMAP'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<onto1>http://mex.aksw.org/mex-perf</onto1>
+	<onto2>http://mex.aksw.org/mex-algo</onto2>
+	<uri1>http://mex.aksw.org/mex-perf</uri1>
+	<uri2>http://mex.aksw.org/mex-algo</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Bundle"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Bundle"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#DarcsRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#DarcsRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/PersonalProfileDocument"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Communication"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Communication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/OnlineChatAccount"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#Version"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#Version"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#SVNRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#SVNRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Attribution"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#BKRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#BKRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Image"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#HgRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#HgRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#CVSRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#CVSRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#GitRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#GitRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Start"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Start"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+			<entity2 rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Location"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Location"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://rdfs.org/sioc/types#Weblog"/>
+			<entity2 rdf:resource="http://rdfs.org/sioc/types#Weblog"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/OnlineGamingAccount"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/OnlineGamingAccount"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#InstantaneousEvent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://schema.org/ImageObject"/>
+			<entity2 rdf:resource="http://schema.org/ImageObject"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Derivation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov-o#Entity"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov-o#Entity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/LabelProperty"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/LabelProperty"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#ActivityInfluence"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://schema.org/CreativeWork"/>
+			<entity2 rdf:resource="http://schema.org/CreativeWork"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Usage"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#Repository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#Repository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://rdfs.org/sioc/types#MailingList"/>
+			<entity2 rdf:resource="http://rdfs.org/sioc/types#MailingList"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Delegation"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Delegation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#Specification"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#Specification"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Revision"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Revision"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Quotation"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Quotation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Invalidation"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Invalidation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#GitBranch"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#GitBranch"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#AgentInfluence"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#End"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#End"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/dc/terms/Agent"/>
+			<entity2 rdf:resource="http://purl.org/dc/terms/Agent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#EntityInfluence"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/OnlineAccount"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+			<entity2 rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+			<entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#BazaarBranch"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#BazaarBranch"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Role"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Role"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#EmptyCollection"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#EmptyCollection"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Influence"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+			<entity2 rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#Project"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#Project"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://rdfs.org/sioc/types#Wiki"/>
+			<entity2 rdf:resource="http://rdfs.org/sioc/types#Wiki"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://usefulinc.com/ns/doap#ArchRepository"/>
+			<entity2 rdf:resource="http://usefulinc.com/ns/doap#ArchRepository"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov-o#Collection"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov-o#Collection"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#Association"/>
+			<entity2 rdf:resource="http://mex.aksw.org/mex-algo#Association"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://www.w3.org/ns/prov#SoftwareAgent"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov-o#SoftwareAgent"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://data.bioontology.org/ontologies/ENVO</onto1>
+<onto2>http://data.bioontology.org/ontologies/SWEET</onto2>
+<uri1>http://data.bioontology.org/ontologies/ENVO</uri1>
+<uri2>http://data.bioontology.org/ontologies/SWEET</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalAction"/>
+		<entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_1"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Name"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

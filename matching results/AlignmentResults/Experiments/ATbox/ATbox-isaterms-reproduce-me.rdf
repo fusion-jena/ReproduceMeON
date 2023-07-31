@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>
+    <Ontology rdf:about="http://www.isa-tools.org/owl/isa.owl#">
+      <location>file:/D:/seals/sealhome/ontologies/Exp/isaterms.owl</location>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="https://w3id.org/reproduceme#">
+      <location>file:/D:/seals/sealhome/ontologies/Exp/reproduce-me.owl</location>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/dc/terms/title"/>
+      <entity2 rdf:resource="http://purl.org/dc/terms/title"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+      <alignapilocalns:SimilarTypeFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarTypeFilter_confidence>
+      <alignapilocalns:CosineSimilarityConfidenceMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CosineSimilarityConfidenceMatcher_confidence>
+      <alignapilocalns:SimilarNeighboursFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarNeighboursFilter_confidence>
+      <alignapilocalns:CommonPropertiesFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CommonPropertiesFilter_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/study_design"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#ResearchProject"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/is_defined_by"/>
+      <entity2 rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/unit"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Unit"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/has_member"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#hadMember"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.6</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/sample"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#WellSample"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.6</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/person"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/performer"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/publication"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/organisation"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.6</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.6</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/date"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#End"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/protocol"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/parameter"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Parameter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/study"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Study"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/description"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Description"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/has_value"/>
+      <entity2 rdf:resource="http://www.w3.org/ns/prov#value"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.7</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.7</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/has_output"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#id"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/author"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/dc/terms/description"/>
+      <entity2 rdf:resource="http://purl.org/dc/terms/description"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+      <alignapilocalns:SimilarTypeFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarTypeFilter_confidence>
+      <alignapilocalns:CosineSimilarityConfidenceMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CosineSimilarityConfidenceMatcher_confidence>
+      <alignapilocalns:SimilarNeighboursFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarNeighboursFilter_confidence>
+      <alignapilocalns:CommonPropertiesFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CommonPropertiesFilter_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/measurement"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/source"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Source"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/process"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Algorithm"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/label"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Tag"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/name"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Describe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.5</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.5</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/assay"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#Assay"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/file"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/dc/terms/creator"/>
+      <entity2 rdf:resource="http://purl.org/dc/terms/creator"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">1.0</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+      <alignapilocalns:SimilarTypeFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarTypeFilter_confidence>
+      <alignapilocalns:CosineSimilarityConfidenceMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CosineSimilarityConfidenceMatcher_confidence>
+      <alignapilocalns:SimilarNeighboursFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:SimilarNeighboursFilter_confidence>
+      <alignapilocalns:CommonPropertiesFilter_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.0</alignapilocalns:CommonPropertiesFilter_confidence>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://purl.org/isaterms/has_part"/>
+      <entity2 rdf:resource="https://w3id.org/reproduceme#hasPart"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">0.9</measure>
+      <alignapilocalns:ScalableStringProcessingMatcher_confidence xmlns:alignapilocalns="http://melt.dws.uni-mannheim.de/configuration#">0.9</alignapilocalns:ScalableStringProcessingMatcher_confidence>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

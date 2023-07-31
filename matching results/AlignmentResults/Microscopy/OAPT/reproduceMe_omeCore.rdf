@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>ome_core.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\micro\ome_core.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\micro\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ArcType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ArcType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9987590534927099</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/FilamentType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#FilamentType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9986618971745269</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/DimensionOrder"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#DimensionOrder"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9983447952282263</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Immersion"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Immersion"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9978592090147544</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/WellSample"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#WellSample"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9978558214517551</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/DetectorType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#DetectorType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9977168157367369</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Dichroic"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Dichroic"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9976473133222692</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Pulse"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Pulse"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9974528052312825</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Laser"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Laser"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9973775702769119</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/FilterType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#FilterType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9972729761180013</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/StageLabel"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#StageLabel"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9972578447059848</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ContrastMethod"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ContrastMethod"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9969596059054155</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Filament"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Filament"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9955416570348131</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Objective"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Objective"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9954026071584744</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Correction"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Correction"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9949758548913772</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Arc"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Arc"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9939749230151969</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Reagent"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Reagent"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9939533174688314</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Screen"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Screen"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9931593025430331</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ExperimentType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ExperimentType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9927086443657593</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Model"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Model"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9906323097086256</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/TransmittanceRange"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#TransmittanceRange"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9904344041499162</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ImagingEnvironment"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ImagingEnvironment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9880557510231454</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/LightEmittingDiode"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#LightEmittingDiode"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9877992322008942</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Medium"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Medium"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9851500638547233</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Plane"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Plane"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9848632031042589</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/DetectorSettings"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#DetectorSetting"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9845610668075682</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ObjectiveSettings"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ObjectiveSettings"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9838046996259133</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Shape"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Shape"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9825228550565925</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Detector"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Detector"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9812755271586597</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Binning"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Binning"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9795796710152522</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Dataset"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Dataset"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9777639509743659</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Channel"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Channel"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9750050518823843</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/LightPath"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#LightPath"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.972728382974205</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Protocol"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9683824017709366</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Manufacturer"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Manufacturer"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9648673528176277</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/PixelType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#PixelsType"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9631982692988112</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/AcquisitionMode"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#AcquisitionMode"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9549453309878839</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Filter"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Filter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9525845136689493</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Microscope"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Microscope"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9484298318319724</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/GenericExcitationSource"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#GenericExcitationSource"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9463036928622726</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/PlateAcquisition"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#PlateAcquisition"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9446485323314041</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Instrument"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Instrument"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9386919715480707</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/LightSource"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#LightSource"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383889940254474</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Plate"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Plate"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.930780634147256</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/FilterSet"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#FilterSetting"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.930536698920374</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/IlluminationType"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Illumination"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9198899456758763</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Image"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9197883108006095</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Pixels"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Pixels"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9165075591456502</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Experiment"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Experiment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.914852315556764</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Annotation"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Annotation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9137754910310212</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Settings"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Setting"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8950262014888506</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/Well"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Well"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8916759340117895</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/RegionOfInterest"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ROI"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8722537940677231</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/LightSourceSettings"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#LightSettings"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8675025716651057</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ExperimenterGroup"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ExperimenterGroupConfig"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.806973223110633</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/NamingConvention"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#RowNamingConvention"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8028478857806678</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ReagentSet"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ReagentSetIdentifier"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7934445815999971</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/dc/terms/FileFormat"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ImageFormat"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7711654236278112</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/FontFamily"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Family"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7572633448198953</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/ManufacturerSpec"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ManufactuerSpec"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7571266200074106</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/MicrobeamManipuration"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#MicrobeamManipulation"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7427939069426386</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/BinFile"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7108237886335111</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.openmicroscopy.org/rdf/2016-06/ome_core/externalDescription"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#description"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7048198017170766</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

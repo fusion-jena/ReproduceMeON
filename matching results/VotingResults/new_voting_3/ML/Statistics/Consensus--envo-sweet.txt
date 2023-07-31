@@ -1,0 +1,26 @@
+Vote 2
+	Mappings: 587
+	Families:
+		AML: 95.1% (558)
+		FCA: 71.9% (422)
+		LogMap: 100.0% (587)
+	Systems:
+		AML: 95.1% (558/925)
+		FCA: 71.9% (422/422)
+		LogMap: 71.0% (417/443)
+		LogMapKG: 71.9% (422/422)
+		LogMapLite: 91.1% (535/617)
+
+Vote 3
+	Mappings: 393
+	Families:
+		AML: 100.0% (393)
+		FCA: 100.0% (393)
+		LogMap: 100.0% (393)
+	Systems:
+		AML: 100.0% (393/925)
+		FCA: 100.0% (393/422)
+		LogMap: 79.6% (313/443)
+		LogMapKG: 100.0% (393/422)
+		LogMapLite: 95.2% (374/617)
+

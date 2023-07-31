@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://edamontology.org</onto1>
+<onto2>https://w3id.org/reproduceme</onto2>
+<uri1>http://edamontology.org</uri1>
+<uri2>https://w3id.org/reproduceme</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1025"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#GeneIdentifier"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_3108"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+		<measure rdf:datatype="xsd:float">0.74</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2140"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Concentration"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2316"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#CellLine"/>
+		<measure rdf:datatype="xsd:float">0.6</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/topic_0203"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Expression"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2968"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Image"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/topic_3168"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Sequencing"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/operation_3798"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Binning"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1881"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+		<measure rdf:datatype="xsd:float">0.61</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/format_2094"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Purity"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/operation_0226"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Annotation"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/format_1915"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#ImageFormat"/>
+		<measure rdf:datatype="xsd:float">0.72</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_0990"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Chemical"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1692"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/operation_3429"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Generation"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_0850"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Setting"/>
+		<measure rdf:datatype="xsd:float">0.38</measure>
+		<relation>&lt;</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/format_3547"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#ImageFormat"/>
+		<measure rdf:datatype="xsd:float">0.51</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1050"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2732"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Family"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1013"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#RestrictionEnzyme"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2531"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/topic_0078"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+		<measure rdf:datatype="xsd:float">0.72</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/topic_3678"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Study"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_3275"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Phenotype"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_2131"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#OperatingSystem"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/data_1026"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#GeneSymbol"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

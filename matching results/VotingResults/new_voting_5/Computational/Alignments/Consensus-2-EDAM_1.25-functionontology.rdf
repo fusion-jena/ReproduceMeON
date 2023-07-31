@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://data.bioontology.org/ontologies/ENVO</onto1>
+<onto2>http://data.bioontology.org/ontologies/SWEET</onto2>
+<uri1>http://data.bioontology.org/ontologies/ENVO</uri1>
+<uri2>http://data.bioontology.org/ontologies/SWEET</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://edamontology.org/operation_2429"/>
+		<entity2 rdf:resource="https://w3id.org/function/ontology#Mapping"/>
+		<measure rdf:datatype="xsd:float">0.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://data.bioontology.org/ontologies/ENVO</onto1>
+<onto2>http://data.bioontology.org/ontologies/SWEET</onto2>
+<uri1>http://data.bioontology.org/ontologies/ENVO</uri1>
+<uri2>http://data.bioontology.org/ontologies/SWEET</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/publication"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Publication"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/author"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OGI.owl#Author"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/material_entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/isaterms/has_part"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

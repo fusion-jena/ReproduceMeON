@@ -1,0 +1,2687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://purl.org/net/SMARTprotocol#</onto1>
+<onto2>http://purl.org/net/SMARTprotocol</onto2>
+<uri1>http://purl.org/net/SMARTprotocol#</uri1>
+<uri2>http://purl.org/net/SMARTprotocol</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GlycolReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GlycolReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0009010"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AlkanesulfonateReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AlkanesulfonateReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#NuclearExtractionBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#NuclearExtractionBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AmpliTaqDNAPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AmpliTaqDNAPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53426"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53426"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53425"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53425"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53424"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53424"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53423"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53423"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74035"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_74035"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_41218"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_41218"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Continuant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedTissue"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedTissue"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PrecipitationReaction"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PrecipitationReaction"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedSeed"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedSeed"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86026"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_86026"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32954"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32954"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#TitaniumTaqDNAPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#TitaniumTaqDNAPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53422"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53422"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SteroidReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SteroidReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9750"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9750"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#TenPercentEthanol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#TenPercentEthanol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36093"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17234"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002106"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002106"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001051"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001051"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#NEBPlusMNase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#NEBPlusMNase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53774"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53774"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CL_0000521"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CL_0000521"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#StainExtractionBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#StainExtractionBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0009047"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0009046"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0009046"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GrindingMachine"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GrindingMachine"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001100"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001100"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Homogenizer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Homogenizer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53514"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53514"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000136"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000136"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53515"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_53515"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/REO_0000458"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/REO_0000458"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BeadBeater"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BeadBeater"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<entity2 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33917"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33917"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36078"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36078"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscriptionPCRProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscriptionPCRProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16325"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16325"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000602"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000602"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/285297004"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/285297004"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ChlorideSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ChlorideSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#KlenTaqDNAPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#KlenTaqDNAPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#WashingNucleicAcids"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#WashingNucleicAcids"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0005181"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#NH4Buffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#NH4Buffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MortarAndPestle"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MortarAndPestle"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001128"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001128"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16236"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16236"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CL_0000548"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16359"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16359"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8984"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8984"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_122"/>
+		<entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_122"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_121"/>
+		<entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_121"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DNAPellet"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DNAPellet"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17790"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17790"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EnzymeReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EnzymeReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentList"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentList"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AgaroseGelElectrophoresisProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AgaroseGelElectrophoresisProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#StainedDNA"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#StainedDNA"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50699"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0009007"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0009002"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0009002"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MPDBBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MPDBBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AlkylSulfateReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AlkylSulfateReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedSeed"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedSeed"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Timing"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Timing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PCRAmplification"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PCRAmplification"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferATL"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferATL"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16646"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36278"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36278"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BileAcidSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BileAcidSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MixerMill"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MixerMill"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AMVReverseTranscriptase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AMVReverseTranscriptase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64708"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferAL"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferAL"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferB2"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferB2"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PhysicalDisruptionEquipmentAndSupplies"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PhysicalDisruptionEquipmentAndSupplies"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferB1"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferB1"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17992"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15693"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15693"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PhenacylBromideReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PhenacylBromideReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_67097"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_67097"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#NucleicAcidExtractionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#NucleicAcidExtractionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15882"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15882"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17824"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17824"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35255"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35255"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#HotStartTaqDNAPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#HotStartTaqDNAPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PortableIceChest"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PortableIceChest"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/47569"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/47569"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002113"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CellDisruption"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CellDisruption"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CriticalStep"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CriticalStep"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Dithiothreitol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Dithiothreitol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#OligodTprimer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#OligodTprimer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35381"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/REO_0000045"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/REO_0000045"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GeneAmpPCRBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GeneAmpPCRBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EndopeptidaseK"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EndopeptidaseK"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferC1"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferC1"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3567"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3567"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/39700"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/39700"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EthanolSolution"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EthanolSolution"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareList"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareList"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27729"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27729"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#TaqPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#TaqPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000671"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16755"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16755"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17843"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#buffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#buffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001327"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001327"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedRoot"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedRoot"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ElectrophoresisProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ElectrophoresisProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscriptase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscriptase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenList"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenList"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GuanidiniumThiocyanatePhenol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GuanidiniumThiocyanatePhenol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BileAcidReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BileAcidReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AromaticEtherReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AromaticEtherReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentAndSuppliesList"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentAndSuppliesList"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AmpliTaqGold"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AmpliTaqGold"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Blender"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Blender"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28834"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28834"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MicrocentrifugeTube"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MicrocentrifugeTube"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DenaturationReaction"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DenaturationReaction"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62947"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62947"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62946"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_62946"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Neurotoxic"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Neurotoxic"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PotassiumSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PotassiumSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SulfateSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SulfateSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ProcessedDNA"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ProcessedDNA"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<entity2 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://semanticscience.org/resource/SIO_001042"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9177"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9177"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0025059"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0025059"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000948"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004964"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004964"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#FreezerMilling"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#FreezerMilling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#VinylPolymerMacromoleculeReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#VinylPolymerMacromoleculeReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#N-PhenacylthiazoliumBromide"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#N-PhenacylthiazoliumBromide"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PluronicF68"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PluronicF68"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000955"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#StorageCondition"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#StorageCondition"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscription"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReverseTranscription"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferAP1"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferAP1"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SeventyFivePercentEthanol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SeventyFivePercentEthanol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ChloroformIsoamylAlcoholMixture"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ChloroformIsoamylAlcoholMixture"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DNASeparatedByMolecularSize"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DNASeparatedByMolecularSize"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ApexTaqDNAPolymerase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ApexTaqDNAPolymerase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24663"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24663"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42688"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42688"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#HousingConditionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#HousingConditionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GeneSpecificPrimer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GeneSpecificPrimer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35681"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35681"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferY1"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#BufferY1"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12801"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12801"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#TaqPolymeraseBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#TaqPolymeraseBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PausePoint"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PausePoint"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AncientDNA"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AncientDNA"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0025025"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0025025"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/obo/owl/SO#SO_0000121"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/SO#SO_0000121"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/obo/owl/SO#SO_0000121"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Primer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RNAExtractionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RNAExtractionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#BufferName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#buffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#SpecificallyDependentContinuant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PrimerName"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/SO#SO_0000121"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PrimerName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Primer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RNASeparatedByMolecularSize"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RNASeparatedByMolecularSize"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Troubleshooting"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Troubleshooting"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/obo/owl/SO#SO_0000132"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/SO#SO_0000132"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_1418"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_1418"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Kit"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Kit"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ProtocolInstruction"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ProtocolInstruction"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32029"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32029"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenPreparationProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenPreparationProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DisaccharideDerivativeReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DisaccharideDerivativeReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26710"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26710"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#GenoGrinder"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#GenoGrinder"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeList"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RecipeList"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48607"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48607"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Hint"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Hint"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PhosphateBufferedSaline"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PhosphateBufferedSaline"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/MSH/D004864"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EquipmentOrSuppliesName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SaponinReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SaponinReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Micropestle"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Micropestle"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#Ecotype"/>
+		<entity2 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#Ecotype"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33699"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33695"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Primer"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/SO#SO_0000121"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Primer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Primer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9160"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9160"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DounceHomogenizer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DounceHomogenizer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4705"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4705"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Volatile"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Volatile"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2651"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2651"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AnimalEuthanizationProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AnimalEuthanizationProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CytoplasmicExtractionBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CytoplasmicExtractionBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedLeaf"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedLeaf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_67208"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_67208"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#WaringBlenderPolytron"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#WaringBlenderPolytron"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000630"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000630"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/PO_0025034"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SubcellularProteinFractionationKitforTissues"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SubcellularProteinFractionationKitforTissues"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RandomPrimer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RandomPrimer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32588"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32588"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400116"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400116"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400114"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400114"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0119"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/CSP/4000-0119"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CentrifugeTube"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CentrifugeTube"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24840"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PelletExtractionBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PelletExtractionBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47704"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47704"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10088"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10088"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MechanicalMilling"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MechanicalMilling"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PolyEthyleneGlycolReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PolyEthyleneGlycolReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SuperScriptReverseTranscriptase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SuperScriptReverseTranscriptase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LysisBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LysisBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400120"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400120"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10090"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004472"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004472"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedGroundTissue"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedGroundTissue"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedLeaf"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedLeaf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SodiumLauroylSarcosinate"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SodiumLauroylSarcosinate"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CoffeMill"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CoffeMill"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SodiumSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SodiumSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#QuaternaryAmmoniumSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#QuaternaryAmmoniumSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#KitName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Kit"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Polyvinylpyrrolidone"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Polyvinylpyrrolidone"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CTABBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CTABBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PolimeraseChainReactionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PolimeraseChainReactionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33659"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400106"/>
+		<entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_53"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ProcessedRNA"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ProcessedRNA"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#InfectionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#InfectionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#TaqManBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#TaqManBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/REO_0000421"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/REO_0000421"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000809"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000809"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DisaccharideReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DisaccharideReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedRoot"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#LyophilizedRoot"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5690"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5690"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#StrainOrLine"/>
+		<entity2 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#StrainOrLine"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5692"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5692"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Advantage2PCRBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Advantage2PCRBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<entity2 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON/5691"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_5702"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18111"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SarcosineReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SarcosineReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#ProteinExtractionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ProteinExtractionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PhenolChloroformIsoamylAlcohol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PhenolChloroformIsoamylAlcohol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PCRBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PCRBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PotterElvehjemHomogenizer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PotterElvehjemHomogenizer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#FrenchPressureCellPress"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#FrenchPressureCellPress"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400155"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0400155"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SteroidAcidReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SteroidAcidReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78708"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78708"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SampleMill"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SampleMill"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SolutionName"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Pyrophoric"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Pyrophoric"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedTissue"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PowderedTissue"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#CopolymerMacromoleculeReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#CopolymerMacromoleculeReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#M-MLVReverseTranscriptase"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#M-MLVReverseTranscriptase"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#DNAExtractionProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#DNAExtractionProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Flammable"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Flammable"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001087"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0001087"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33853"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Drill"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Drill"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#AlkaliMetalSaltReagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AlkaliMetalSaltReagent"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#MembraneExtractionBuffer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#MembraneExtractionBuffer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63016"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63016"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Bag"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Bag"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#Cultivar"/>
+		<entity2 rdf:resource="http://mged.sourceforge.net/ontologies/MGEDOntology.owl#Cultivar"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62218"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62218"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#Toxic"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#Toxic"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#YeastCell"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#YeastCell"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#PolytronHomogenizer"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#PolytronHomogenizer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#EnzimaticAmplificationProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#EnzimaticAmplificationProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0001203"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0001203"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/ERO_0001201"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0001201"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#hasAlertMessage"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasAlertMessage"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#hasInstruction"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasInstruction"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#hasExperimentalInputs"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasExperimentalInput"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#hasOutcome"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasOutcome"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/SMARTprotocol#RNAextraction01"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#RNAextraction01"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

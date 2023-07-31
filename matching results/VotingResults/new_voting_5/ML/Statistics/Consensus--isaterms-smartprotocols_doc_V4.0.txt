@@ -1,0 +1,39 @@
+Vote 2
+	Mappings: 8
+	Families:
+		AML: 75.0% (6)
+		ATbox: 87.5% (7)
+		LogMap: 75.0% (6)
+		OAPT: 87.5% (7)
+	Systems:
+		AML: 75.0% (6/7)
+		ATbox: 87.5% (7/14)
+		LogMapLt: 75.0% (6/9)
+		OAPT: 87.5% (7/10)
+
+Vote 3
+	Mappings: 6
+	Families:
+		AML: 83.3% (5)
+		ATbox: 100.0% (6)
+		LogMap: 83.3% (5)
+		OAPT: 100.0% (6)
+	Systems:
+		AML: 83.3% (5/7)
+		ATbox: 100.0% (6/14)
+		LogMapLt: 83.3% (5/9)
+		OAPT: 100.0% (6/10)
+
+Vote 4
+	Mappings: 4
+	Families:
+		AML: 100.0% (4)
+		ATbox: 100.0% (4)
+		LogMap: 100.0% (4)
+		OAPT: 100.0% (4)
+	Systems:
+		AML: 100.0% (4/7)
+		ATbox: 100.0% (4/14)
+		LogMapLt: 100.0% (4/9)
+		OAPT: 100.0% (4/10)
+

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>functionontology.owl</onto1>
+  <onto2>swo.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\functionontology.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\swo.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#Algorithm"/>
+        <entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000064"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#implements"/>
+        <entity2 rdf:resource="http://www.ebi.ac.uk/efo/swo/SWO_0000740"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://linkedcontainers.org/vocab</onto1>
+<onto2>http://www.ebi.ac.uk/swo/swo.owl</onto2>
+<uri1>http://linkedcontainers.org/vocab</uri1>
+<uri2>http://www.ebi.ac.uk/swo/swo.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://linkedcontainers.org/vocab#Image"/>
+		<entity2 rdf:resource="http://edamontology.org/data_2968"/>
+		<measure rdf:datatype="xsd:float">0.79</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+		<measure rdf:datatype="xsd:float">0.73</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/prov#Role"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,3 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+https://w3id.org/reproduceme#Version	version	http://purl.org/net/wicus-stack#Version	http://purl.org/net/wicus-stack#Version	NaN	2	AML;OAPT	2	AML;OAPT
+https://w3id.org/reproduceme#Configuration	configuration	http://purl.org/net/wicus-stack#ConfigurationInfo	http://purl.org/net/wicus-stack#ConfigurationInfo	NaN	2	AML;OAPT	2	AML;OAPT

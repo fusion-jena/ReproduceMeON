@@ -1,0 +1,489 @@
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-dockeronto
+
+****************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+E:/alsayed/code/oaei-evaluation/results/	-CSo.3.2-functionontology
+
+***************************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-functionontolog
+
+*****************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-hwspecs
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 15
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-reproduce-me
+
+**********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-reqs
+
+*********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-stack
+
+*************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-sva
+
+**********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 6
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-swo
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-CSO.3.2-wicus
+
+*******************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-functionontology
+
+**************************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-hwspecs
+
+***************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 2
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-reproduce-me
+
+********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-reqs
+
+************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-stack
+
+
+********************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-sva
+
+
+***************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 5
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-swo
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockeronto-wicus
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-cso.3.2
+
+*************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 2
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-edam_1.25
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-functionontology
+
+*************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-hwspecs
+
+**************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 3
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-pav
+
+****************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 4
+Loading mappings for LogMap: 3
+Loading mappings for OAPT: 6
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-reproduce-me
+
+********************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-reqs
+
+********************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-stack
+**********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-sva
+
+*************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 2
+Loading mappings for LogMap: 3
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-swo
+
+****************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-dockerpediaontology-wicus
+
+************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-cso.3.2
+
+*****************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 6
+Loading mappings for LogMap: 2
+Loading mappings for OAPT: 1
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-functionontology
+
+**********************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 2
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-hwspecs
+
+*****************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 1
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-pav
+
+********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 45
+Loading mappings for LogMap: 26
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-reproduce-me
+
+********************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 1
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-reqs
+
+
+**********************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 1
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-stack
+**************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-sva
+
+**************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 60
+Loading mappings for LogMap: 54
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-swo
+
+*************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 1
+E:/alsayed/code/oaei-evaluation/results/	-EDAM_1.25-wicus
+
+
+************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-hwspecs
+
+******************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 4
+Loading mappings for OAPT: 6
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-reproduce-me
+
+******************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-reqs
+
+*****************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-stack
+
+************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-sva
+
+*****************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 2
+Loading mappings for LogMap: 2
+Loading mappings for OAPT: 2
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-swo
+
+*********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-functionontology-wicus
+
+*************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 1
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-reproduce-me
+
+**************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-reqs
+
+*****************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-stack
+
+************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-sva
+
+***********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-swo
+
+***********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 1
+E:/alsayed/code/oaei-evaluation/results/	-hwspecs-wicus
+
+**********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 4
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-cso.3.2
+
+******************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-functionontology
+
+****************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-hwspecs
+
+
+********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 2
+E:/alsayed/code/oaei-evaluation/results/	-pav-reproduce-me
+
+**************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-reqs
+
+****************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 1
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 2
+E:/alsayed/code/oaei-evaluation/results/	-pav-stack
+
+*********************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 1
+E:/alsayed/code/oaei-evaluation/results/	-pav-sva
+
+***************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-swo
+
+************************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 0
+Loading mappings for LogMap: 0
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-pav-wicus
+
+***************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 237
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-cso.3.2
+
+*************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 6
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-functionontology
+
+**************************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-reqs
+
+*****************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 4
+Loading mappings for OAPT: 5
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-stack
+
+*****************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 1
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-sva
+
+***************************************
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 13
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-swo
+
+************************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for AML: 2
+Loading mappings for OAPT: 3
+E:/alsayed/code/oaei-evaluation/results/	-reproduce-me-wicus
+
+***********************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-reqs-stack
+********************************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-reqs-sva
+
+*********************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-reqs-swo
+
+*******************************
+
+Number of mappings without namspace filtering 	E:/alsayed/code/oaei-evaluation/mappings/Computational/
+Loading mappings for OAPT: 0
+E:/alsayed/code/oaei-evaluation/results/	-sva-wicus
+
+
+
+
+
+
+

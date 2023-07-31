@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://krono.act.uji.es/ontology.owl</onto1>
+<onto2>https://w3id.org/reproduceme</onto2>
+<uri1>http://krono.act.uji.es/ontology.owl</uri1>
+<uri2>https://w3id.org/reproduceme</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/apd"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#APD"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/semiconductor_counters"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Semiconductor"/>
+		<measure rdf:datatype="xsd:float">0.86</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/image_sequences"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#ImageProSequence"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/semiconductor_growth"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Semiconductor"/>
+		<measure rdf:datatype="xsd:float">0.89</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/transmitters"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Transmitted"/>
+		<measure rdf:datatype="xsd:float">0.9</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/nonlinear_effect"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#NonLinear"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/excimer"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Excimer"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/fsm"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#FSM"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/jpeg"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#JPEG"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/transmitted_signal"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Transmitted"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/dicom"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#DICOM"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/nonlinear_state"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#NonLinear"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/image_sequence"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#ImageProSequence"/>
+		<measure rdf:datatype="xsd:float">0.94</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/nonlinear_optics"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#NonLinear"/>
+		<measure rdf:datatype="xsd:float">0.85</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://cso.kmi.open.ac.uk/topics/semiconductor_quantum_wells"/>
+		<entity2 rdf:resource="https://w3id.org/reproduceme#Semiconductor"/>
+		<measure rdf:datatype="xsd:float">0.87</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

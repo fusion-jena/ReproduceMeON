@@ -1,0 +1,6 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://purl.obolibrary.org/obo/PATO_0000117	size	https://w3id.org/reproduceme#Size	size	NaN	2	AML;LogMap	3	AML;LogMap;LogMapLt
+http://purl.obolibrary.org/obo/PATO_0000140	relational spatial quality	http://www.w3.org/ns/prov#Location	http://www.w3.org/ns/prov#Location	NaN	2	AML;LogMap	3	AML;LogMap;LogMapLt
+http://purl.obolibrary.org/obo/PATO_0000052	relational shape quality	https://w3id.org/reproduceme#Shape	shape	NaN	2	AML;LogMap	3	AML;LogMap;LogMapLt
+http://purl.obolibrary.org/obo/PATO_0000033	concentration	https://w3id.org/reproduceme#Concentration	concentration	NaN	2	AML;LogMap	3	AML;LogMap;LogMapLt
+http://purl.obolibrary.org/obo/CHEBI_15841	protein	https://w3id.org/reproduceme#Protein	protein	NaN	2	AML;LogMap	3	AML;LogMap;LogMapLt

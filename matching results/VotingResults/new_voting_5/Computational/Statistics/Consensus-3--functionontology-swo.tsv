@@ -1,0 +1,2 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+https://w3id.org/function/ontology#Algorithm	algorithm	http://purl.obolibrary.org/obo/IAO_0000064	algorithm	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT

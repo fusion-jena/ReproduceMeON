@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='POMAP'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<onto1>http://purl.org/isaterms</onto1>
+	<onto2>http://www.hozo.jp/owl/EXPOApr19.xml/</onto2>
+	<uri1>http://purl.org/isaterms</uri1>
+	<uri2>http://www.hozo.jp/owl/EXPOApr19.xml/</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/title"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Title"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/name"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Name"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/process"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Process"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/sample"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Sample"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/publication_status"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/PublicStatus"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/organisation"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Organization"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/isaterms/author"/>
+			<entity2 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

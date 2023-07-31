@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://www.hozo.jp/owl/EXPOApr19.xml/</onto1>
+<onto2>http://purl.org/net/SMARTprotocol#</onto2>
+<uri1>http://www.hozo.jp/owl/EXPOApr19.xml/</uri1>
+<uri2>http://purl.org/net/SMARTprotocol#</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Role"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Quantity"/>
+		<entity2 rdf:resource="http://semanticscience.org/resource/SIO_000052"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#AuthorName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Author"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OGI.owl#Author"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalProtocol"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_title"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#titleOf"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_title"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasTitle"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_author"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasAuthor"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_subject"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasSubject"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://edamontology.org</onto1>
+	<onto2>http://www.ebi.ac.uk/swo/swo.owl</onto2>
+	<uri1>http://edamontology.org</uri1>
+	<uri2>http://www.ebi.ac.uk/swo/swo.owl</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3651"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000083"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3618"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000051"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3619"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000049"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3592"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000011"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3583"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000072"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3467"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000019"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.94</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3508"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000015"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3591"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000016"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3603"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000018"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3555"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000075"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_2573"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000374"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9383</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_0607"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_4000009"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.935</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2410"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000553"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9313</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3547"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000008"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.927</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0888"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000425"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9039</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3696"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000024"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9029</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0292"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_7000002"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.893</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3822"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000050"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3752"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000082"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3847"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000249"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3433"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000094"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0492"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_7000003"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2436"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000174"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0491"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_7000004"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3788"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000085"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3788"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000126"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1364"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000217"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3604"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000022"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3937"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_7000019"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0006"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000516"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_3932"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000676"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8748</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3579"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000017"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8366</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1982"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000051"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8366</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3987"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000078"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8366</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_4007"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000005"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8366</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3996"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000118"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.836</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3998"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000115"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8272</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_3372"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/organization/SWO_9000056"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8272</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3223"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_7000018"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8084</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0007"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_1100032"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7943</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_2376"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000006"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7802</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0004"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000322"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7708</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1362"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000664"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7684</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2131"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000021"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7415</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_0953"/>
+			<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000129"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7114</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_3080"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/objective/SWO_4000013"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7097</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3700"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000070"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.705</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_3473"/>
+			<entity2 rdf:resource="http://www.ontodm.com/OntoDM-core/OntoDM_000038"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6927</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3621"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000709"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6757</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1920"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000069"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6692</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_1208"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000050"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6627</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2950"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_1100074"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6417</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3617"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000567"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6368</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0532"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/efo/swo/SWO_0000553"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.632</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3253"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000056"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.627</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/topic_3391"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000640"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6266</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3829"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000566"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6109</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3814"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000381"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6109</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3468"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000015"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6092</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/format_3507"/>
+			<entity2 rdf:resource="http://www.ebi.ac.uk/swo/data/SWO_3000014"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.609</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,12 @@
+Class,Ontologies
+Workflow,"['http://purl.org/spar/pwo', 'http://purl.org/wf4ever/wfdesc', 'http://purl.dataone.org/provone/2015/01/15/ontology']"
+Step,"['http://purl.org/net/p-plan', 'http://purl.org/spar/pwo']"
+Plan,"['http://www.w3.org/ns/prov', 'http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl', 'http://purl.org/net/p-plan']"
+Dataset,"['http://rdfs.org/ns/void', 'http://purl.org/wf4ever/wf4ever']"
+Artifact,"['http://purl.org/net/opmv/ns', 'http://purl.org/wf4ever/wfprov', 'http://purl.org/wf4ever/wfdesc']"
+hasArtifact,"['http://openprovenance.org/model/opmo', 'http://purl.org/wf4ever/wfdesc']"
+Process,"['http://purl.org/net/opmv/ns', 'http://purl.org/wf4ever/wfdesc']"
+Entity,"['http://openprovenance.org/model/opmo', 'http://www.w3.org/ns/prov']"
+Agent,"['http://purl.org/net/opmv/ns', 'http://www.w3.org/ns/prov']"
+ro,"['http://purl.org/wf4ever', 'http://purl.org/wf4ever']"
+Document,"['http://purl.dataone.org/provone/2015/01/15/ontology', 'http://purl.org/wf4ever/wf4ever']"

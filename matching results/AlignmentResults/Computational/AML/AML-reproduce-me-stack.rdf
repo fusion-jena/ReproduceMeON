@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>https://w3id.org/reproduceme</onto1>
+	<onto2>http://purl.org/net/wicus-stack</onto2>
+	<uri1>https://w3id.org/reproduceme</uri1>
+	<uri2>http://purl.org/net/wicus-stack</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Version"/>
+			<entity2 rdf:resource="http://purl.org/net/wicus-stack#Version"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9867</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#License"/>
+			<entity2 rdf:resource="http://purl.org/net/wicus-stack#License"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9801</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.org/net/p-plan#hasInputVar"/>
+			<entity2 rdf:resource="http://purl.org/net/p-plan#isInputVarOf"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8764</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="https://w3id.org/reproduceme#Configuration"/>
+			<entity2 rdf:resource="http://purl.org/net/wicus-stack#ConfigurationInfo"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7082</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

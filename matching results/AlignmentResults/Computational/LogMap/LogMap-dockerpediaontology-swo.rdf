@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://dockerpedia.inf.utfsm.cl/vocab</onto1>
+<onto2>http://www.ebi.ac.uk/swo/swo.owl</onto2>
+<uri1>http://dockerpedia.inf.utfsm.cl/vocab</uri1>
+<uri2>http://www.ebi.ac.uk/swo/swo.owl</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/wicus-stack#Version"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000129"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#Image"/>
+		<entity2 rdf:resource="http://edamontology.org/data_2968"/>
+		<measure rdf:datatype="xsd:float">0.5</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://dockerpedia.inf.utfsm.cl/vocab#OperatingSystem"/>
+		<entity2 rdf:resource="http://www.ebi.ac.uk/swo/SWO_0000021"/>
+		<measure rdf:datatype="xsd:float">0.7</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

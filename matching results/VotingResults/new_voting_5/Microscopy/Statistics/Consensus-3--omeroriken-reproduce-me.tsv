@@ -1,0 +1,49 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+http://www.openmicroscopy.org/rdf/WellSample	http://www.openmicroscopy.org/rdf/WellSample	https://w3id.org/reproduceme#WellSample	well sample	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Dichroic	http://www.openmicroscopy.org/rdf/Dichroic	https://w3id.org/reproduceme#Dichroic	dichroic	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://metadb.riken.jp/db/ome/Microscope	microscope	https://w3id.org/reproduceme#Microscope	microscope	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Binning	http://www.openmicroscopy.org/rdf/Binning	https://w3id.org/reproduceme#Binning	binning	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ExperimenterGroup	http://www.openmicroscopy.org/rdf/ExperimenterGroup	https://w3id.org/reproduceme#ExperimenterGroupConfig	experimenter group config	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://www.openmicroscopy.org/rdf/Plane	http://www.openmicroscopy.org/rdf/Plane	https://w3id.org/reproduceme#Plane	plane information	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://www.openmicroscopy.org/rdf/LightPath	http://www.openmicroscopy.org/rdf/LightPath	https://w3id.org/reproduceme#LightPath	light path	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ExperimentType	http://www.openmicroscopy.org/rdf/ExperimentType	https://w3id.org/reproduceme#ExperimentType	experiment type	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Setting	http://www.openmicroscopy.org/rdf/Setting	https://w3id.org/reproduceme#Setting	setting	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Instrument	http://www.openmicroscopy.org/rdf/Instrument	https://w3id.org/reproduceme#Instrument	instrument	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/File	http://www.openmicroscopy.org/rdf/File	https://w3id.org/reproduceme#File	file	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/DimensionOrder	http://www.openmicroscopy.org/rdf/DimensionOrder	https://w3id.org/reproduceme#DimensionOrder	dimension order	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/AcquisitionMode	http://www.openmicroscopy.org/rdf/AcquisitionMode	https://w3id.org/reproduceme#AcquisitionMode	acquistion mode	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://www.openmicroscopy.org/rdf/Immersion	http://www.openmicroscopy.org/rdf/Immersion	https://w3id.org/reproduceme#Immersion	immersion	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/FilterType	http://www.openmicroscopy.org/rdf/FilterType	https://w3id.org/reproduceme#FilterType	filter type	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Channel	http://www.openmicroscopy.org/rdf/Channel	https://w3id.org/reproduceme#Channel	channel	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Pixels	http://www.openmicroscopy.org/rdf/Pixels	https://w3id.org/reproduceme#Pixels	pixels	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Model	http://www.openmicroscopy.org/rdf/Model	https://w3id.org/reproduceme#Model	model	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/LightSource	http://www.openmicroscopy.org/rdf/LightSource	https://w3id.org/reproduceme#LightSource	light source	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://metadb.riken.jp/db/ome/Detector	http://metadb.riken.jp/db/ome/Detector	https://w3id.org/reproduceme#Detector	detector	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Plate	http://www.openmicroscopy.org/rdf/Plate	https://w3id.org/reproduceme#Plate	plate	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Manufacturer	http://www.openmicroscopy.org/rdf/Manufacturer	https://w3id.org/reproduceme#Manufacturer	manufacturer	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ObjectiveSettings	http://www.openmicroscopy.org/rdf/ObjectiveSettings	https://w3id.org/reproduceme#ObjectiveSettings	objective settings	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ImagingEnvironment	http://www.openmicroscopy.org/rdf/ImagingEnvironment	https://w3id.org/reproduceme#ImagingEnvironment	imaging environment	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Reagent	http://www.openmicroscopy.org/rdf/Reagent	https://w3id.org/reproduceme#Reagent	reagent	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/GenericExcitationSource	http://www.openmicroscopy.org/rdf/GenericExcitationSource	https://w3id.org/reproduceme#GenericExcitationSource	generic excitation source	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/DetectorSetting	http://www.openmicroscopy.org/rdf/DetectorSetting	https://w3id.org/reproduceme#DetectorSetting	detector setting	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Medium	http://www.openmicroscopy.org/rdf/Medium	https://w3id.org/reproduceme#Medium	medium	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ManufacturerSpec	http://www.openmicroscopy.org/rdf/ManufacturerSpec	https://w3id.org/reproduceme#ManufactuerSpec	manufactuerspec	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://www.openmicroscopy.org/rdf/Image	http://www.openmicroscopy.org/rdf/Image	https://w3id.org/reproduceme#Image	image	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/ContrastMethod	http://www.openmicroscopy.org/rdf/ContrastMethod	https://w3id.org/reproduceme#ContrastMethod	contrast method	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Arc	http://www.openmicroscopy.org/rdf/Arc	https://w3id.org/reproduceme#Arc	arc	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Filament	http://www.openmicroscopy.org/rdf/Filament	https://w3id.org/reproduceme#Filament	filament	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Shape	http://www.openmicroscopy.org/rdf/Shape	https://w3id.org/reproduceme#Shape	shape	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/LightEmittingDiode	http://www.openmicroscopy.org/rdf/LightEmittingDiode	https://w3id.org/reproduceme#LightEmittingDiode	light emitting diode	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://metadb.riken.jp/db/ome/Phenotype	http://metadb.riken.jp/db/ome/Phenotype	https://w3id.org/reproduceme#Phenotype	phenotype	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/PlateAcquisition	http://www.openmicroscopy.org/rdf/PlateAcquisition	https://w3id.org/reproduceme#PlateAcquisition	plate acquisition	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Filter	http://www.openmicroscopy.org/rdf/Filter	https://w3id.org/reproduceme#Filter	filter	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Protocol	http://www.openmicroscopy.org/rdf/Protocol	https://w3id.org/reproduceme#Protocol	protocol	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/NamingConvention	http://www.openmicroscopy.org/rdf/NamingConvention	https://w3id.org/reproduceme#RowNamingConvention	rownaming convention	1.0	3	AML;LogMap;OAPT	3	AML;LogMap;OAPT
+http://www.openmicroscopy.org/rdf/Screen	http://www.openmicroscopy.org/rdf/Screen	https://w3id.org/reproduceme#Screen	screen	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Dataset	http://www.openmicroscopy.org/rdf/Dataset	https://w3id.org/reproduceme#Dataset	dataset	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Experiment	http://www.openmicroscopy.org/rdf/Experiment	https://w3id.org/reproduceme#Experiment	experiment	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Pulse	http://www.openmicroscopy.org/rdf/Pulse	https://w3id.org/reproduceme#Pulse	pulse	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Objective	http://www.openmicroscopy.org/rdf/Objective	https://w3id.org/reproduceme#Objective	objective	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/TransmittanceRange	http://www.openmicroscopy.org/rdf/TransmittanceRange	https://w3id.org/reproduceme#TransmittanceRange	transmittance range	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Collection	http://www.openmicroscopy.org/rdf/Collection	http://www.w3.org/ns/prov#Collection	http://www.w3.org/ns/prov#Collection	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT
+http://www.openmicroscopy.org/rdf/Laser	http://www.openmicroscopy.org/rdf/Laser	https://w3id.org/reproduceme#Laser	laser	1.0	3	AML;LogMap;OAPT	4	AML;LogMap;LogMapLt;OAPT

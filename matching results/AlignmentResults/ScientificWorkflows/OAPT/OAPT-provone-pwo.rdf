@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>provone.owl</onto1>
+  <onto2>pwo.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\provone.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\workflow\pwo.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+        <entity2 rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/basicplandescription.owl#Plan"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9985090995106194</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#Workflow"/>
+        <entity2 rdf:resource="http://purl.org/spar/pwo/Workflow"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8582952575745356</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.dataone.org/provone/2015/01/15/ontology#Execution"/>
+        <entity2 rdf:resource="http://www.ontologydesignpatterns.org/cp/owl/basicplanexecution.owl#PlanExecution"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7097520805316647</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>isaterms.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\isaterms.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/person"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#Person"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9987040504947039</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/author"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Author"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9896017189025357</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/description"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Description"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.984035957929563</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/unit"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Unit"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9747636188357263</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/source"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Source"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9711111894329858</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/protocol"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Protocol"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9680345321103265</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/measurement"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Measurement"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9649924195340238</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/assay"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Assay"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9602543960329026</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/publication"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Publication"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9559782537081638</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/file"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#File"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9508769462672133</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/study"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Study"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9160820073309099</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/parameter"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Parameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8991475194401641</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/identifier"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#siRNAIdentifier"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8979768231245251</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/sample"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#WellSample"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8572265788067096</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/raw_data_file"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#RawData"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.830132233910984</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/process"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#ProcessedData"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7713662937377006</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/ISA_dataset"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Dataset"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7226918484995897</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/has_part"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#hasPart"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9825488239217252</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/isaterms/has_input"/>
+        <entity2 rdf:resource="http://purl.org/net/p-plan#hasInputVar"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7570107692443244</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

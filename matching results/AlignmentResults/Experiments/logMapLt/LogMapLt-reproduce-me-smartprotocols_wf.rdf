@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>https://w3id.org/reproduceme</onto1>
+<onto2>http://purl.org/net/SMARTprotocol</onto2>
+<uri1>https://w3id.org/reproduceme</uri1>
+<uri2>http://purl.org/net/SMARTprotocol</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#SubExperiment"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42790"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Solution"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70830"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Specimen"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SpecimenName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Filter"/>
+		<entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_25"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Software"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Software"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#SoftwareName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/p-plan#Entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Organism"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Experiment"/>
+		<entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42790"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+		<entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Reagent"/>
+		<entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ReagentName"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#Reagent"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33893"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#isPartOf"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#isPartOf"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="https://w3id.org/reproduceme#hasPart"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/p-plan#isPrecededBy"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/BFO_0000062"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

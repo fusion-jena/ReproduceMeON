@@ -1,0 +1,5 @@
+#URI 1	Label 1	URI 2	Label 2	Confidence	Family votes	Families	System votes	Systems
+https://w3id.org/function/ontology#Output	output	https://w3id.org/reproduceme#Output	output	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+https://w3id.org/function/ontology#Algorithm	algorithm	https://w3id.org/reproduceme#Algorithm	algorithm	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+https://w3id.org/function/ontology#Parameter	parameter	https://w3id.org/reproduceme#Parameter	parameter	NaN	2	LogMap;OAPT	2	LogMap;OAPT
+https://w3id.org/function/ontology#Function	function	https://w3id.org/reproduceme#Function	function	NaN	2	LogMap;OAPT	2	LogMap;OAPT

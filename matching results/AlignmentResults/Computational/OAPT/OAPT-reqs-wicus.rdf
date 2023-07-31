@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>reqs.owl</onto1>
+  <onto2>wicus.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reqs.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\wicus.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/wicus-reqs#HardwareRequirements"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-reqs#HardwareRequirements"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/wicus-reqs#SoftwareRequirements"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-reqs#SoftwareRequirements"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment"/>
+        <entity2 rdf:resource="http://purl.org/net/wicus-reqs#requiresExecutionEnvironment"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

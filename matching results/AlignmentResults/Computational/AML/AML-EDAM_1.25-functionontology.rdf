@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://edamontology.org</onto1>
+	<onto2>https://w3id.org/function/ontology</onto2>
+	<uri1>http://edamontology.org</uri1>
+	<uri2>https://w3id.org/function/ontology</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2527"/>
+			<entity2 rdf:resource="https://w3id.org/function/ontology#Parameter"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9645</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_2429"/>
+			<entity2 rdf:resource="https://w3id.org/function/ontology#Mapping"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/operation_0226"/>
+			<entity2 rdf:resource="https://w3id.org/function/ontology#Function"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7376</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2048"/>
+			<entity2 rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7178</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_2872"/>
+			<entity2 rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6929</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://edamontology.org/data_1692"/>
+			<entity2 rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6566</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

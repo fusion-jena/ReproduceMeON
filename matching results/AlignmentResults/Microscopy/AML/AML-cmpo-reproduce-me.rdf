@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment'
+	 xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+	 xmlns:xsd='http://www.w3.org/2001/XMLSchema#' 
+	 alignmentSource='AgreementMakerLight'>
+
+<Alignment>
+	<xml>yes</xml>
+	<level>0</level>
+	<type>11</type>
+	<onto1>http://www.ebi.ac.uk/cmpo/cmpo.owl</onto1>
+	<onto2>https://w3id.org/reproduceme</onto2>
+	<uri1>http://www.ebi.ac.uk/cmpo/cmpo.owl</uri1>
+	<uri2>https://w3id.org/reproduceme</uri2>
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Size"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9485</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000033"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Concentration"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9407</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Shape"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/GO_0005623"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Cell"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9306</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000140"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Location"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8613</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#DNA"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.846</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15841"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Protein"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8316</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Organization"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8267</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/GO_0007154"/>
+			<entity2 rdf:resource="http://www.w3.org/ns/prov#Communication"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7065</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/GO_0006277"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Amplification"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6152</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+	<map>
+		<Cell>
+			<entity1 rdf:resource="http://purl.obolibrary.org/obo/PATO_0002324"/>
+			<entity2 rdf:resource="https://w3id.org/reproduceme#Offset"/>
+			<measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6124</measure>
+			<relation>=</relation>
+		</Cell>
+	</map>
+
+</Alignment>
+</rdf:RDF>

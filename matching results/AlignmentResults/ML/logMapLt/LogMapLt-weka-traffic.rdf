@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://www.khaos.uma.es/perception/traffic/khaosteam</onto1>
+<onto2>http://www.khaos.uma.es/perception/weka/khaosteam</onto2>
+<uri1>http://www.khaos.uma.es/perception/traffic/khaosteam</uri1>
+<uri2>http://www.khaos.uma.es/perception/weka/khaosteam</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+		<entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+		<entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+		<entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+		<entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+		<entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+		<entity2 rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+		<entity2 rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>EXPO04-19-06.owl</onto1>
+  <onto2>smartprotocols_wf_V4.0.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\EXPO04-19-06.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\Exp\smartprotocols_wf_V4.0.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Name"/>
+        <entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42614"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Procedure"/>
+        <entity2 rdf:resource="http://semanticscience.org/resource/SIO_000999"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Software"/>
+        <entity2 rdf:resource="http://purl.obolibrary.org/obo/ERO_0000071"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalProtocol"/>
+        <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#ExperimentalProtocol"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Entity"/>
+        <entity2 rdf:resource="http://www.ifomis.org/bfo/1.1#Entity"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/ExperimentalAction"/>
+        <entity2 rdf:resource="http://www.owl-ontologies.com/Ontology1184060740.owl#Class_1"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9712328767123288</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/IDExperiment"/>
+        <entity2 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C42790"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9090909090909091</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Materials"/>
+        <entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8695652173913044</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/Physical"/>
+        <entity2 rdf:resource="http://purl.bioontology.org/ontology/npo#NPO_888"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8571428571428571</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/DocumentStage"/>
+        <entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8571428571428571</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/hasPart"/>
+        <entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_procedure"/>
+        <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasProcedure"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has__name"/>
+        <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasName"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_description"/>
+        <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasDescription"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://www.hozo.jp/owl/EXPOApr19.xml/has_experiment"/>
+        <entity2 rdf:resource="http://purl.org/net/SMARTprotocol#hasExperimentalInput"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8727272727272727</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

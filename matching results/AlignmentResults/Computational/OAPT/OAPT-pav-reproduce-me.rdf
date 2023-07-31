@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>pav.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\pav.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://swan.mindinformatics.org/ontologies/1.2/pav/createdBy"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#wasCreatedBy"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8841130500334574</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="http://purl.org/pav/derivedFrom"/>
+        <entity2 rdf:resource="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8711301309705268</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://purl.org/net/p-plan#</onto1>
+<onto2>http://purl.org/wf4ever/wf4ever</onto2>
+<uri1>http://purl.org/net/p-plan#</uri1>
+<uri2>http://purl.org/wf4ever/wf4ever</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/p-plan#Bundle"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Bundle"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/p-plan#Entity"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+		<measure rdf:datatype="xsd:float">0.64</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/net/p-plan#Plan"/>
+		<entity2 rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+		<measure rdf:datatype="xsd:float">0.96</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://kt.ijs.si/panovp/OntoDM.owl</onto1>
+<onto2>http://kt.ijs.si/panovp/OntoDT</onto2>
+<uri1>http://kt.ijs.si/panovp/OntoDM.owl</uri1>
+<uri2>http://kt.ijs.si/panovp/OntoDT</uri2>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDM#OntoDM_419544"/>
+		<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDM#OntoDM_419544"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000658"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000658"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000298"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000298"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/obo/owl/OBO_REL#quality_of"/>
+		<entity2 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000298"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<entity2 rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+		<entity2 rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_991825"/>
+		<entity2 rdf:resource="http://kt.ijs.si/panovp/OntoDT#OntoDT_991825"/>
+		<measure rdf:datatype="xsd:float">1.0</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+</Alignment>
+</rdf:RDF>

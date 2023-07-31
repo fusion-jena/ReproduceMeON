@@ -1,0 +1,13 @@
+Vote 2
+	Mappings: 18
+	Families:
+		AML: 55.6% (10)
+		ATbox: 44.4% (8)
+		LogMap: 55.6% (10)
+		POMAP: 44.4% (8)
+	Systems:
+		AML: 55.6% (10/16)
+		ATbox: 44.4% (8/39)
+		LogMap: 55.6% (10/19)
+		POMAP: 44.4% (8/10)
+

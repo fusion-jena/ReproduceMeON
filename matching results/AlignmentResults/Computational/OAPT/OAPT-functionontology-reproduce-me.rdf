@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment' 
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' 
+xmlns:xsd='http://www.w3.org/2001/XMLSchema#'>
+
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <onto1>functionontology.owl</onto1>
+  <onto2>reproduce-me.owl</onto2>
+  <uri1>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\functionontology.owl</uri1>
+  <uri2>D:\workspace\OPT\file:D:\test_ont\OnNetwork\comp\reproduce-me.owl</uri2>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#Output"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Output"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9668241373532094</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#Algorithm"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Algorithm"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9345143345544707</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#Parameter"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Parameter"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8924989633626379</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#Function"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Function"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.8752766549436177</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#MethodMapping"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#Method"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7151833622123549</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+    <map>
+      <Cell>
+        <entity1 rdf:resource="https://w3id.org/function/ontology#name"/>
+        <entity2 rdf:resource="https://w3id.org/reproduceme#name"/>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.9843632392559956</measure>
+        <relation>=</relation>
+      </Cell>
+    </map>
+  </Alignment>
+</rdf:RDF>
