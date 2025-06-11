@@ -1,0 +1,13 @@
+transformers
+datasets
+torch
+pandas
+scikit-learn
+tqdm
+numpy
+SPARQLWrapper
+rdflib
+openai
+owlready2
+ray
+matplotlib
