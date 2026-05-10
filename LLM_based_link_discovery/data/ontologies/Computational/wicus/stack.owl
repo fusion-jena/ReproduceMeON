@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY p-plan "http://purl.org/net/p-plan#" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY wstack "http://purl.org/net/wicus-stack#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/net/wicus-stack#"
+     xml:base="http://purl.org/net/wicus-stack"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:p-plan="http://purl.org/net/p-plan#"
+     xmlns:wstack="http://purl.org/net/wicus-stack#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="">
+        <terms:created rdf:datatype="&xsd;date">2013-06-14</terms:created>
+        <terms:modified rdf:datatype="&xsd;date">2013-07-08</terms:modified>
+        <terms:license rdf:datatype="&xsd;anyURI"
+            >http://creativecommons.org/licenses/by-nc-sa/2.0/</terms:license>
+        <dc:creator rdf:datatype="&xsd;anyURI"
+            >http://delicias.dia.fi.upm.es/~isantana/</dc:creator>
+        <owl:versionInfo>2.0</owl:versionInfo>
+        <vann:preferredNamespaceUri
+            >http://purl.org/net/wicus-stack#</vann:preferredNamespaceUri>
+        <dc:title xml:lang="en"
+            >The WICUS Software Stack ontology</dc:title>
+        <vann:preferredNamespacePrefix>wstack</vann:preferredNamespacePrefix>
+        <terms:description
+            >The WICUS Software Stack ontology have been developed to describe the software elements of a computational resource. These descriptions can be used to describe both, the already deployed software components and the software requiremens of a workflow. This ontology is part of the WICUS Ontology network.</terms:description>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&dc;title"/>
+    <owl:AnnotationProperty rdf:about="&terms;modified"/>
+    <owl:AnnotationProperty rdf:about="&terms;created"/>
+    <owl:AnnotationProperty rdf:about="&terms;description"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespacePrefix"/>
+    <owl:AnnotationProperty rdf:about="&terms;license"/>
+    <owl:AnnotationProperty rdf:about="&vann;preferredNamespaceUri"/>
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/requires -->
+
+    <owl:ObjectProperty rdf:about="&terms;requires"/>
+    
+
+
+    <!-- http://purl.org/net/p-plan#isInputVarOf -->
+
+    <owl:ObjectProperty rdf:about="&p-plan;isInputVarOf"/>
+    
+
+
+    <!-- http://purl.org/net/p-plan#isStepOfPlan -->
+
+    <owl:ObjectProperty rdf:about="&p-plan;isStepOfPlan"/>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#dependsOn -->
+
+    <owl:ObjectProperty rdf:about="#dependsOn">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:dependsOn links a wstack:SoftwareStack to another wstack:SoftwareStack that is necessary for deploying and running the first one.</rdfs:comment>
+        <rdfs:range rdf:resource="#SoftwareStack"/>
+        <rdfs:domain rdf:resource="#SoftwareStack"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasBinary -->
+
+    <owl:ObjectProperty rdf:about="#hasBinary">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasBinary links a wstack:SoftwareComponent to its corresponding wstack:SoftwareBinary.</rdfs:comment>
+        <rdfs:range rdf:resource="#SoftwareBinary"/>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasConfigurationInfo -->
+
+    <owl:ObjectProperty rdf:about="#hasConfigurationInfo">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasConfigurationInfo links a wstack:SoftwareComponent to a wstack:ConfigurationInfo representing the information for configuring it.</rdfs:comment>
+        <rdfs:range rdf:resource="#ConfigurationInfo"/>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasDeploymentInfo -->
+
+    <owl:ObjectProperty rdf:about="#hasDeploymentInfo">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasDeploymentInfo links a wstack:DeploymentStep to a wstack:ConfigurationInfo representing the input values for executing a deployment step.</rdfs:comment>
+        <rdfs:range rdf:resource="#ConfigurationInfo"/>
+        <rdfs:domain rdf:resource="#DeploymentStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasDeploymentScript -->
+
+    <owl:ObjectProperty rdf:about="#hasDeploymentScript">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasDeploymentScript links a wstack:DeploymentStep to a wstack:DeploymentScript that is invoked for executing the deployment step.</rdfs:comment>
+        <rdfs:range rdf:resource="#DeploymentScript"/>
+        <rdfs:domain rdf:resource="#DeploymentStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasLicense -->
+
+    <owl:ObjectProperty rdf:about="#hasLicense">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasLicense links a wstack:SoftwareComponent to its corresponding wstack:License</rdfs:comment>
+        <rdfs:range rdf:resource="#License"/>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasSoftwareComponent -->
+
+    <owl:ObjectProperty rdf:about="#hasSoftwareComponent">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasSoftwareComponent links a wstack:SoftwareStack to one or more wstack:SofwareComponent that composes the stack.</rdfs:comment>
+        <rdfs:range rdf:resource="#SoftwareComponent"/>
+        <rdfs:domain rdf:resource="#SoftwareStack"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#hasVersion -->
+
+    <owl:ObjectProperty rdf:about="#hasVersion">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:hasVersion links a wstack:SoftwareComponent to the its wstack:Version</rdfs:comment>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+        <rdfs:range rdf:resource="#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#higher -->
+
+    <owl:ObjectProperty rdf:about="#higher">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:higher links a wstack:Version to another one that is lower than the first one.</rdfs:comment>
+        <rdfs:domain rdf:resource="#Version"/>
+        <rdfs:range rdf:resource="#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#isConfigurationParameterOf -->
+
+    <owl:ObjectProperty rdf:about="#isConfigurationParameterOf">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:isConfigurationParameterOf is a specific type of p-plan:isInputVarOf linking a wstack:ConfigurationParameter to the wstack:ConfigurationInformation that it belongs to.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&p-plan;isInputVarOf"/>
+        <rdfs:range rdf:resource="#ConfigurationInfo"/>
+        <rdfs:domain rdf:resource="#ConfigurationParameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#isDeploymentPlanOf -->
+
+    <owl:ObjectProperty rdf:about="#isDeploymentPlanOf">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:hasSoftwareComponent links a wstack:DeploymentPlan to its corresponding wstack:SofwareComponent.</rdfs:comment>
+        <rdfs:domain rdf:resource="#DeploymentPlan"/>
+        <rdfs:range rdf:resource="#SoftwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#isDeploymentStepOf -->
+
+    <owl:ObjectProperty rdf:about="#isDeploymentStepOf">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:isDeploymentStepOf is a specific type of p-plan:isStepOfPlan linking a wstack:DeploymentStep to the wstack:DeploymentPaln that it belongs to.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&p-plan;isStepOfPlan"/>
+        <rdfs:range rdf:resource="#DeploymentPlan"/>
+        <rdfs:domain rdf:resource="#DeploymentStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#lower -->
+
+    <owl:ObjectProperty rdf:about="#lower">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:lower links a wstack:Version to another one that is higher than the first one.</rdfs:comment>
+        <rdfs:domain rdf:resource="#Version"/>
+        <rdfs:range rdf:resource="#Version"/>
+        <owl:inverseOf rdf:resource="#higher"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#nextComponent -->
+
+    <owl:ObjectProperty rdf:about="#nextComponent">
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:nextComponent specifies the deployment order of two wstack:SoftwareComponent.</rdfs:comment>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+        <rdfs:range rdf:resource="#SoftwareComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#nextStep -->
+
+    <owl:ObjectProperty rdf:about="#nextStep">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:comment rdf:datatype="&rdf;XMLLiteral"
+            >wstack:nextStep specifies the invocation order of two wstack:DeploymentStep.</rdfs:comment>
+        <rdfs:range rdf:resource="#DeploymentStep"/>
+        <rdfs:domain rdf:resource="#DeploymentStep"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#requiresHigherVersion -->
+
+    <owl:ObjectProperty rdf:about="#requiresHigherVersion">
+        <rdfs:comment
+            >wstack:requiresVersion links a wstack:SoftwareComponent to the minimun  wstack:Version required by this component on the context of a workflow. A wstack:SoftwareComponent then required the defined wstack:Version or a higher one.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#requiresVersion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#requiresLowerVersion -->
+
+    <owl:ObjectProperty rdf:about="#requiresLowerVersion">
+        <rdfs:comment
+            >wstack:requiresVersion links a wstack:SoftwareComponent to the maximun  wstack:Version required by this component on the context of a workflow. A wstack:SoftwareComponent then required the defined wstack:Version or a lower one.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="#requiresVersion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#requiresVersion -->
+
+    <owl:ObjectProperty rdf:about="#requiresVersion">
+        <rdfs:comment
+            >wstack:requiresVersion links a wstack:SoftwareComponent to the wstack:Version required by this component on the context of a workflow.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&terms;requires"/>
+        <rdfs:domain rdf:resource="#SoftwareComponent"/>
+        <rdfs:range rdf:resource="#Version"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#binary -->
+
+    <owl:DatatypeProperty rdf:about="#binary">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:binary defines the location of the binary package of a wstack:SoftwareComponent</rdfs:comment>
+        <rdfs:domain rdf:resource="#SoftwareBinary"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#parameterName -->
+
+    <owl:DatatypeProperty rdf:about="#parameterName">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:parameterName defines the name of a parameter, that is, the symbolic name or identifier of a stored value.</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConfigurationParameter"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#parameterValue -->
+
+    <owl:DatatypeProperty rdf:about="#parameterValue">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:parameterValue defines the value of a parameter.</rdfs:comment>
+        <rdfs:domain rdf:resource="#ConfigurationParameter"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#script -->
+
+    <owl:DatatypeProperty rdf:about="#script">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:script defines the name and/or location of and script.</rdfs:comment>
+        <rdfs:domain rdf:resource="#DeploymentScript"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#versionNumber -->
+
+    <owl:DatatypeProperty rdf:about="#versionNumber">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >wstack:versionNumer defines the identifier of a version, usually as a numeric value, and sometimes a code name or an acronym.</rdfs:comment>
+        <rdfs:domain rdf:resource="#Version"/>
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/p-plan#Plan -->
+
+    <owl:Class rdf:about="&p-plan;Plan"/>
+    
+
+
+    <!-- http://purl.org/net/p-plan#Step -->
+
+    <owl:Class rdf:about="&p-plan;Step"/>
+    
+
+
+    <!-- http://purl.org/net/p-plan#Variable -->
+
+    <owl:Class rdf:about="&p-plan;Variable"/>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#ConfigurationInfo -->
+
+    <owl:Class rdf:about="#ConfigurationInfo">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:ConfigurationInfo represents the input information for deploying and configuring a software component.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#ConfigurationParameter -->
+
+    <owl:Class rdf:about="#ConfigurationParameter">
+        <rdfs:subClassOf rdf:resource="&p-plan;Variable"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:ConfigurationParameter is a specific type of p-plan:Variable. It represents a piece of the configuration information of a deployment step.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#DeploymentPlan -->
+
+    <owl:Class rdf:about="#DeploymentPlan">
+        <rdfs:subClassOf rdf:resource="&p-plan;Plan"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:DeploymentPlan is a specific type of p-plan:Plan. It aggregates the set of steps to be performed in order to deploy a software component.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#DeploymentScript -->
+
+    <owl:Class rdf:about="#DeploymentScript">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:DeploymentScript represents an executable process that is performed in order to carry out a deployment step.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#DeploymentStep -->
+
+    <owl:Class rdf:about="#DeploymentStep">
+        <rdfs:subClassOf rdf:resource="&p-plan;Step"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:DeploymentSetp is a specific type of p-plan:Step. It represents an action that must be performed in order to deploy a software component.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#License -->
+
+    <owl:Class rdf:about="#License">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:License represents the licensing conditions under which a software component can be used.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#NotOpenLicense -->
+
+    <owl:Class rdf:about="#NotOpenLicense">
+        <rdfs:subClassOf rdf:resource="#License"/>
+        <owl:disjointWith rdf:resource="#OpenLicense"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:NotOpenLicense represents the set of licenses that restricts the usage of a software component, subject to certain conditions.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#OpenLicense -->
+
+    <owl:Class rdf:about="#OpenLicense">
+        <rdfs:subClassOf rdf:resource="#License"/>
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:OpenLincense represents licenses that allow a software component to be used by any user.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#SoftwareBinary -->
+
+    <owl:Class rdf:about="#SoftwareBinary">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:SoftwareBinary represents an executable and machine readable file that can be run by a computer, virtual machine or interpreter.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#SoftwareComponent -->
+
+    <owl:Class rdf:about="#SoftwareComponent">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:SoftwareComponent represents a software entity that can be deployed in a computational resource.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#SoftwareStack -->
+
+    <owl:Class rdf:about="#SoftwareStack">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wstack:SoftwareStack represents a set of software components that support the execution of a certain set of tasks of a workflow.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/net/wicus-stack#Version -->
+
+    <owl:Class rdf:about="#Version">
+        <rdfs:comment rdf:datatype="&rdfs;Literal"
+            >A wicussstack:Version represents a concrete version of a software component.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

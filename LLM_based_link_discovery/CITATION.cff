@@ -1,0 +1,33 @@
+# CITATION.cff — fill in author details after deanonymization
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper as below."
+type: software
+title: "Beyond Similarity: LLM-Based Generation of Typed Semantic Links for Ontology Networks"
+abstract: >
+  An end-to-end pipeline combining domain-adapted DistilBERT embeddings,
+  clustering-based pre-filtering, and GPT-4o-driven relationship generation
+  to discover and generate typed, justified semantic links for ontology network
+  development. Applied to ReproduceMeON (33 ontologies, four domains).
+version: "1.0.0"
+date-released: "2026-05-11"
+license: MIT
+keywords:
+  - ontology network
+  - knowledge interoperability
+  - large language models
+  - ontology alignment
+  - scientific reproducibility
+  - DistilBERT
+  - GPT-4o
+# TODO (post-deanonymization): fill in authors block below
+authors:
+  - name: "Anonymous Authors"
+# preferred-citation:
+#   type: conference-paper
+#   title: "Beyond Similarity: LLM-Based Generation of Typed Semantic Links for Ontology Networks"
+#   authors:
+#     - family-names: ""
+#       given-names: ""
+#   conference:
+#     name: "SEMANTiCS 2026"
+#   year: 2026

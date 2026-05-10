@@ -1,0 +1,1401 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.khaos.uma.es/perception/bigowl#"
+     xml:base="http://www.khaos.uma.es/perception/bigowl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.khaos.uma.es/perception/bigowl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#connectedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#connectedTo">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#correspondsToTemplate -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#correspondsToTemplate">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <rdfs:range rdf:resource="http://www.opmw.org/ontology/WorkflowTemplate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasAlgorithm -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasAlgorithm">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasCell -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasCell">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Row"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Cell"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasChannelOutput -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasChannelOutput">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasColumn -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasColumn">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Column"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasComponent">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasDataPrimitiveTypeColumn -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasDataPrimitiveTypeColumn">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Column"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasDataType -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasDataType">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasImplementation -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasImplementation">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasParameter -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasParameter">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasRow -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasRow">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Row"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasTask">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#instanceParameterOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#instanceParameterOf">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#solves -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#solves">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Problem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#specifiesInputClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#specifiesInputClass">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#wasLaunchedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#wasLaunchedBy">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <rdfs:range rdf:resource="http://purl.org/net/opmv/ns#Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#algorithm -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#algorithm">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#className -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#className">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#classNameSerialized -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#classNameSerialized">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#commentChar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#commentChar">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#delimiter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#delimiter">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#doubleQuote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#doubleQuote">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#encoding -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#encoding">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#endedAt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#endedAt">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time at which an activity ended. See also prov:startedAtTime.
+http://www.w3.org/ns/prov#endedAtTime</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#escapeChar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#escapeChar">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasColumnName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasColumnName">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Column"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasColumnPosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasColumnPosition">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Cell"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasDataValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasDataValue">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasDefaultValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasDefaultValue">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasDocumentation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasDocumentation">
+        <rdfs:domain rdf:resource="http://www.opmw.org/ontology/WorkflowTemplate"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#anyURI"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property that binds a workflow template to its documentation.
+
+http://www.opmw.org/ontology/hasDocumentation</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasFeature -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasFeature">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Problem"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasHeader -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasHeader">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasName">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasPosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasPosition">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Column"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#hasRowPosition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#hasRowPosition">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Cell"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#implementationLanguage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#implementationLanguage">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#isCorrectWorkflow -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#isCorrectWorkflow">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#isLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#isLabel">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Column"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#label">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#leaf_size -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#leaf_size">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#lineDelimiter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#lineDelimiter">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#mapping -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#mapping">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#metric -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#metric">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#metric_params -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#metric_params">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#module -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#module">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#n_jobs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#n_jobs">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#n_neighbors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#n_neighbors">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#numTask -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#numTask">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#numberOfColumns -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#numberOfColumns">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#numberOfInputs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#numberOfInputs">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#numberOfLines -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#numberOfLines">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#numberOfOutputs -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#numberOfOutputs">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+                    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#order -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#order">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#p -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#p">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#pathTabularDataSet -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#pathTabularDataSet">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#quoteChar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#quoteChar">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#quoting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#quoting">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#range -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#range">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#represents -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#represents">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#resource -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#resource">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#skipInitialSpace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#skipInitialSpace">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#skiprows -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#skiprows">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#startedAt -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#startedAt">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time at which an activity started. See also prov:endedAtTime.
+
+http://www.w3.org/ns/prov#startedAtTime</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#strict -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#strict">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#weights -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#weights">
+        <rdfs:domain rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#workflow -->
+
+    <owl:DatatypeProperty rdf:about="http://www.khaos.uma.es/perception/bigowl#workflow">
+        <rdfs:domain rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/net/opmv/ns#Agent -->
+
+    <owl:Class rdf:about="http://purl.org/net/opmv/ns#Agent"/>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PredictiveModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Model -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Model"/>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminantFunctionModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminantFunctionModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminativeModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminativeModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#KNearestNeighborModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminativeModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MachineLearningAlgorithm -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MachineLearningAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataAnalysingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ModelingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MachineLearningAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#NeuralNetworkModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#NeuralNetworkModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DiscriminantFunctionModel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PredictiveModel -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#PredictiveModel">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DM-Model"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow -->
+
+    <owl:Class rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Algorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Bin -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Bin">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Cell -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Cell"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Channel -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Channel">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Represents a topic when a workflow is executed, this class is used for annotating the process of execution</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ClassificationMetric -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ClassificationMetric">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#PredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#TestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Column -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Column"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Component -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ConvNetLSTM -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ConvNetLSTM">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ConvNetLSTMPredict -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ConvNetLSTMPredict">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#ConvNetLSTMTesting -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#ConvNetLSTMTesting">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DTC -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DTC">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DTCPredict -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DTCPredict">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DTCTesting -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DTCTesting">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Data -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataAnalysing -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataAnalysing">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataAnalysingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataAnalysingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataCollection -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataCollection">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataCollectionAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataCollectionAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataIngestion -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataIngestion">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataCollection"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataMining -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataMining">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearning"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataProcessing -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataProcessing">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataProcessingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataProcessingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataSink -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataSink">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataSinkAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataSinkAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataTransform -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataTransform">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#DataType -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#DataType"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Fastq -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Fastq">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Image -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Image">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Implementation -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Implementation"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#KNN -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#KNN">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#KNNPredict -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#KNNPredict">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#KNNTesting -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#KNNTesting">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#MachineLearning -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#MachineLearning">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataAnalysing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Map -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Map">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#PredictingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#PredictingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MachineLearningAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#PrimitiveType -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#PrimitiveType">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Problem -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Problem"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#RDF -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#RDF">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Text"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#RF -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#RF">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#RFPredict -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#RFPredict">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#RFTesting -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#RFTesting">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Rar -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Rar">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#RemoveOutlier -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#RemoveOutlier">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Row -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Row"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#SVM -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#SVM">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#ClassificationModelingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#SVMPredict -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#SVMPredict">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationPredictingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#SVMTesting -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#SVMTesting">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#ClassificationTestingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Split -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Split">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.khaos.uma.es/perception/bigowl#specifiesOutputClass"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.khaos.uma.es/perception/bigowl#TabularDataSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#SplitShuffle -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#SplitShuffle">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Split"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#StructuredType -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#StructuredType">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#TabularDataSet -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#TabularDataSet">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#DataSetClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Task -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Task"/>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#TestingAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#TestingAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#MachineLearningAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Text -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Text">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#WebService -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#WebService">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#WebServiceAlgorithm -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#WebServiceAlgorithm">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#DataProcessingAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Zip -->
+
+    <owl:Class rdf:about="http://www.khaos.uma.es/perception/bigowl#Zip">
+        <rdfs:subClassOf rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.opmw.org/ontology/WorkflowTemplate -->
+
+    <owl:Class rdf:about="http://www.opmw.org/ontology/WorkflowTemplate"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Boolean -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Boolean">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Date -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Date">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Double">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#File -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#File">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#StructuredType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Float -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Float">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Folder -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Folder">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#StructuredType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#InputColumn -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#InputColumn">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#StructuredType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Integer -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Integer">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#List -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#List">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#StructuredType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#String -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#String">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Timestamp -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Timestamp">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#PrimitiveType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Zip -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/perception/bigowl#Zip">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#StructuredType"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

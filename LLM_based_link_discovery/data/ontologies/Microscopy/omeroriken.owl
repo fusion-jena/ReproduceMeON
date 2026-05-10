@@ -1,0 +1,3518 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://metadb.riken.jp/db/ome/"
+     xml:base="http://metadb.riken.jp/db/ome/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://metadb.riken.jp/db/ome/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#anyURI -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#boolean -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#boolean"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#dateTime -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#float -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#nonNegativeInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#positiveInteger -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#string"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/binData -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/binData">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/compressionType -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/compressionType">
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/CompressionType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/electronMedium -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/electronMedium">
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/ElectronGun"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/ElectronMedium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/fileFormat -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/fileFormat">
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/ImageFile"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/FileFormat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/imageFile -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/imageFile">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/ImageFile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/imagingEnvironment -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/imagingEnvironment">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ImagingEnvironment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/stageLevel -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/stageLevel">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/StageLevel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/union -->
+
+    <owl:ObjectProperty rdf:about="http://metadb.riken.jp/db/ome/union">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/RegionOfInterest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://qudt.org/schema/qudt#unit -->
+
+    <owl:ObjectProperty rdf:about="http://qudt.org/schema/qudt#unit"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/acquisitionMode -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/acquisitionMode">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/AcquisitionMode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/annotation -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/annotation">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Dataset"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Experiment"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Project"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/binning -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/binning">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Binning"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/channel -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/channel">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/collection -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/collection"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/color -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/color">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/columnNamingConvention -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/columnNamingConvention">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/NamingConvention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/compression -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/compression">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Compression"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/contrastMethod -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/contrastMethod">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ContrastMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/cutIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/cutIn">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/cutInTolerance -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/cutInTolerance">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/cutOut -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/cutOut">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/cutOutTolerance -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/cutOutTolerance">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/dataset -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/dataset">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Project"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Dataset"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/deltaT -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/deltaT"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/dichroic -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/dichroic">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/FilterSet"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/LightPath"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Dichroic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/dimensionOrder -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/dimensionOrder">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/DimensionOrder"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/emissionFilter -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/emissionFilter">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/FilterSet"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/LightPath"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/EmissionFilter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/emissionWavelength -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/emissionWavelength">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/endTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/endTime">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/excitationFilter -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/excitationFilter">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/FilterSet"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/LightPath"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ExcitationFilter"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/excitationWavelength -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/excitationWavelength"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/experiment -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/experiment">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Dataset"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Project"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Experiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/experimentType -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/experimentType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Experiment"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/experimenterGroup -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/experimenterGroup">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Project"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/exposureTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/exposureTime">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fileAnnotationValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fileAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/FileAnnotation"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/File"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fillColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fillColor">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fillRule -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fillRule">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/FillRule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/filterType -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/filterType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Filter"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/FilterType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fontFamily -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fontFamily">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/FontFamily"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fontSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fontSize"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fontStyle -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/fontStyle">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/FontStyle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/illuminationType -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/illuminationType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/IlluminationType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/image -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/image">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Dataset"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/immersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/immersion">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Objective"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Immersion"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/iris -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/iris">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Objective"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/laserMedium -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/laserMedium">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Laser"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/LaserMedium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/leader -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/leader">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/lineCap -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/lineCap">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/LineCap"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/manufacturer -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/manufacturer">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Manufacturer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/manufacturerSpec -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/manufacturerSpec">
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/mapAnnotationValue -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/mapAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/MapAnnotation"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Map"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/markerEnd -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/markerEnd">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Marker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/markerStart -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/markerStart">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Marker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/medium -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/medium">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ObjectiveSettings"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Medium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/microbeamManipulation -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/microbeamManipulation">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Experiment"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/microscope -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/microscope">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/Microscope"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/model -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/model">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Model"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/objectiveSettings -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/objectiveSettings">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/ObjectiveSetting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/physicalSizeX -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/physicalSizeX"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/physicalSizeY -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/physicalSizeY"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/physicalSizeZ -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/physicalSizeZ"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pinholeSize -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/pinholeSize">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pixcelType -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/pixcelType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/PixcelType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pixels -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/pixels">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/plane -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/plane">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/plate">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Screen"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/plateAcquisition -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/plateAcquisition">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pockelCell -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/pockelCell">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Laser"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/point -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/point">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Polygon"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Polyline"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Point"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/positionX -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/positionX">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/positionY -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/positionY">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/positionZ -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/positionZ">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/power -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/power"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/protocol -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/protocol"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pulse -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/pulse"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/reagent -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/reagent">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ReagentSet"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Reagent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/reagentSet -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/reagentSet">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Screen"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/ReagentSet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/regionOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/regionOfInterest">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/RegionOfInterest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/repetitionRate -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/repetitionRate"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/rowNamingConvention -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/rowNamingConvention">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/NamingConvention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/shape -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/shape">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/startTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/startTime">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/strokeColor -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/strokeColor">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/strokeDashArray -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/strokeDashArray">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/strokeWidth -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/strokeWidth">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/temperature -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/temperature"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/timeIncrement -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/timeIncrement"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/timePoint -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/timePoint">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/WellSample"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/transform -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/transform">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/transmittanceRange -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/transmittanceRange">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Filter"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/tuneable -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/tuneable">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Laser"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/voltage -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/voltage">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/waveLength -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/waveLength">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Laser"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/well -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/well">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/wellOriginX -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/wellOriginX">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/wellOriginY -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/wellOriginY">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/wellSample -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/wellSample">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/WellSample"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/workingDistance -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/workingDistance"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/x -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/x">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Ellipse"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Mask"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Point"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Rectangle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/y -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/y">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Ellipse"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Mask"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Point"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Rectangle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/z -->
+
+    <owl:ObjectProperty rdf:about="http://www.openmicroscopy.org/rdf/z"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#li -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#li">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/RegionOfInterest"/>
+        <rdfs:range rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicts -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/depicts">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/thumbnail -->
+
+    <owl:ObjectProperty rdf:about="http://xmlns.com/foaf/0.1/thumbnail">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://metadb.riken.jp/db/ome/ImageFile"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/airPressure -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/airPressure"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/column -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/column">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/columns -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/columns">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/externalDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/externalDescription">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/description"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/externalIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/externalIdentifier">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/filterWheel -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/filterWheel">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Filter"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/frequencyMultiplication -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/frequencyMultiplication">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Laser"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/index -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/index">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/WellSample"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/lotNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/lotNumber">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/maximumFieldCount -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/maximumFieldCount">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/row -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/row">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/rows -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/rows">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/screenType -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/screenType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Screen"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/serialNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/serialNumber">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/status -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/status">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/wellType -->
+
+    <owl:DatatypeProperty rdf:about="http://metadb.riken.jp/db/ome/wellType">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Well"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/description">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/identifier">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A00 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A00">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A01 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A01">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A02 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A02">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A10 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A10">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A11 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A11">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/A12 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/A12">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Transform"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/CO2Percent -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/CO2Percent"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/NDFilter -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/NDFilter">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/XMLAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/XMLAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/XMLAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/acquisitionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/acquisitionDate">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/amplificationGain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/amplificationGain">
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/bigEndian -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/bigEndian">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/booleanAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/booleanAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/BooleanAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/calibratedMagnification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/calibratedMagnification">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Objective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/column -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/column"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/columns -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/columns"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/commentAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/commentAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/CommentAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/correctionCollar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/correctionCollar">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ObjectiveSettings"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/data -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/data">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#base64Binary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/doubleAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/doubleAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DoubleAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/endTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/endTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/externalDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/externalDescription"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/externalIdentifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/externalIdentifier"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fieldIndex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/fieldIndex">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/firstC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/firstC">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/firstT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/firstT">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/firstZ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/firstZ">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/fluor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/fluor">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/frequencyMultiplication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/frequencyMultiplication"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/gain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/gain">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/hashSHA1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/hashSHA1">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/height -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/height">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Mask"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Rectangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/humidity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/humidity"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ifd -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/ifd">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/index -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/index"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/integration -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/integration">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/interleaved -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/interleaved">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/iris -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/iris">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/key -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/key">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Map"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/length">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/lensNA -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/lensNA">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Objective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/locked -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/locked">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/longAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/longAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/LongAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/lotNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/lotNumber"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/maximumFieldCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/maximumFieldCount"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/nameSpace -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/nameSpace">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/nominalMagnification -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/nominalMagnification">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Objective"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/offset -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/offset">
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/planeCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/planeCount">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pockelCell -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/pockelCell">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/pockelCellSetting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/pockelCellSetting">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/readOutRate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/readOutRate">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/rediusX -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/rediusX">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Ellipse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/rediusY -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/rediusY">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Ellipse"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/refractiveIndex -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/refractiveIndex">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/ObjectiveSettings"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/row -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/row"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/rows -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/rows">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/samplesPerPixel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/samplesPerPixel">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Channel"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/serialNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/serialNumber"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/significantBits -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/significantBits">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/sizeC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/sizeC">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/sizeT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/sizeT">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/sizeX -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/sizeX">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/sizeY -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/sizeY">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/sizeZ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/sizeZ">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Pixels"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/startTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/startTime">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/status"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/tagAnnotation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/tagAnnotation">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TagAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/termAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/termAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TermAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/text -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/text">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/theC -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/theC">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/theT -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/theT">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/theZ -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/theZ">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Plane"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/timePoint -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/timePoint">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/timestampAnnotationValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/timestampAnnotationValue">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TimestampSAnnotation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/transmittance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/transmittance">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TransmittanceRange"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/tuneable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/tuneable">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/uuid -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/uuid">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/TiffData"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/value">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Map"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/visible -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/visible">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/wellType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/wellType"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/width -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/width">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Mask"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Rectangle"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/x -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/x">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/x1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/x1">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Line"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/x2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/x2">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Line"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/y -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/y">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/y1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/y1">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Line"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/y2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/y2">
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/Line"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/zoom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.openmicroscopy.org/rdf/zoom">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+        <rdfs:domain rdf:resource="http://www.openmicroscopy.org/rdf/DetectorSetting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#value -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#screenType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2002/07/owl#screenType"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.openmicroscopy.org/rdf/bigEndian"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/AbsorbedElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/AbsorbedElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/AomicForceMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/AomicForceMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ScanningProbeMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Apparatus -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Apparatus">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/AudibleSoundWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/AudibleSoundWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/SoundWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/AugerElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/AugerElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/BackscatteredElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/BackscatteredElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/BioSample -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/BioSample"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/BlueLightWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/BlueLightWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VisibleLightWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/BrightfieldMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/BrightfieldMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/CathodeLuminescenceDectector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/CathodeLuminescenceDectector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/CompressionType -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/CompressionType"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ConfocalLaserScanningMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ConfocalLaserScanningMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ConfocalMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ConfocalMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ContactAtomicForceMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ContactAtomicForceMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/AomicForceMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/DarkFieldMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/DarkFieldMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Detector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Detector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/DifferentialInterferenceContrastMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/DifferentialInterferenceContrastMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ElectromagneticWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ElectromagneticWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Wave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Detector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ElectronGun -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ElectronGun">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ElectronMedium -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ElectronMedium">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ElectronMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ElectronMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Microscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/FarInfraredWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/FarInfraredWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/InfraredWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/FieldEmissionElectronGun -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/FieldEmissionElectronGun">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronGun"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/FileFormat -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/FileFormat"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/FluorescenceMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/FluorescenceMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/DifferentialInterferenceContrastMicroscope"/>
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Gamma-rayWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Gamma-rayWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/GreenLightWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/GreenLightWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VisibleLightWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/HardX-rayWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/HardX-rayWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/X-rayWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/HighResolutionTransmissionElectronMicroscopy -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/HighResolutionTransmissionElectronMicroscopy">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/TransmissionElectronMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ImageFile -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ImageFile"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/InfraredImaging -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/InfraredImaging">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VibrationalSpectroscopicImaging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/InfraredWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/InfraredWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/LongitudinalWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/LongitudinalWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/MechanicalWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/MagneticForceMicroscopy -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/MagneticForceMicroscopy">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/NonContactAtomicForceMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/MechanicalWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/MechanicalWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Wave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Microscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Microscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Apparatus"/>
+        <rdfs:label>Microscope</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Microwave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Microwave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/MidInfraredWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/MidInfraredWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/InfraredWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/NearInfraredWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/NearInfraredWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/InfraredWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/NonContactAtomicForceMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/NonContactAtomicForceMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/AomicForceMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ObjectiveSetting -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ObjectiveSetting"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/OpticalDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/OpticalDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Detector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/OpticalMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/OpticalMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Microscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Parts -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Parts">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Instrument"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/PhaseContrastMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/PhaseContrastMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Phenotype -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Phenotype"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Radiowave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Radiowave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/RamanImaging -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/RamanImaging">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VibrationalSpectroscopicImaging"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/RedLightWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/RedLightWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VisibleLightWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/SamplePreparation -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/SamplePreparation"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ScanningElectronMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ScanningElectronMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ScanningNear-fieldOpticalMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ScanningNear-fieldOpticalMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ScanningProbeMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ScanningProbeMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Microscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ScanningTrransmissionElectronMicroscopy -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ScanningTrransmissionElectronMicroscopy">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/TransmissionElectronMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ScanningTunnelingMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ScanningTunnelingMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ScanningProbeMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/SchottkyEmissionElectronGun -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/SchottkyEmissionElectronGun">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronGun"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/SecondaryElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/SecondaryElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/SoftX-rayWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/SoftX-rayWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/X-rayWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/SoundWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/SoundWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/LongitudinalWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ThermalElectronGun -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/ThermalElectronGun">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronGun"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/TotalInternalReflectionFluorescenceMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/TotalInternalReflectionFluorescenceMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/FluorescenceMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/TransmissionElectronMicroscope -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/TransmissionElectronMicroscope">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/TransmittedElectronDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/TransmittedElectronDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/TransverseWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/TransverseWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/MechanicalWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/UltrasoftX-rayWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/UltrasoftX-rayWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/X-rayWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/UltrasoundWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/UltrasoundWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/SoundWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/UltravioletWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/UltravioletWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/VacuumUltravioletWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/VacuumUltravioletWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/VibrationalSpectroscopicImaging -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/VibrationalSpectroscopicImaging">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalMicroscope"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/VisibleLightWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/VisibleLightWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Wave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/Wave"/>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/WhiteLengthWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/WhiteLengthWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/VisibleLightWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/X-rayDetector -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/X-rayDetector">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectronDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/X-rayWave -->
+
+    <owl:Class rdf:about="http://metadb.riken.jp/db/ome/X-rayWave">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/ElectromagneticWave"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/APD -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/APD">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/AcquisitionMode -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/AcquisitionMode"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/AnalogVideo -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/AnalogVideo">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Arc -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Arc">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/BinData -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/BinData"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Binning -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Binning"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/BooleanAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/BooleanAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/CCD -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/CCD">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/CMOS -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/CMOS">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Channel -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Channel"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Collection -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Collection"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Color -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Color"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/CommentAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/CommentAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Compression -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Compression"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ContrastMethod -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ContrastMethod"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/CorrelationSpectroscopy -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/CorrelationSpectroscopy">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Dataset -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Dataset">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/DetectorSetting -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/DetectorSetting">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Dichroic -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Dichroic">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/DimensionOrder -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/DimensionOrder"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/DoubleAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/DoubleAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/EBCCD -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/EBCCD">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/EMCCD -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/EMCCD">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Ellipse -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Ellipse">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/EmissionFilter -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/EmissionFilter">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ExcitationFilter -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ExcitationFilter">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Filter"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Experiment -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Experiment">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.openmicroscopy.org/rdf/dataset"/>
+                <owl:someValuesFrom rdf:resource="http://www.openmicroscopy.org/rdf/Dataset"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.openmicroscopy.org/rdf/experimenterGroup"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ExperimentType -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ExperimenterGroup -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ExperimenterGroup"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FTIR -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FTIR">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Filament -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Filament">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/File -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/File"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FileAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FileAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FillRule -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FillRule">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.openmicroscopy.org/rdf/fillRule"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.openmicroscopy.org/rdf/FillRule"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Filter -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Filter">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FilterSet -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FilterSet">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FilterType -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FilterType"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FontFamily -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FontFamily"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FontStyle -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/FontStyle"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/GenericExcitationSource -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/GenericExcitationSource">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/IlluminationType -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/IlluminationType"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Image -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Image"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ImagingCondition -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ImagingCondition"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ImagingEnvironment -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ImagingEnvironment"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Immersion -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Immersion">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Instrument -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Instrument">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/IntensifiedCCD -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/IntensifiedCCD">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Label -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Label">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Laser -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Laser">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LaserMedium -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LaserMedium"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LifetimeImaging -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LifetimeImaging">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LightEmittingDiode -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LightEmittingDiode">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/LightSource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LightPath -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LightPath"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LightSource -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LightSource">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Line -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Line">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LineCap -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LineCap"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ListAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ListAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/LongAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/LongAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Manufacturer -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Manufacturer"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ManufacturerSpec -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ManufacturerSpec"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Map -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Map"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/MapAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/MapAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Marker -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Marker"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Mask -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Mask">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Medium -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Medium"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/MicrobeamManippuration -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Model -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Model"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/NamingConvention -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/NamingConvention"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Objective -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Objective">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/Parts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ObjectiveSettings -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ObjectiveSettings">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Setting"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/PMT -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/PMT">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Photodiode -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Photodiode">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/PixcelType -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/PixcelType"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Pixels -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Pixels"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Plane -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Plane"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Plate -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Plate"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/PlateAcquisition -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/PlateAcquisition"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Point -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Point">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Polygon -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Polygon">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Polyline -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Polyline">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Project -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Project">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.openmicroscopy.org/rdf/experiment"/>
+                <owl:someValuesFrom rdf:resource="http://www.openmicroscopy.org/rdf/Experiment"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Protocol -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Protocol">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Pulse -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Pulse"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Reagent -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Reagent"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/ReagentSet -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/ReagentSet"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Rectangle -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Rectangle">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/Shape"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/RegionOfInterest -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/RegionOfInterest"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Screen -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Screen"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Setting -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Setting"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Shape -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Shape"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Spectroscopy -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Spectroscopy">
+        <rdfs:subClassOf rdf:resource="http://metadb.riken.jp/db/ome/OpticalDetector"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/StageLevel -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/StageLevel"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/StructuredAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TagAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/TagAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TermAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/TermAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TiffData -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/TiffData">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/BinData"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TimestampSAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/TimestampSAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Transform -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Transform"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TransmittanceRange -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/TransmittanceRange">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Well -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/Well">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/WellSample -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/WellSample"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/XMLAnnotation -->
+
+    <owl:Class rdf:about="http://www.openmicroscopy.org/rdf/XMLAnnotation">
+        <rdfs:subClassOf rdf:resource="http://www.openmicroscopy.org/rdf/StructuredAnnotation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq -->
+
+    <owl:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/LaB6 -->
+
+    <owl:NamedIndividual rdf:about="http://metadb.riken.jp/db/ome/LaB6">
+        <rdf:type rdf:resource="http://metadb.riken.jp/db/ome/ElectronMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/Tungsten -->
+
+    <owl:NamedIndividual rdf:about="http://metadb.riken.jp/db/ome/Tungsten">
+        <rdf:type rdf:resource="http://metadb.riken.jp/db/ome/ElectronMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ZrO_W_Emitter -->
+
+    <owl:NamedIndividual rdf:about="http://metadb.riken.jp/db/ome/ZrO_W_Emitter">
+        <rdf:type rdf:resource="http://metadb.riken.jp/db/ome/ElectronMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://metadb.riken.jp/db/ome/ZrO/TungstenEmitter -->
+
+    <owl:NamedIndividual rdf:about="http://metadb.riken.jp/db/ome/ZrO/TungstenEmitter">
+        <rdf:type rdf:resource="http://metadb.riken.jp/db/ome/ElectronMedium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Colocalization -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Colocalization"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Electrophysiology -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Electrophysiology">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FISH -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FISH">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FLIP -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FLIP">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FP -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FP">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FRAP -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FRAP">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FRET -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FRET">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FluorescenceLifetime -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FluorescenceLifetime"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/FourDPlus -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/FourDPlus">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Immunocytochemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Immunocytochemistry">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Immunofluorescence -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Immunofluorescence">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/InverseFRAP -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/InverseFRAP">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/IonImaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/IonImaging"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/OpticalTrapping -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/OpticalTrapping">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/PGIDocumentation -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/PGIDocumentation"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Photoablation -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Photoablation">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Photoactivation -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Photoactivation">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/SPIM -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/SPIM">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Screen -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Screen">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/SpectralImaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/SpectralImaging"/>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/TimeLapse -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/TimeLapse">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/ExperimentType"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.openmicroscopy.org/rdf/Uncaging -->
+
+    <owl:NamedIndividual rdf:about="http://www.openmicroscopy.org/rdf/Uncaging">
+        <rdf:type rdf:resource="http://www.openmicroscopy.org/rdf/MicrobeamManippuration"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
+

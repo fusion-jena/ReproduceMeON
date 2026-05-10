@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://linkedcontainers.org/vocab#"
+     xml:base="http://linkedcontainers.org/vocab"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:max="http://maxime-lefrancois.info/me#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:fno="https://w3id.org/function/ontology#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:do="http://linkedcontainers.org/vocab#"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://linkedcontainers.org/vocab">
+        <owl:imports rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+        <owl:imports rdf:resource="http://www.w3.org/ns/prov-o-20130430"/>
+        <owl:imports rdf:resource="https://w3id.org/function/ontology/0.4"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/function/ontology#expects -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/function/ontology#expects"/>
+    
+
+
+    <!-- https://w3id.org/function/ontology#predicate -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/function/ontology#predicate"/>
+    
+
+
+    <!-- https://w3id.org/function/ontology#returns -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/function/ontology#returns"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#fromValue -->
+
+    <owl:ObjectProperty rdf:about="http://linkedcontainers.org/vocab#fromValue">
+        <rdfs:subPropertyOf rdf:resource="http://linkedcontainers.org/vocab#imageInput"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageInput -->
+
+    <owl:ObjectProperty rdf:about="http://linkedcontainers.org/vocab#imageInput"/>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageOutput -->
+
+    <owl:ObjectProperty rdf:about="http://linkedcontainers.org/vocab#imageOutput"/>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runCmd -->
+
+    <owl:ObjectProperty rdf:about="http://linkedcontainers.org/vocab#runCmd"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#documentation -->
+
+    <owl:DatatypeProperty rdf:about="http://linkedcontainers.org/vocab#documentation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Command -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Command">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Container -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Container">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Daemon -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Daemon">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Dockerfile -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Dockerfile">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Image -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Image">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Instruction -->
+
+    <owl:Class rdf:about="http://linkedcontainers.org/vocab#Instruction">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#Image -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#Image"/>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#add -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#add">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">ADD has two forms:
+
+ADD &amp;lt;src&amp;gt;... &amp;lt;dest&amp;gt;
+ADD [&amp;quot;&amp;lt;src&amp;gt;&amp;quot;,... &amp;quot;&amp;lt;dest&amp;gt;&amp;quot;] (this form is required for paths containing whitespace)
+The ADD instruction copies new files, directories or remote file URLs from &amp;lt;src&amp;gt; and adds them to the filesystem of the image at the path &amp;lt;dest&amp;gt;.
+
+Multiple &amp;lt;src&amp;gt; resource may be specified but if they are files or directories then they must be relative to the source directory that is being built (the context of the build).
+
+Each &amp;lt;src&amp;gt; may contain wildcards and matching will be done using Go’s filepath.Match rules. For example:
+
+ADD hom* /mydir/        # adds all files starting with &amp;quot;hom&amp;quot;
+ADD hom?.txt /mydir/    # ? is replaced with any single character, e.g., &amp;quot;home.txt&amp;quot;
+The &amp;lt;dest&amp;gt; is an absolute path, or a path relative to WORKDIR, into which the source will be copied inside the destination container.
+
+ADD test relativeDir/          # adds &amp;quot;test&amp;quot; to `WORKDIR`/relativeDir/
+ADD test /absoluteDir/         # adds &amp;quot;test&amp;quot; to /absoluteDir/
+All new files and directories are created with a UID and GID of 0.
+
+In the case where &amp;lt;src&amp;gt; is a remote file URL, the destination will have permissions of 600. If the remote file being retrieved has an HTTP Last-Modified header, the timestamp from that header will be used to set the mtime on the destination file. However, like any other file processed during an ADD, mtime will not be included in the determination of whether or not the file has changed and the cache should be updated.
+
+Note: If you build by passing a Dockerfile through STDIN (docker build - &amp;lt; somefile), there is no build context, so the Dockerfile can only contain a URL based ADD instruction. You can also pass a compressed archive through STDIN: (docker build - &amp;lt; archive.tar.gz), the Dockerfile at the root of the archive and the rest of the archive will be used as the context of the build.
+Note: If your URL files are protected using authentication, you will need to use RUN wget, RUN curl or use another tool from within the container as the ADD instruction does not support authentication.
+Note: The first encountered ADD instruction will invalidate the cache for all following instructions from the Dockerfile if the contents of &amp;lt;src&amp;gt; have changed. This includes invalidating the cache for RUN instructions. See the Dockerfile Best Practices guide for more information.
+ADD obeys the following rules:
+
+The &amp;lt;src&amp;gt; path must be inside the context of the build; you cannot ADD ../something /something, because the first step of a docker build is to send the context directory (and subdirectories) to the docker daemon.
+
+If &amp;lt;src&amp;gt; is a URL and &amp;lt;dest&amp;gt; does not end with a trailing slash, then a file is downloaded from the URL and copied to &amp;lt;dest&amp;gt;.
+
+If &amp;lt;src&amp;gt; is a URL and &amp;lt;dest&amp;gt; does end with a trailing slash, then the filename is inferred from the URL and the file is downloaded to &amp;lt;dest&amp;gt;/&amp;lt;filename&amp;gt;. For instance, ADD http://example.com/foobar / would create the file /foobar. The URL must have a nontrivial path so that an appropriate filename can be discovered in this case (http://example.com will not work).
+
+If &amp;lt;src&amp;gt; is a directory, the entire contents of the directory are copied, including filesystem metadata.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#arg -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#arg">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">ARG &lt;name&gt;[=&lt;default value&gt;]
+The ARG instruction defines a variable that users can pass at build-time to the builder with the docker build command using the --build-arg &lt;varname&gt;=&lt;value&gt; flag. If a user specifies a build argument that was not defined in the Dockerfile, the build outputs a warning.
+
+[Warning] One or more build-args [foo] were not consumed.
+A Dockerfile may include one or more ARG instructions. For example, the following is a valid Dockerfile:
+
+FROM busybox
+ARG user1
+ARG buildno
+...
+Warning: It is not recommended to use build-time variables for passing secrets like github keys, user credentials etc. Build-time variable values are visible to any user of the image with the docker history command.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#cmd -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#cmd">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">The CMD instruction has three forms:
+
+CMD [&quot;executable&quot;,&quot;param1&quot;,&quot;param2&quot;] (exec form, this is the preferred form)
+CMD [&quot;param1&quot;,&quot;param2&quot;] (as default parameters to ENTRYPOINT)
+CMD command param1 param2 (shell form)
+There can only be one CMD instruction in a Dockerfile. If you list more than one CMD then only the last CMD will take effect.
+
+The main purpose of a CMD is to provide defaults for an executing container. These defaults can include an executable, or they can omit the executable, in which case you must specify an ENTRYPOINT instruction as well.
+
+Note: If CMD is used to provide default arguments for the ENTRYPOINT instruction, both the CMD and ENTRYPOINT instructions should be specified with the JSON array format.
+Note: The exec form is parsed as a JSON array, which means that you must use double-quotes (“) around words not single-quotes (‘).
+Note: Unlike the shell form, the exec form does not invoke a command shell. This means that normal shell processing does not happen. For example, CMD [ &quot;echo&quot;, &quot;$HOME&quot; ] will not do variable substitution on $HOME. If you want shell processing then either use the shell form or execute a shell directly, for example: CMD [ &quot;sh&quot;, &quot;-c&quot;, &quot;echo $HOME&quot; ]. When using the exec form and executing a shell directly, as in the case for the shell form, it is the shell that is doing the environment variable expansion, not docker.
+When used in the shell or exec formats, the CMD instruction sets the command to be executed when running the image.
+
+If you use the shell form of the CMD, then the &lt;command&gt; will execute in /bin/sh -c:
+
+FROM ubuntu
+CMD echo &quot;This is a test.&quot; | wc -
+If you want to run your &lt;command&gt; without a shell then you must express the command as a JSON array and give the full path to the executable. This array form is the preferred format of CMD. Any additional parameters must be individually expressed as strings in the array:
+
+FROM ubuntu
+CMD [&quot;/usr/bin/wc&quot;,&quot;--help&quot;]
+If you would like your container to run the same executable every time, then you should consider using ENTRYPOINT in combination with CMD. See ENTRYPOINT.
+
+If the user specifies arguments to docker run then they will override the default specified in CMD.
+
+Note: Don’t confuse RUN with CMD. RUN actually runs a command and commits the result; CMD does not execute anything at build time, but specifies the intended command for the image.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#copy -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#copy">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">COPY has two forms:
+
+COPY &lt;src&gt;... &lt;dest&gt;
+COPY [&quot;&lt;src&gt;&quot;,... &quot;&lt;dest&gt;&quot;] (this form is required for paths containing whitespace)
+The COPY instruction copies new files or directories from &lt;src&gt; and adds them to the filesystem of the container at the path &lt;dest&gt;.
+
+Multiple &lt;src&gt; resource may be specified but they must be relative to the source directory that is being built (the context of the build).
+
+Each &lt;src&gt; may contain wildcards and matching will be done using Go’s filepath.Match rules. For example:
+
+COPY hom* /mydir/        # adds all files starting with &quot;hom&quot;
+COPY hom?.txt /mydir/    # ? is replaced with any single character, e.g., &quot;home.txt&quot;
+The &lt;dest&gt; is an absolute path, or a path relative to WORKDIR, into which the source will be copied inside the destination container.
+
+COPY test relativeDir/   # adds &quot;test&quot; to `WORKDIR`/relativeDir/
+COPY test /absoluteDir/  # adds &quot;test&quot; to /absoluteDir/
+When copying files or directories that contain special characters (such as [ and ]), you need to escape those paths following the Golang rules to prevent them from being treated as a matching pattern. For example, to copy a file named arr[0].txt, use the following;
+
+COPY arr[[]0].txt /mydir/    # copy a file named &quot;arr[0].txt&quot; to /mydir/
+All new files and directories are created with a UID and GID of 0.
+
+Note: If you build using STDIN (docker build - &lt; somefile), there is no build context, so COPY can’t be used.
+Optionally COPY accepts a flag --from=&lt;name|index&gt; that can be used to set the source location to a previous build stage (created with FROM .. AS &lt;name&gt;) that will be used instead of a build context sent by the user. The flag also accepts a numeric index assigned for all previous build stages started with FROM instruction. In case a build stage with a specified name can’t be found an image with the same name is attempted to be used instead.
+
+COPY obeys the following rules:
+
+The &lt;src&gt; path must be inside the context of the build; you cannot COPY ../something /something, because the first step of a docker build is to send the context directory (and subdirectories) to the docker daemon.
+
+If &lt;src&gt; is a directory, the entire contents of the directory are copied, including filesystem metadata.
+
+Note: The directory itself is not copied, just its contents.
+If &lt;src&gt; is any other kind of file, it is copied individually along with its metadata. In this case, if &lt;dest&gt; ends with a trailing slash /, it will be considered a directory and the contents of &lt;src&gt; will be written at &lt;dest&gt;/base(&lt;src&gt;).
+
+If multiple &lt;src&gt; resources are specified, either directly or due to the use of a wildcard, then &lt;dest&gt; must be a directory, and it must end with a slash /.
+
+If &lt;dest&gt; does not end with a trailing slash, it will be considered a regular file and the contents of &lt;src&gt; will be written at &lt;dest&gt;.
+
+If &lt;dest&gt; doesn’t exist, it is created along with all missing directories in its path.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#entrypoint -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#entrypoint">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">ENTRYPOINT has two forms:
+
+ENTRYPOINT [&quot;executable&quot;, &quot;param1&quot;, &quot;param2&quot;] (exec form, preferred)
+ENTRYPOINT command param1 param2 (shell form)
+An ENTRYPOINT allows you to configure a container that will run as an executable.
+
+For example, the following will start nginx with its default content, listening on port 80:
+
+docker run -i -t --rm -p 80:80 nginx
+Command line arguments to docker run &lt;image&gt; will be appended after all elements in an exec form ENTRYPOINT, and will override all elements specified using CMD. This allows arguments to be passed to the entry point, i.e., docker run &lt;image&gt; -d will pass the -d argument to the entry point. You can override the ENTRYPOINT instruction using the docker run --entrypoint flag.
+
+The shell form prevents any CMD or run command line arguments from being used, but has the disadvantage that your ENTRYPOINT will be started as a subcommand of /bin/sh -c, which does not pass signals. This means that the executable will not be the container’s PID 1 - and will not receive Unix signals - so your executable will not receive a SIGTERM from docker stop &lt;container&gt;.
+
+Only the last ENTRYPOINT instruction in the Dockerfile will have an effect.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#env -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#env">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">ENV &lt;key&gt; &lt;value&gt;
+ENV &lt;key&gt;=&lt;value&gt; ...
+The ENV instruction sets the environment variable &lt;key&gt; to the value &lt;value&gt;. This value will be in the environment of all “descendant” Dockerfile commands and can be replaced inline in many as well.
+
+The ENV instruction has two forms. The first form, ENV &lt;key&gt; &lt;value&gt;, will set a single variable to a value. The entire string after the first space will be treated as the &lt;value&gt; - including characters such as spaces and quotes.
+
+The second form, ENV &lt;key&gt;=&lt;value&gt; ..., allows for multiple variables to be set at one time. Notice that the second form uses the equals sign (=) in the syntax, while the first form does not. Like command line parsing, quotes and backslashes can be used to include spaces within values.
+
+For example:
+
+ENV myName=&quot;John Doe&quot; myDog=Rex\ The\ Dog \
+    myCat=fluffy
+and
+
+ENV myName John Doe
+ENV myDog Rex The Dog
+ENV myCat fluffy
+will yield the same net results in the final image, but the first form is preferred because it produces a single cache layer.
+
+The environment variables set using ENV will persist when a container is run from the resulting image. You can view the values using docker inspect, and change them using docker run --env &lt;key&gt;=&lt;value&gt;.
+
+Note: Environment persistence can cause unexpected side effects. For example, setting ENV DEBIAN_FRONTEND noninteractive may confuse apt-get users on a Debian-based image. To set a value for a single command, use RUN &lt;key&gt;=&lt;value&gt; &lt;command&gt;.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#expose -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#expose">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">EXPOSE &lt;port&gt; [&lt;port&gt;...]
+The EXPOSE instruction informs Docker that the container listens on the specified network ports at runtime. EXPOSE does not make the ports of the container accessible to the host. To do that, you must use either the -p flag to publish a range of ports or the -P flag to publish all of the exposed ports. You can expose one port number and publish it externally under another number.
+
+To set up port redirection on the host system, see using the -P flag. The Docker network feature supports creating networks without the need to expose ports within the network, for detailed information see the overview of this feature).</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#from -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#from">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <fno:expects rdf:resource="http://linkedcontainers.org/vocab#fromInputList"/>
+        <fno:returns rdf:resource="http://linkedcontainers.org/vocab#fromOutputList"/>
+        <documentation xml:lang="en">FROM &lt;image&gt; [AS &lt;name&gt;]
+Or
+
+FROM &lt;image&gt;[:&lt;tag&gt;] [AS &lt;name&gt;]
+Or
+
+FROM &lt;image&gt;[@&lt;digest&gt;] [AS &lt;name&gt;]
+The FROM instruction initializes a new build stage and sets the Base Image for subsequent instructions. As such, a valid Dockerfile must start with a FROM instruction. The image can be any valid image – it is especially easy to start by pulling an image from the Public Repositories.
+
+ARG is the only instruction that may precede FROM in the Dockerfile. See Understand how ARG and FROM interact.
+
+FROM can appear multiple times within a single Dockerfile to create multiple images or use one build stage as a dependency for another. Simply make a note of the last image ID output by the commit before each new FROM instruction. Each FROM instruction clears any state created by previous instructions.
+
+Optionally a name can be given to a new build stage by adding AS name to the FROM instruction. The name can be used in subsequent FROM and COPY --from=&lt;name|index&gt; instructions to refer to the image built in this stage.
+
+The tag or digest values are optional. If you omit either of them, the builder assumes a latest tag by default. The builder returns an error if it cannot find the tag value.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#fromInputList -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#fromInputList">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+        <rdf:first rdf:resource="http://linkedcontainers.org/vocab#imageInputParam"/>
+        <rdf:rest rdf:resource="http://www.w3.org/ns/prov#EmptyCollection"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#fromOutputList -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#fromOutputList">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageInput -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#imageInput">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageInputParam -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#imageInputParam">
+        <rdf:type rdf:resource="https://w3id.org/function/ontology#Parameter"/>
+        <fno:predicate rdf:resource="http://linkedcontainers.org/vocab#imageInput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageOutput -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#imageOutput">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#imageOutputParam -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#imageOutputParam">
+        <rdf:type rdf:resource="https://w3id.org/function/ontology#Parameter"/>
+        <fno:predicate rdf:resource="http://linkedcontainers.org/vocab#imageOutput"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#label -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#label">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">LABEL &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; &lt;key&gt;=&lt;value&gt; ...
+The LABEL instruction adds metadata to an image. A LABEL is a key-value pair. To include spaces within a LABEL value, use quotes and backslashes as you would in command-line parsing. A few usage examples:
+
+LABEL &quot;com.example.vendor&quot;=&quot;ACME Incorporated&quot;
+LABEL com.example.label-with-value=&quot;foo&quot;
+LABEL version=&quot;1.0&quot;
+LABEL description=&quot;This text illustrates \
+that label-values can span multiple lines.&quot;
+An image can have more than one label. To specify multiple labels, Docker recommends combining labels into a single LABEL instruction where possible. Each LABEL instruction produces a new layer which can result in an inefficient image if you use many labels. This example results in a single image layer.
+
+LABEL multi.label1=&quot;value1&quot; multi.label2=&quot;value2&quot; other=&quot;value3&quot;
+The above can also be written as:
+
+LABEL multi.label1=&quot;value1&quot; \
+      multi.label2=&quot;value2&quot; \
+      other=&quot;value3&quot;
+Labels are additive including LABELs in FROM images. If Docker encounters a label/key that already exists, the new value overrides any previous labels with identical keys.
+
+To view an image’s labels, use the docker inspect command.
+
+&quot;Labels&quot;: {
+    &quot;com.example.vendor&quot;: &quot;ACME Incorporated&quot;
+    &quot;com.example.label-with-value&quot;: &quot;foo&quot;,
+    &quot;version&quot;: &quot;1.0&quot;,
+    &quot;description&quot;: &quot;This text illustrates that label-values can span multiple lines.&quot;,
+    &quot;multi.label1&quot;: &quot;value1&quot;,
+    &quot;multi.label2&quot;: &quot;value2&quot;,
+    &quot;other&quot;: &quot;value3&quot;
+},</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#maintainer -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#maintainer">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">MAINTAINER &lt;name&gt;
+The MAINTAINER instruction sets the Author field of the generated images. The LABEL instruction is a much more flexible version of this and you should use it instead, as it enables setting any metadata you require, and can be viewed easily, for example with docker inspect. To set a label corresponding to the MAINTAINER field you could use:
+
+LABEL maintainer=&quot;SvenDowideit@home.org.au&quot;
+This will then be visible from docker inspect with the other labels.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#port -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#port">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#run -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#run">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">RUN has 2 forms:
+
+RUN &amp;lt;command&amp;gt; (shell form, the command is run in a shell, which by default is /bin/sh -c on Linux or cmd /S /C on Windows)
+RUN [&amp;quot;executable&amp;quot;, &amp;quot;param1&amp;quot;, &amp;quot;param2&amp;quot;] (exec form)
+The RUN instruction will execute any commands in a new layer on top of the current image and commit the results. The resulting committed image will be used for the next step in the Dockerfile.
+
+Layering RUN instructions and generating commits conforms to the core concepts of Docker where commits are cheap and containers can be created from any point in an image’s history, much like source control.
+
+The exec form makes it possible to avoid shell string munging, and to RUN commands using a base image that does not contain the specified shell executable.</documentation>
+        <fno:expects rdf:resource="http://linkedcontainers.org/vocab#runInputListHead"/>
+        <fno:returns rdf:resource="http://linkedcontainers.org/vocab#runOutputList"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runCmd -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#runCmd">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Command"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runInputCommand -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#runInputCommand">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Command"/>
+        <rdf:type rdf:resource="https://w3id.org/function/ontology#Parameter"/>
+        <fno:predicate rdf:resource="http://linkedcontainers.org/vocab#runCmd"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runInputListHead -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#runInputListHead">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runInputListTail -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#runInputListTail">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#runOutputList -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#runOutputList">
+        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#user -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#user">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">USER &lt;user&gt;[:&lt;group&gt;] or
+USER &lt;UID&gt;[:&lt;GID&gt;]
+The USER instruction sets the user name (or UID) and optionally the user group (or GID) to use when running the image and for any RUN, CMD and ENTRYPOINT instructions that follow it in the Dockerfile.
+
+Warning: When the user does doesn’t have a primary group then the image (or the next instructions) will be run with the root group.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#volume -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#volume">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">VOLUME [&quot;/data&quot;]
+The VOLUME instruction creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers. The value can be a JSON array, VOLUME [&quot;/var/log/&quot;], or a plain string with multiple arguments, such as VOLUME /var/log or VOLUME /var/log /var/db. For more information/examples and mounting instructions via the Docker client, refer to Share Directories via Volumes documentation.
+
+The docker run command initializes the newly created volume with any data that exists at the specified location within the base image. For example, consider the following Dockerfile snippet:
+
+FROM ubuntu
+RUN mkdir /myvol
+RUN echo &quot;hello world&quot; &gt; /myvol/greeting
+VOLUME /myvol
+This Dockerfile results in an image that causes docker run, to create a new mount point at /myvol and copy the greeting file into the newly created volume.
+
+Notes about specifying volumes
+Keep the following things in mind about volumes in the Dockerfile.
+
+Volumes on Windows-based containers: When using Windows-based containers, the destination of a volume inside the container must be one of:
+
+a non-existing or empty directory
+a drive other than C:
+Changing the volume from within the Dockerfile: If any build steps change the data within the volume after it has been declared, those changes will be discarded.
+
+JSON formatting: The list is parsed as a JSON array. You must enclose words with double quotes (&quot;)rather than single quotes (&apos;).
+
+The host directory is declared at container run-time: The host directory (the mountpoint) is, by its nature, host-dependent. This is to preserve image portability. since a given host directory can’t be guaranteed to be available on all hosts.For this reason, you can’t mount a host directory from within the Dockerfile. The VOLUME instruction does not support specifying a host-dir parameter. You must specify the mountpoint when you create or run the container.</documentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://linkedcontainers.org/vocab#workdir -->
+
+    <owl:NamedIndividual rdf:about="http://linkedcontainers.org/vocab#workdir">
+        <rdf:type rdf:resource="http://linkedcontainers.org/vocab#Instruction"/>
+        <documentation xml:lang="en">WORKDIR /path/to/workdir
+The WORKDIR instruction sets the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions that follow it in the Dockerfile. If the WORKDIR doesn’t exist, it will be created even if it’s not used in any subsequent Dockerfile instruction.
+
+The WORKDIR instruction can be used multiple times in a Dockerfile. If a relative path is provided, it will be relative to the path of the previous WORKDIR instruction. For example:
+
+WORKDIR /a
+WORKDIR b
+WORKDIR c
+RUN pwd
+The output of the final pwd command in this Dockerfile would be /a/b/c.
+
+The WORKDIR instruction can resolve environment variables previously set using ENV. You can only use environment variables explicitly set in the Dockerfile. For example:
+
+ENV DIRPATH /path
+WORKDIR $DIRPATH/$DIRNAME
+RUN pwd
+The output of the final pwd command in this Dockerfile would be /path/$DIRNAME</documentation>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
+

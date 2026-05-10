@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#"
+     xml:base="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:bigowl="http://www.khaos.uma.es/perception/bigowl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam">
+        <owl:imports rdf:resource="http://www.khaos.uma.es/perception/bigowl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List">
+        <rdfs:label>List</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem">
+        <rdfs:label> Optimization Problem</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter">
+        <rdfs:label>Parameter</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow -->
+
+    <rdf:Description rdf:about="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow">
+        <rdfs:label>Workflow</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Data -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Data">
+        <rdfs:label>Data</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#GeneticAlgorithm -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#GeneticAlgorithm">
+        <rdfs:label> Genetic Algorithm</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem">
+        <rdfs:label> Machine Learning Problem</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Optimization -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Optimization">
+        <rdfs:label>Optimization</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#SwarmIntelligence -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#SwarmIntelligence">
+        <rdfs:label> Swarm Intelligence</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Task -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Task">
+        <rdfs:label>Task</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Tuple -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Tuple">
+        <rdfs:label>Tuple</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.khaos.uma.es/perception/bigowl#Visualization -->
+
+    <rdf:Description rdf:about="http://www.khaos.uma.es/perception/bigowl#Visualization">
+        <rdfs:label>Visualization</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmNSGAII-Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmNSGAII-Double">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#GeneticAlgorithm"/>
+        <bigowl:manages rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:dealWith>AdaptativeWalk</bigowl:dealWith>
+        <bigowl:dealWith>Barriers</bigowl:dealWith>
+        <bigowl:dealWith>Bias</bigowl:dealWith>
+        <bigowl:dealWith>Connected</bigowl:dealWith>
+        <bigowl:dealWith>ConnectedAreasOfEqualFitness</bigowl:dealWith>
+        <bigowl:dealWith>Constrained</bigowl:dealWith>
+        <bigowl:dealWith>Convex</bigowl:dealWith>
+        <bigowl:dealWith>Disconnect</bigowl:dealWith>
+        <bigowl:dealWith>Elitist</bigowl:dealWith>
+        <bigowl:dealWith>EpistasisVariance</bigowl:dealWith>
+        <bigowl:dealWith>FitnessCloud</bigowl:dealWith>
+        <bigowl:dealWith>FitnessDistanceCorrelations</bigowl:dealWith>
+        <bigowl:dealWith>FitnessDistribution</bigowl:dealWith>
+        <bigowl:dealWith>FitnessEvolvalityPortraits</bigowl:dealWith>
+        <bigowl:dealWith>Flat</bigowl:dealWith>
+        <bigowl:dealWith>Funnel</bigowl:dealWith>
+        <bigowl:dealWith>InformationGuideSearchDeception</bigowl:dealWith>
+        <bigowl:dealWith>ManyToOneMapping</bigowl:dealWith>
+        <bigowl:dealWith>Multimodal</bigowl:dealWith>
+        <bigowl:dealWith>NeutralWalk</bigowl:dealWith>
+        <bigowl:dealWith>NonBias</bigowl:dealWith>
+        <bigowl:dealWith>NonConvex</bigowl:dealWith>
+        <bigowl:dealWith>NonSeparable</bigowl:dealWith>
+        <bigowl:dealWith>NonUniform</bigowl:dealWith>
+        <bigowl:dealWith>Polynomial</bigowl:dealWith>
+        <bigowl:dealWith>ReserveAdaptativeWalk</bigowl:dealWith>
+        <bigowl:dealWith>Separable</bigowl:dealWith>
+        <bigowl:dealWith>SpectralLandscape</bigowl:dealWith>
+        <bigowl:dealWith>Uniform</bigowl:dealWith>
+        <bigowl:dealWith>Unimodal</bigowl:dealWith>
+        <bigowl:isMultiobjective rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</bigowl:isMultiobjective>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>algorithm.multiobjective.nsgaii.NSGAII</bigowl:path>
+        <rdfs:label>NSGA-II Double</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmSMPSO-Double -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmSMPSO-Double">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#SwarmIntelligence"/>
+        <bigowl:manages rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:author>A.J. Nebro, J.J. Durillo, J. Garcia-Nieto, C.A. Coello Coello, F. Luna, E. Alba</bigowl:author>
+        <bigowl:dealWith>AdaptativeWalk</bigowl:dealWith>
+        <bigowl:dealWith>Barriers</bigowl:dealWith>
+        <bigowl:dealWith>Bias</bigowl:dealWith>
+        <bigowl:dealWith>Connected</bigowl:dealWith>
+        <bigowl:dealWith>ConnectedAreasOfEqualFitness</bigowl:dealWith>
+        <bigowl:dealWith>Constrained</bigowl:dealWith>
+        <bigowl:dealWith>Convex</bigowl:dealWith>
+        <bigowl:dealWith>Disconnect</bigowl:dealWith>
+        <bigowl:dealWith>EpistasisVariance</bigowl:dealWith>
+        <bigowl:dealWith>FitnessCloud</bigowl:dealWith>
+        <bigowl:dealWith>FitnessDistanceCorrelations</bigowl:dealWith>
+        <bigowl:dealWith>FitnessDistribution</bigowl:dealWith>
+        <bigowl:dealWith>FitnessEvolvalityPortraits</bigowl:dealWith>
+        <bigowl:dealWith>Flat</bigowl:dealWith>
+        <bigowl:dealWith>Funnel</bigowl:dealWith>
+        <bigowl:dealWith>InformationGuideSearchDeception</bigowl:dealWith>
+        <bigowl:dealWith>ManyToOneMapping</bigowl:dealWith>
+        <bigowl:dealWith>Multimodal</bigowl:dealWith>
+        <bigowl:dealWith>NeutralWalk</bigowl:dealWith>
+        <bigowl:dealWith>NonBias</bigowl:dealWith>
+        <bigowl:dealWith>NonConvex</bigowl:dealWith>
+        <bigowl:dealWith>NonSeparable</bigowl:dealWith>
+        <bigowl:dealWith>NonUniform</bigowl:dealWith>
+        <bigowl:dealWith>Polynomial</bigowl:dealWith>
+        <bigowl:dealWith>ReserveAdaptativeWalk</bigowl:dealWith>
+        <bigowl:dealWith>Separable</bigowl:dealWith>
+        <bigowl:dealWith>SpectralLandscape</bigowl:dealWith>
+        <bigowl:dealWith>Uniform</bigowl:dealWith>
+        <bigowl:dealWith>Unimodal</bigowl:dealWith>
+        <bigowl:isMultiobjective rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</bigowl:isMultiobjective>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>algorithm.multiobjective.smpso.SMPSO</bigowl:path>
+        <rdfs:label>SMPSO Double</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentOptimizationNSGAIIDouble -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentOptimizationNSGAIIDouble">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Optimization"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmNSGAII-Double"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIICrossover"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIEvaluator"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIInitialPopulation"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIMutation"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringEvaluator"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringPopulationSize"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIProblem"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIReplacement"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIISelection"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIITerminator"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label>NSGA-II Double</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ1">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ1NumberOfVariables"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesThree"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ1"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <rdfs:label>DTLZ1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ2">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ2NumberOfVariables"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesThree"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ2"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <rdfs:label>DTLZ2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemDTLZ3">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ3NumberOfVariables"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesThree"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ3"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <rdfs:label>DTLZ3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemSrinivas -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemSrinivas">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemSrinivas"/>
+        <rdfs:label>Srinivas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemZDT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemZDT1">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#MachineLearningProblem"/>
+        <bigowl:hasParameter rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterZDT1NumberOfVariables"/>
+        <bigowl:hasProblem rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemZDT1"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <rdfs:label>ZDT1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentVisualizationRealTimeParetoFront -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentVisualizationRealTimeParetoFront">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Visualization"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>component.observer.RealTimeParetoPlot</bigowl:path>
+        <rdfs:label>Visualization Real Time Pareto Front</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Componente2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Componente2">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Optimization"/>
+        <bigowl:hasAlgorithm rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#AlgorithmSMPSO-Double"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label> Double Solution</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Data"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ListOfPoints"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label>Front</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ListOfPoints -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ListOfPoints">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#List"/>
+        <bigowl:hasDataType rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Point"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label> List Of Points</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ1NumberOfVariables -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ1NumberOfVariables">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>7</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_variables</bigowl:hasName>
+        <rdfs:label>Parameter DTLZ1 Number Of Variables</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ2NumberOfVariables -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ2NumberOfVariables">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>12</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_variables</bigowl:hasName>
+        <rdfs:label>Parameter DTLZ2 Number Of Variables</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ3NumberOfVariables -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterDTLZ3NumberOfVariables">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>12</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_variables</bigowl:hasName>
+        <rdfs:label>Parameter DTLZ3 Number Of Variables</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIICrossover -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIICrossover">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>crossover</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Crossover</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIEvaluator -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIEvaluator">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>evaluator</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Evaluator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIInitialPopulation -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIInitialPopulation">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>initial_population</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Initial Population</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIMutation -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIMutation">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>mutation</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Mutation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringEvaluator -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringEvaluator">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>offspring_evaluator</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Offspring Evaluator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringPopulationSize -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIOffspringPopulationSize">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>100</bigowl:hasDataValue>
+        <bigowl:hasName>offspring_population_size</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Offspring Population Size</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIProblem -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIProblem">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>problem</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Problem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIReplacement -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIIReplacement">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>replacement</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Replacement</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIISelection -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIISelection">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>selection</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Selection</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIITerminator -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNSGAIITerminator">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#String"/>
+        <bigowl:hasName>terminator</bigowl:hasName>
+        <rdfs:label>Parameter NSGAII Terminator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfConstraintsZero -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfConstraintsZero">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>0</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_constraints</bigowl:hasName>
+        <rdfs:label> Parameter Number Of Constraints Zero</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfContraintsTwo -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfContraintsTwo">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>2</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_constraints</bigowl:hasName>
+        <rdfs:label> Parameter Number Of Contraints Two</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesThree -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesThree">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>3</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_objectives</bigowl:hasName>
+        <rdfs:label> Parameter Number Of Objectives Three</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesTwo -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterNumberOfObjectivesTwo">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>2</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_objectives</bigowl:hasName>
+        <rdfs:label> Parameter Number Of Objectives Two</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterRandomInitialPopulationPopSize -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterRandomInitialPopulationPopSize">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>100</bigowl:hasDataValue>
+        <bigowl:hasName>population_size</bigowl:hasName>
+        <rdfs:label> Parameter Random Initial Population Pop Size</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterSrinivasNumberOfVariables -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterSrinivasNumberOfVariables">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>2</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_variables</bigowl:hasName>
+        <rdfs:label> Parameter Srinivas Number Of Variables</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterStopMaximumEvaluations -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterStopMaximumEvaluations">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>25000</bigowl:hasDataValue>
+        <bigowl:hasName>max_evaluations</bigowl:hasName>
+        <rdfs:label> Parameter Stop Maximum Evaluations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterZDT1NumberOfVariables -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ParameterZDT1NumberOfVariables">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Parameter"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Integer"/>
+        <bigowl:hasDataValue>30</bigowl:hasDataValue>
+        <bigowl:hasName>number_of_variables</bigowl:hasName>
+        <rdfs:label>Parameter ZDT1 Number Of Variables</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Point -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Point">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Tuple"/>
+        <bigowl:hasPrimitiveType rdf:resource="http://www.khaos.uma.es/perception/bigowl#Double"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:hasName>point</bigowl:hasName>
+        <bigowl:license>OpenSource</bigowl:license>
+        <rdfs:label>Point</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ1">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem"/>
+        <bigowl:author>Deb, Thiele, Laumanns, Zitzler</bigowl:author>
+        <bigowl:hasFeature>Continuous</bigowl:hasFeature>
+        <bigowl:hasFeature>LinearFront</bigowl:hasFeature>
+        <bigowl:hasFeature>Unconstrained</bigowl:hasFeature>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>problem.multiobjective.dtlz.DTLZ1</bigowl:path>
+        <rdfs:label>DTLZ1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ2">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem"/>
+        <bigowl:author>Deb, Thiele, Laumanns, Zitzler</bigowl:author>
+        <bigowl:hasFeature>Continuous</bigowl:hasFeature>
+        <bigowl:hasFeature>ConvexFront</bigowl:hasFeature>
+        <bigowl:hasFeature>Unconstrained</bigowl:hasFeature>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>problem.multiobjective.dtlz.DTLZ2</bigowl:path>
+        <rdfs:label>DTLZ2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemDTLZ3">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem"/>
+        <bigowl:author>Deb, Thiele, Laumanns, Zitzler</bigowl:author>
+        <bigowl:hasFeature>Continuous</bigowl:hasFeature>
+        <bigowl:hasFeature>ConvexFront</bigowl:hasFeature>
+        <bigowl:hasFeature>Unconstrained</bigowl:hasFeature>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>problem.multiobjective.dtlz.DTLZ3</bigowl:path>
+        <rdfs:label>DTLZ3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemSrinivas -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemSrinivas">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem"/>
+        <bigowl:encodedBy rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:author>Srinivas and Deb</bigowl:author>
+        <bigowl:hasFeature>Constrained</bigowl:hasFeature>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>problem.multiobjective.constrained.Srinivas</bigowl:path>
+        <rdfs:label>Srinivas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemZDT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ProblemZDT1">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#OptimizationProblem"/>
+        <bigowl:encodedBy rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:author>Zitzler, Deb, Thiele</bigowl:author>
+        <bigowl:hasFeature>Unconstrained</bigowl:hasFeature>
+        <bigowl:hasFeature>Uniform</bigowl:hasFeature>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:path>problem.multiobjective.zdt.ZDT1</bigowl:path>
+        <rdfs:label>ZDT1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Task2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Task2">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Componente2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskOptimizationNSGAII -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskOptimizationNSGAII">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskVisualization"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentOptimizationNSGAIIDouble"/>
+        <bigowl:optimizes rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskProblemZDT1"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</bigowl:order>
+        <rdfs:label> OptimizationNSGAII</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskProblemZDT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskProblemZDT1">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:connectedTo rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskOptimizationNSGAII"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentProblemZDT1"/>
+        <bigowl:specifiesOutputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#DoubleSolution"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:order>
+        <rdfs:label>Problem ZDT1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskVisualization -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskVisualization">
+        <rdf:type rdf:resource="http://www.khaos.uma.es/perception/bigowl#Task"/>
+        <bigowl:hasComponent rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#ComponentVisualizationRealTimeParetoFront"/>
+        <bigowl:specifiesInputClass rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Front"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:numberOfInputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</bigowl:numberOfInputs>
+        <bigowl:numberOfOutputs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</bigowl:numberOfOutputs>
+        <bigowl:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:order>
+        <rdfs:label> Visualization</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#WorkflowNSGAII-ZDT1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#WorkflowNSGAII-ZDT1">
+        <rdf:type rdf:resource="http://www.e-lico.eu/ontologies/dmo/DMOP/DMOP.owl#Workflow"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#Task2"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskOptimizationNSGAII"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskProblemZDT1"/>
+        <bigowl:hasTask rdf:resource="http://www.khaos.uma.es/sensacion/optimization-component/khaosteam#TaskVisualization"/>
+        <bigowl:author>KhaosTeam</bigowl:author>
+        <bigowl:license>OpenSource</bigowl:license>
+        <bigowl:numTask rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</bigowl:numTask>
+        <rdfs:label>Workflow NSGAI I-ZDT1</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
